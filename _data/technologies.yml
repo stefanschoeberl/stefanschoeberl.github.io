@@ -1,0 +1,75 @@
+- name: Sprachen
+  icon: code
+  technologies:
+    - Kotlin
+    - Java
+    - C#
+    - SQL
+    - Swift
+    - C/C++
+    - Python
+    - PHP
+    - HTML
+    - CSS
+    - JavaScript
+    - TypeScript
+- name: Web
+  icon: world
+  technologies:
+    - Angular
+    - Vue
+    - Jekyll
+    - Thymeleaf
+- name: Backend
+  icon: social
+  technologies:
+    - Spring Boot
+    - RabbitMQ
+    - GraphQL
+    - Swagger
+    - REST
+    - Java EE
+- name: Native Frontends
+  icon: desktop
+  technologies:
+    - JavaFX
+    - WPF
+    - iOS
+- name: Datenbanken
+  icon: database
+  technologies:
+    - MariaDB
+    - JDBC
+    - JPA - Hibernate
+    - Spring Data JPA
+- name: Infrastruktur
+  icon: server
+  technologies:
+    - Docker
+    - Docker Compose
+    - Linux
+    - OAuth 2.0
+    - traefik
+    - Let's Encrypt
+    - GitLab CI
+    - Digital Ocean
+- name: Home Automation & Embedded Systems
+  icon: home
+  technologies:
+    - Philips Hue
+    - Amazon Alexa
+    - HomeKit
+    - Raspberry Pi
+    - Arduino
+- name: IDEs und Tools
+  icon: git-branch
+  technologies:
+    - IntelliJ
+    - Visual Studio
+    - Visual Studio Code
+    - Gradle
+    - Maven
+    - Git
+    - Bash
+    - ANTLR
+    - LaTeX

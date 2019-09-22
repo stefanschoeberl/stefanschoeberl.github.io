@@ -1,0 +1,46 @@
+---
+layout: default
+permalink: /about
+title: Über mich
+---
+
+<p class="uk-text-center">
+    <img class="uk-border-circle" src="images/me.JPG" width="200" height="200" alt="Stefan Schöberl">
+</p>
+<h2 class="uk-heading-line uk-text-center uk-margin-small-top"><span>Stefan Schöberl</span></h2>
+<p class="uk-text-center">
+    {% for contact in site.data.about.contact %}
+    <a title="{{contact.name}}" href="{{contact.link}}" target="_blank" rel="noreferrer" uk-icon="icon: {{contact.icon}}; ratio: 2" class="uk-icon-link {% if forloop.last == false %} uk-margin-medium-right {% endif %}"></a>
+    {% endfor %}
+</p>
+
+<h2>Ausbildung</h2>
+
+<table class="uk-table">
+    {% for education in site.data.about.education %}
+    <tr>
+        <td class="uk-width-1-6">{{education.date}}</td>
+        <td><a href="{{education.link}}" target="_blank" rel="noreferrer">{{education.school}}</a><br>
+            {{education.branch}}<br>
+            {% if education.graduation %}
+            Abschluss: {{education.graduation}}
+            {% endif %}
+        </td>
+    </tr>
+    {% endfor %}
+</table>
+
+
+<h2>Berufserfahrung</h2>
+
+<table class="uk-table">
+    {% for work in site.data.about.work %}
+    <tr>
+        <td class="uk-width-1-6">{{work.date}}</td>
+        <td><a href="{{work.link}}" target="_blank" rel="noreferrer">{{work.company}}</a><br>
+            {{work.position}}<br>
+            {{work.details}}
+        </td>
+    </tr>
+    {% endfor %}
+</table>

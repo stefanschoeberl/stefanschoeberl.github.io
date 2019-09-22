@@ -1,0 +1,41 @@
+contact:
+  - name: GitHub
+    icon: github
+    link: https://github.com/stefanschoeberl/
+  - name: LinkedIn
+    icon: linkedin
+    link: https://www.linkedin.com/in/stefan-schöberl-5654aa152/
+  - name: Xing
+    icon: xing
+    link: https://www.xing.com/profile/Stefan_Schoeberl8/
+
+education:
+  - school: FH Oberösterreich - Campus Hagenberg
+    branch: Masterstudium Software Engineering
+    link: https://www.fh-ooe.at/campus-hagenberg/
+    date: seit 2018
+  - school: FH Oberösterreich - Campus Hagenberg
+    branch: Bachelorstudium Software Engineering
+    link: https://www.fh-ooe.at/campus-hagenberg/
+    graduation: 'Bachelor of Science in Engineering (BSc) mit Auszeichnung'
+    date: 2015 - 2018
+  - school: BG/BRG Brucknerstraße Wels
+    branch: BRG Schwerpunkt Neue Medien
+    link: https://www.brucknergym.at/
+    graduation: 'Matura mit Auszeichnung'
+    date: 2007 - 2015
+
+work:
+  - company: Catalysts
+    position: Software-Entwickler
+    link: https://www.catalysts.cc/
+    date: seit 2018
+  - company: Catalysts
+    position: Software-Entwickler (Berufspraktikum)
+    link: https://www.catalysts.cc/
+    date: 2018
+  - company: FH Oberösterreich - Campus Hagenberg
+    position: Tutor
+    link: https://www.fh-ooe.at/campus-hagenberg/
+    date: 2017 - 2018
+    details: Software Projekt Engineering (2 Semester), Datenbanksysteme (1 Semester), XML (1 Semester)
