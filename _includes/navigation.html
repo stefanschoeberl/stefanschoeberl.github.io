@@ -1,11 +1,9 @@
 <nav class="uk-navbar" uk-navbar>
     <div class="uk-navbar-left">
         <ul class="uk-navbar-nav">
-            <li><a href=""></a></li>
             {% for item in site.data.navigation %}
-            <li {% if page.url == item.link %} class="uk-active" {% endif %}><a href="{{ item.link }}">{{item.name}}</a></li>
+            <li class="{% if page.url == item.link %} uk-active {% endif %} {%if forloop.first == true %} uk-margin-small-left {% endif %}"><a href="{{ item.link }}">{{item.name}}</a></li>
             {% endfor %}
-            <li><a href=""></a></li>
         </ul>
     </div>
 </nav>
