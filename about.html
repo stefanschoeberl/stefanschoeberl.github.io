@@ -44,3 +44,17 @@ title: Über mich
     </tr>
     {% endfor %}
 </table>
+
+<h2>Ehrenamtliche Tätigkeiten und Mitgliedschaften</h2>
+
+<table class="uk-table">
+    {% for voluntary in site.data.about.voluntary %}
+    <tr>
+        <td class="uk-width-1-6">{{voluntary.date}}</td>
+        <td><a href="{{voluntary.link}}" target="_blank" rel="noreferrer">{{voluntary.organization}}</a><br>
+            {{voluntary.position}}<br>
+            {{voluntary.details}}
+        </td>
+    </tr>
+    {% endfor %}
+</table>
