@@ -28,4 +28,3 @@ Mit [browserify](http://browserify.org){:target="_blank" rel="noreferrer"} wurde
 Außerdem transformiert [Babel](https://babeljs.io){:target="_blank" rel="noreferrer"} den ES6-Code in klassichen JavaScript-Code.
 
 Serverseitig läuft Node.js zur Verwaltung der Highscore-Liste. Die Daten der Highscore-Liste werden in einer MariaDB-Datenbank gespeichert.
-
