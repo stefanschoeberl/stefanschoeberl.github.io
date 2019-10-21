@@ -12,7 +12,7 @@ Im 3. Semester meines Bachelorstudiums mussten wir ihm Rahmen der Lehrveranstalt
 Genaue Vorgaben gab es nicht, es war jedem freigestellt, eine eigene Idee umzusetzen.
 
 Etwa zur der selben Zeit entdeckte ich die Bibliothek [three.js](https://threejs.org){:target="_blank" rel="noreferrer"}.
-Da ich ohnehin schon länger mal 3D-Grafik im Browser ausprobieren wollte, war das die ideale Gelegenheit, das im Rahmen des FH-Projekts zu tun.
+Da ich ohnehin schon länger einmal 3D-Grafik im Browser ausprobieren wollte, war es die ideale Gelegenheit, das im Rahmen des FH-Projekts zu tun.
 three.js machte dabei einen sehr guten Eindruck.
 
 Die Idee zum Minigolf-Spiel kam von [OpenGameArt-Assets](http://opengameart.org/content/3d-minigolf-pack){:target="_blank" rel="noreferrer"}.
@@ -25,6 +25,7 @@ Anschließend musste cannon.js noch mit three.js verknüpft werden, damit die Ob
 Implementiert wurde das gesamte Spiel nicht in klassischem JavaScript, sondern ECMAScript 6 (ES6).
 ES6 unterstützt under anderem Klassen und ermöglichte eine saubere Strukturierung des Codes.
 Mit [browserify](http://browserify.org){:target="_blank" rel="noreferrer"} wurden dann alle Quellcode-Dateien und npm-Libraries in eine einzige JavaScript-Datei zusammengefasst, die beim Starten des Spiels vom Browser heruntergeladen wird.
+Außerdem transformiert [Babel](https://babeljs.io){:target="_blank" rel="noreferrer"} den ES6-Code in klassichen JavaScript-Code.
 
-Serverseitig läuft Node.js zur Verwaltung der High-Score-Liste. Die Daten der High-Score-Liste werden in einer MariaDB-Datenbank gespeichert.
+Serverseitig läuft Node.js zur Verwaltung der Highscore-Liste. Die Daten der Highscore-Liste werden in einer MariaDB-Datenbank gespeichert.
 
