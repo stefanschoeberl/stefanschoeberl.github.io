@@ -1,5 +1,7 @@
 - name: Home
   link: /
+- name: Projekte
+  link: /projects
 - name: Technologien
   link: /technologies
 - name: Über mich
