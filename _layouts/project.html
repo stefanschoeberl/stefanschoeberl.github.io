@@ -13,7 +13,8 @@ layout: default
             </div>
             <hr class="uk-margin-remove-vertical">
             <div class="uk-card-body">
-                <h3 class="uk-card-title">
+                <h3>{{ page.subtitle }}</h3>
+                <p>
                 {% assign m = page.date | date: "%-m" %}
                 {% case m %}
                     {% when '1' %}Januar
@@ -30,7 +31,7 @@ layout: default
                     {% when '12' %}Dezember
                 {% endcase %}
                 {{ page.date | date: "%Y" }}
-                </h3>
+                </p>
                 {% if page.live %}
                 <a class="uk-button uk-button-primary uk-width-expand uk-margin-small-bottom" href="{{ page.live }}" target="_blank" rel="noreferrer">Live Demo</a>
                 {% endif %}
