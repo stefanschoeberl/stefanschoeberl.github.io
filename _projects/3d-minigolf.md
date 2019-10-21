@@ -1,5 +1,5 @@
 ---
-title: "3D Minigolf"
+title: 3D Minigolf
 subtitle: Minigame im Browser
 date: 2017-02-16
 live: https://minigolf.ssch.dev
