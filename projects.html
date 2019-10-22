@@ -7,7 +7,7 @@ title: Projekte
 Hier sind verschiedene Projekte, die in der Freizeit oder im Laufe meines Studiums entstanden sind und wurden nicht beispielsweise für einen Auftraggeber entwickelt. Die meisten davon waren dazu da, neue Technologien auszuprobieren oder Wissen praktisch anzuwenden.
 </p>
 
-<div uk-grid>
+<div uk-grid="masonry: true">
 {% assign projects = site.projects | sort: 'date' | reverse %}
 {% for project in projects %}
 <div class="uk-width-1-1 uk-width-1-2@s uk-width-1-3@m uk-width-1-3@l">
