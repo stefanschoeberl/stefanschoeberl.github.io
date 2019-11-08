@@ -44,6 +44,13 @@ title: Über mich
     {% endfor %}
 </table>
 
+<h2>Hobbies</h2>
+<ul>
+    {% for hobby in site.data.about.hobbies %}
+    <li>{{hobby}}</li>
+    {% endfor %}
+</ul>
+
 <h2>Ehrenamtliche Tätigkeiten und Mitgliedschaften</h2>
 
 <table class="uk-table">
