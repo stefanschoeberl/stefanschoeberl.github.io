@@ -30,6 +30,8 @@
     - Swagger
     - REST
     - Java EE
+    - Node.js
+    - Serverless Framework
 - name: Native Frontends
   icon: desktop
   technologies:
@@ -43,6 +45,7 @@
     - JDBC
     - JPA - Hibernate
     - Spring Data JPA
+    - MongoDB
 - name: Infrastruktur
   icon: server
   technologies:
@@ -54,6 +57,8 @@
     - Let's Encrypt
     - GitLab CI
     - Digital Ocean
+    - AWS
+    - reCAPTCHA
 - name: Home Automation & Embedded Systems
   icon: home
   technologies:
