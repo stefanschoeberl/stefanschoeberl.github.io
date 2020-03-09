@@ -26,6 +26,11 @@ education:
     date: 2007 - 2015
 
 work:
+  - company: FH Oberösterreich - Campus Hagenberg
+    position: Tutor
+    link: https://www.fh-ooe.at/campus-hagenberg/
+    date: 2020
+    details: Semi-strukturierte Datenmodelle und XML (1 Semester)
   - company: Catalysts
     position: Software-Entwickler
     link: https://www.catalysts.cc/
