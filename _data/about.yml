@@ -8,6 +8,9 @@ contact:
   - name: Xing
     icon: xing
     link: https://www.xing.com/profile/Stefan_Schoeberl8/
+  - name: Twitter
+    icon: twitter
+    link: https://twitter.com/stefanschoeberl
 
 education:
   - school: FH Oberösterreich - Campus Hagenberg
