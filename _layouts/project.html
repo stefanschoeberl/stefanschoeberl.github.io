@@ -13,7 +13,9 @@ layout: default
             </div>
             <hr class="uk-margin-remove-vertical">
             <div class="uk-card-body">
+                {% if page.subtitle %}
                 <h3>{{ page.subtitle }}</h3>
+                {% endif %}
                 <p>
                 {% assign m = page.date | date: "%-m" %}
                 {% case m %}
