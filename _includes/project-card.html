@@ -5,6 +5,8 @@
     <hr class="uk-margin-remove-vertical">
     <div class="uk-card-body">
         <h3 class="uk-card-title">{{ project.title }}</h3>
+        {% if project.subtitle %}
         <p>{{ project.subtitle }}</p>
+        {% endif %}
     </div>
 </a>
