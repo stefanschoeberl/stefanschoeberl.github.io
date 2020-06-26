@@ -5,6 +5,7 @@ date: 2016-03-08
 live: https://totp.ssch.dev
 technologies: [TOTP, Node.js, Express, Jade (jetzt pug.js), HTML, CSS, JavaScript]
 thumbnail: totp-demo-thumbnail.png
+images: [totp-demo-1.png]
 ---
 
 Bei einem [Vortrag der fhLUG](https://fhlug.at/2016/02/onetime-passwords/){:target="_blank" rel="noreferrer"} an der FH Hagenberg wurde ich erstmals auf One-Time Passwords aufmerksam.
