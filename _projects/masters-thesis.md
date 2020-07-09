@@ -3,8 +3,10 @@ title: MiniJava-Compiler für WebAssembly
 subtitle: Masterarbeit
 date: 2020-06-30
 links:
-  - name: GitHub
+  - name: GitHub (Compiler)
     url: https://github.com/stefanschoeberl/MiniJava-Compiler
+  - name: GitHub (Masterarbeit)
+    url: https://github.com/stefanschoeberl/masters-thesis
   - name: Fibonacci-Rechner
     url: https://fibminijava.ssch.dev
 technologies: [WebAssembly, ANTLR, Kotlin, Gradle, Node.js, WABT, JavaScript]
