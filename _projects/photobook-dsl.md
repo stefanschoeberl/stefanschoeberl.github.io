@@ -16,4 +16,22 @@ Es bot sich an, eine DSL dafür zu entwicklen, mit der man deklarativ die Strukt
 
 Die DSL wurde in Kotlin umgesetzt. Die PDFs werden mit [Apache PDFBox](https://pdfbox.apache.org){:target="_blank" rel="noreferrer"} erzeugt. 
 
+Mit der DSL lässt sich beispielsweise ein Fotobuch folgendermaßen definieren:
+
+```kotlin
+val book = book {
+
+    page(PageType.ONE_ASPECT_FILL) {
+        image("path/to/image.jpg")
+    }
+
+    page(PageType.TWO_SIDE_BY_SIDE_FIT) {
+        image("path/to/image.jpg")
+        image("path/to/image.jpg")
+    }
+
+    // more pages ...
+}
+```
+
 [Hier](https://github.com/stefanschoeberl/photobook-dsl/raw/master/example-pdfs/book.pdf){:target="_blank" rel="noreferrer"} steht ein fertiges Beispiel-PDF (mit frei verfügbaren Fotos von [Pexels](https://www.pexels.com){:target="_blank" rel="noreferrer"}) zum Download zur Verfügung.
