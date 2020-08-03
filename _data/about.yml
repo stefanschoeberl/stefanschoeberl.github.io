@@ -16,7 +16,8 @@ education:
   - school: FH Oberösterreich - Campus Hagenberg
     branch: Masterstudium Software Engineering
     link: https://www.fh-ooe.at/campus-hagenberg/
-    date: seit 2018
+    date: 2018 - 2020
+    graduation: 'Master of Science in Engineering (MSc) mit Auszeichnung (Sponsion voraussichtlich im Herbst 2020)'
   - school: FH Oberösterreich - Campus Hagenberg
     branch: Bachelorstudium Software Engineering
     link: https://www.fh-ooe.at/campus-hagenberg/
@@ -29,6 +30,10 @@ education:
     date: 2007 - 2015
 
 work:
+  - company: Hilfswerk Oberösterreich
+    position: Zivildiener
+    link: https://www.hilfswerk.at/oberoesterreich/
+    date: seit 2020
   - company: FH Oberösterreich - Campus Hagenberg
     position: Tutor
     link: https://www.fh-ooe.at/campus-hagenberg/
