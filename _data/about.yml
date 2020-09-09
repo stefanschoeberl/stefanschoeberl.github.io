@@ -29,11 +29,12 @@ education:
     graduation: 'Matura mit Auszeichnung'
     date: 2007 - 2015
 
+civil:
+  company: Hilfswerk Oberösterreich
+  link: https://www.hilfswerk.at/oberoesterreich/
+  date: seit 2020
+
 work:
-  - company: Hilfswerk Oberösterreich
-    position: Zivildiener
-    link: https://www.hilfswerk.at/oberoesterreich/
-    date: seit 2020
   - company: FH Oberösterreich - Campus Hagenberg
     position: Tutor
     link: https://www.fh-ooe.at/campus-hagenberg/

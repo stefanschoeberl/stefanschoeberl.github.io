@@ -44,6 +44,14 @@ title: Über mich
     {% endfor %}
 </table>
 
+<h2>Zivildienst</h2>
+<table class="uk-table">
+    <tr>
+        <td class="uk-width-1-6">{{site.data.about.civil.date}}</td>
+        <td><a href="{{site.data.about.civil.link}}" target="_blank" rel="noreferrer">{{site.data.about.civil.company}}</a></td>
+    </tr>
+</table>
+
 <h2>Hobbies</h2>
 <ul>
     {% for hobby in site.data.about.hobbies %}
