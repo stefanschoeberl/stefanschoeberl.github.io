@@ -3,6 +3,8 @@ title: MiniJava-Compiler für WebAssembly
 subtitle: Masterarbeit
 date: 2020-06-30
 links:
+  - name: Masterarbeit (PDF)
+    url: https://github.com/stefanschoeberl/masters-thesis/releases/download/v1.0/Masterarbeit.pdf
   - name: GitHub (Compiler)
     url: https://github.com/stefanschoeberl/MiniJava-Compiler
   - name: GitHub (Masterarbeit)
