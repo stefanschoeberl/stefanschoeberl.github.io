@@ -18,7 +18,7 @@
   icon: world
   technologies:
     - Angular
-    - Vue
+    - Vue.js
     - Jekyll
     - Thymeleaf
 - name: Backend
@@ -43,16 +43,19 @@
   technologies:
     - MariaDB
     - JDBC
-    - JPA - Hibernate
+    - JPA / Hibernate
     - Spring Data JPA
     - MongoDB
+    - Redis
 - name: Infrastruktur
   icon: server
   technologies:
     - Docker
     - Docker Compose
     - Linux
+    - RabbitMQ
     - OAuth 2.0
+    - OpenID Connect
     - traefik
     - Let's Encrypt
     - GitLab CI
@@ -70,7 +73,7 @@
 - name: IDEs und Tools
   icon: git-branch
   technologies:
-    - IntelliJ
+    - IntelliJ IDEA
     - Visual Studio
     - Visual Studio Code
     - Gradle
