@@ -2,7 +2,9 @@
 title: Tic Tac Toe
 subtitle: Multiplayer-Minigame im Browser
 date: 2016-07-01
-live: https://tic-tac-toe.ssch.dev
+links:
+  - name: Minigame
+    url: https://tic-tac-toe.ssch.dev
 technologies: [Angular 2, HTML, CSS, JavaScript, TypeScript, Boostrap, Node.js, Express, socket.io]
 thumbnail: tic-tac-toe-thumbnail.png
 ---

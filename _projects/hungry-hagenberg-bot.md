@@ -2,7 +2,9 @@
 title: Hungry Hagenberg Bot
 subtitle: Telegram Bot
 date: 2018-04-15
-live: https://t.me/HungryHagenbergBot
+links:
+  - name: Telegram Bot
+    url: https://t.me/HungryHagenbergBot
 technologies: [Spring Boot, MariaDB, Telegram, mittag.at]
 thumbnail: hungry-hagenberg-bot-thumbnail.png
 ---

@@ -1,8 +1,11 @@
 ---
 title: Persönliche Website
 date: 2019-09-23
-live: https://schoeberl.dev
-github: https://github.com/stefanschoeberl/stefanschoeberl.github.io
+links:
+  - name: Website
+    url: https://schoeberl.dev
+  - name: GitHub
+    url: https://github.com/stefanschoeberl/stefanschoeberl.github.io
 technologies: [GitHub Pages, Jekyll, UIkit]
 thumbnail: personal-website-thumbnail.png
 ---

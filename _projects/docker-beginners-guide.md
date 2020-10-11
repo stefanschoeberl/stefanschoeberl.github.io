@@ -2,7 +2,9 @@
 title: Docker Beginner's Guide
 subtitle: Workshop
 date: 2019-06-11
-github: https://github.com/stefanschoeberl/docker-beginners-guide
+links:
+  - name: GitHub
+    url: https://github.com/stefanschoeberl/docker-beginners-guide
 technologies: [Docker]
 thumbnail: docker-beginners-guide-thumbnail.png
 ---

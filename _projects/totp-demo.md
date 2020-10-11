@@ -2,7 +2,9 @@
 title: TOTP Demo
 subtitle: Test-Webapp für One-Time Passwords
 date: 2016-03-08
-live: https://totp.ssch.dev
+links:
+  - name: Web-app
+    url: https://totp.ssch.dev 
 technologies: [TOTP, Node.js, Express, Jade (jetzt pug.js), HTML, CSS, JavaScript]
 thumbnail: totp-demo-thumbnail.png
 images: [totp-demo-1.png]

@@ -2,7 +2,9 @@
 title: Fotobuch DSL
 subtitle: Kotlin DSL zum Erstellen von Fotobüchern
 date: 2019-07-15
-github: https://github.com/stefanschoeberl/photobook-dsl
+links:
+  - name: GitHub
+    url: https://github.com/stefanschoeberl/photobook-dsl
 technologies: [Kotlin, Apache PDFBox]
 thumbnail: photobook-dsl-thumbnail.jpg
 images: [photobook-dsl-1.jpg, photobook-dsl-2.jpg, photobook-dsl-3.jpg, photobook-dsl-4.jpg]

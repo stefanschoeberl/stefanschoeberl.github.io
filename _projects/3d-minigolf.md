@@ -2,7 +2,9 @@
 title: 3D Minigolf
 subtitle: Minigame im Browser
 date: 2017-02-16
-live: https://minigolf.ssch.dev
+links:
+  - name: Minigame
+    url: https://minigolf.ssch.dev
 technologies: [ES6, three.js, cannon.js, HTML, CSS, Boostrap, Node.js, Express, pug.js, MariaDB]
 thumbnail: 3d-minigolf-thumbnail.png
 images: [3d-minigolf-1.png, 3d-minigolf-2.png]
