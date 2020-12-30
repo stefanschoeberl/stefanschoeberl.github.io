@@ -8,6 +8,10 @@ module.exports = {
       },
       letterSpacing: {
         '2xl': '0.2em',
+      },
+      boxShadow: {
+        'card': '0 5px 15px rgba(0,0,0,.08)',
+        'card-elevated': '0 14px 25px rgba(0, 0, 0, 0.16)'
       }
     },
   },
