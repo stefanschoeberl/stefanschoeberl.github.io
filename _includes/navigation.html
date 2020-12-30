@@ -1,23 +1,12 @@
-<nav class="uk-navbar" uk-navbar>
-    <a class="uk-navbar-item uk-logo uk-hidden@s uk-margin-small-left" href="/">schoeberl.dev</a>
-    <div class="uk-navbar-left uk-visible@s">
-        <ul class="uk-navbar-nav">
-            {% for item in site.data.navigation %}
-            <li class="{% if page.url == item.link %} uk-active {% endif %} {%if forloop.first == true %} uk-margin-small-left {% endif %}"><a href="{{ item.link }}">{{item.name}}</a></li>
-            {% endfor %}
-        </ul>
-    </div>
-    <div class="uk-navbar-right uk-hidden@s">
-        <button type="button" class="uk-navbar-toggle" uk-toggle="target: #side-nav"  uk-navbar-toggle-icon></button>
-    </div>
-</nav>
-
-<div id="side-nav" uk-offcanvas="overlay: true" class="uk-hidden@s">
-    <div class="uk-offcanvas-bar">
-        <ul class="uk-nav uk-nav-primary uk-nav-center uk-light">
-            {% for item in site.data.navigation %}
-            <li class="{% if page.url == item.link %} uk-active {% endif %}"><a href="{{ item.link }}">{{item.name}}</a></li>
-            {% endfor %}
-        </ul>
-    </div>
-</div>
+<header class="container mx-auto">
+    <nav class="flex flex-row uppercase">
+        {% for item in site.data.navigation %}
+            {% if page.url == item.link %}
+                {% assign style="text-black" %}
+            {% else %}
+                {% assign style="text-gray-500" %}
+            {% endif %}
+            <a href="{{ item.link }}" class="px-5 pt-6 pb-3 border-transparent hover:border-lightBlue-600 border-b-2 {{style}}">{{item.name}}</a>
+        {% endfor %}
+    </nav>
+</header>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="de" class="h-full">
 <head>
     <title>Stefan Schöberl
         {% if page.title %}
@@ -19,21 +19,17 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/uikit.min.css"/>
+    <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/vscode.css"/>
     <link rel="stylesheet" href="/css/jetbrains-mono.css"/>
-    <link rel="stylesheet" href="/css/custom.css">
-    <script src="/js/uikit.min.js"></script>
+    <script src="/js/uikit-core.min.js"></script>
     <script src="/js/uikit-icons.min.js"></script>
 </head>
-<body>
+<body class="flex flex-col h-full">
 {% include navigation.html %}
-<div class="uk-container" uk-height-viewport="expand: true">
+<main class="container mx-auto flex-grow pt-9">
 {{ content }}
-</div>
-
-<div class="uk-container uk-margin-medium-bottom uk-margin-medium-top">
-    <p class="uk-text-meta uk-text-center">&copy; Stefan Schöberl 2020 - <a href="/impressum">Impressum</a></p>
-</div>
+</main>
+{% include footer.html %}
 </body>
 </html>

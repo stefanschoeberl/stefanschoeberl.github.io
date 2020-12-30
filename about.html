@@ -3,16 +3,6 @@ permalink: /about
 title: Über mich
 ---
 
-<p class="uk-text-center">
-    <img class="uk-border-circle" src="images/me.jpg" width="200" height="200" alt="Stefan Schöberl">
-</p>
-<h2 class="uk-heading-line uk-text-center uk-margin-small-top"><span>Stefan Schöberl</span></h2>
-<p class="uk-text-center">
-    {% for contact in site.data.about.contact %}
-    <a title="{{contact.name}}" href="{{contact.link}}" target="_blank" rel="noreferrer" uk-icon="icon: {{contact.icon}}; ratio: 2" class="uk-icon-link {% if forloop.last == false %} uk-margin-medium-right {% endif %}"></a>
-    {% endfor %}
-</p>
-
 <h2>Ausbildung</h2>
 
 <table class="uk-table">

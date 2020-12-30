@@ -1,2 +1,4 @@
 .idea/
 _site/
+node_modules/
+css/styles.css

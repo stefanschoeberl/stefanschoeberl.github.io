@@ -1,0 +1,12 @@
+<footer class="bg-gradient-to-r from-lightBlue-700 to-blue-900">
+    <div class="container mx-auto flex flex-col sm:flex-row flex-wrap text-white justify-between items-center">
+        <p class="my-4 text-white">&copy; Stefan Schöberl 2020</p>
+        <p class="flex-grow"></p>
+        <p class="mb-4 sm:my-4 flex flex-row sm:mr-7">
+            {% for contact in site.data.about.contact %}
+                <a class="mx-3 fill-current text-white border-2 rounded-full p-2 border-transparent hover:border-white" uk-icon="ratio: 1.4; icon: {{contact.icon}}" href="{{contact.url}}" title="{{contact.name}}"></a>
+            {% endfor %}
+        </p>
+        <a class="mb-4 sm:my-4 hover:underline focus:underline" href="/imprint">Impressum</a>
+    </div>
+</footer>

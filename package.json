@@ -1,0 +1,18 @@
+{
+  "name": "stefanschoeberl.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "build-css": "postcss css/styles.tw.css -o css/styles.css"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "10.1.0",
+    "postcss": "8.2.1",
+    "postcss-cli": "8.3.1",
+    "tailwindcss": "2.0.2",
+    "uikit": "3.6.5"
+  }
+}

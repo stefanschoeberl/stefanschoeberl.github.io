@@ -1,16 +1,16 @@
 contact:
   - name: GitHub
     icon: github
-    link: https://github.com/stefanschoeberl/
+    url: https://github.com/stefanschoeberl/
   - name: LinkedIn
     icon: linkedin
-    link: https://www.linkedin.com/in/stefan-schöberl-5654aa152/
+    url: https://www.linkedin.com/in/stefan-schöberl-5654aa152/
   - name: Xing
     icon: xing
-    link: https://www.xing.com/profile/Stefan_Schoeberl8/
+    url: https://www.xing.com/profile/Stefan_Schoeberl8/
   - name: Twitter
     icon: twitter
-    link: https://twitter.com/stefanschoeberl
+    url: https://twitter.com/stefanschoeberl
 
 education:
   - school: FH Oberösterreich - Campus Hagenberg
