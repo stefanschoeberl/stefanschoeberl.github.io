@@ -73,7 +73,7 @@ div.highlight {
 /* Card */
 
 .card {
-    @apply shadow-card
+    @apply shadow-card bg-white;
 }
 
 .card-hover {
