@@ -1,12 +1,10 @@
-<a class="uk-display-block uk-link-reset uk-card uk-card-hover uk-card-default" href="{{ project.url }}">
-    <div class="uk-card-media-top" style="margin-bottom: 1px">
-        <img src="/images/{{ project.thumbnail }}" alt="{{ project.title }}">
-    </div>
-    <hr class="uk-margin-remove-vertical">
-    <div class="uk-card-body">
-        <h3 class="uk-card-title">{{ project.title }}</h3>
+<a class="block card card-hover card-rounded h-full" href="{{project.url}}">
+    <img src="/images/{{ project.thumbnail }}" alt="{{ project.title }}">
+    <hr>
+    <div class="p-8">
+        <h3 class="mb-0">{{project.title}}</h3>
         {% if project.subtitle %}
-        <p>{{ project.subtitle }}</p>
+        <p class="mt-5">{{ project.subtitle }}</p>
         {% endif %}
     </div>
 </a>
