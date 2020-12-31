@@ -4,7 +4,7 @@
         <p class="flex-grow"></p>
         <p class="mb-4 sm:my-4 flex flex-row sm:mr-7">
             {% for contact in site.data.about.contact %}
-                <a class="mx-3 fill-current border-2 rounded-full p-2 border-transparent hover:border-white" uk-icon="ratio: 1.4; icon: {{contact.icon}}" href="{{contact.url}}" title="{{contact.name}}"></a>
+                <a class="mx-3 border-2 rounded-full p-2 border-transparent hover:border-white" uk-icon="ratio: 1.4; icon: {{contact.icon}}" href="{{contact.url}}" title="{{contact.name}}"></a>
             {% endfor %}
         </p>
         <a class="mb-4 sm:my-4 hover:underline focus:underline" href="/imprint">Impressum</a>

@@ -28,8 +28,17 @@ a.text-link {
     @apply text-blue-600 hover:text-blue-800 focus:text-blue-800 hover:underline focus:underline;
 }
 
-.text-with-paragraphs p {
-    @apply mb-5 text-coolGray-600;
+.rich-text {
+    @apply text-coolGray-700;
+}
+.rich-text ul,
+ul.rich-text {
+    @apply list-disc list-inside;
+}
+
+.rich-text p,
+p.rich-text {
+    @apply mb-5;
 }
 
 /* Syntax Highlighting */
@@ -73,4 +82,13 @@ div.highlight {
 
 .card-rounded {
     @apply rounded-lg;
+}
+
+/* Icons */
+.uk-icon,
+.uk-icon [fill*='#'] {
+    fill: currentColor;
+}
+.uk-icon [stroke*='#'] {
+    stroke: currentColor;
 }
