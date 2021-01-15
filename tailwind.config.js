@@ -15,11 +15,17 @@ module.exports = {
       },
       scale: {
         '101': '1.01',
+      },
+      spacing: {
+        '76': '19rem',
+        '100': '25rem',
       }
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      padding: ['first', 'last'],
+    },
   },
   plugins: [],
   corePlugins: {

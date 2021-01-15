@@ -1,64 +1,51 @@
 ---
 permalink: /about
 title: Über mich
+richtext: true
 ---
 
-<h2>Ausbildung</h2>
-
-<table class="uk-table">
-    {% for education in site.data.about.education %}
-    <tr>
-        <td class="uk-width-1-6">{{education.date}}</td>
-        <td><a href="{{education.link}}" target="_blank" rel="noreferrer">{{education.school}}</a><br>
-            {{education.branch}}<br>
-            {% if education.graduation %}
-            Abschluss: {{education.graduation}}
-            {% endif %}
-        </td>
-    </tr>
-    {% endfor %}
-</table>
-
-
-<h2>Berufserfahrung</h2>
-
-<table class="uk-table">
-    {% for work in site.data.about.work %}
-    <tr>
-        <td class="uk-width-1-6">{{work.date}}</td>
-        <td><a href="{{work.link}}" target="_blank" rel="noreferrer">{{work.company}}</a><br>
-            {{work.position}}<br>
-            {{work.details}}
-        </td>
-    </tr>
-    {% endfor %}
-</table>
-
-<h2>Zivildienst</h2>
-<table class="uk-table">
-    <tr>
-        <td class="uk-width-1-6">{{site.data.about.civil.date}}</td>
-        <td><a href="{{site.data.about.civil.link}}" target="_blank" rel="noreferrer">{{site.data.about.civil.company}}</a></td>
-    </tr>
-</table>
-
-<h2>Hobbies</h2>
-<ul>
-    {% for hobby in site.data.about.hobbies %}
-    <li>{{hobby}}</li>
-    {% endfor %}
-</ul>
-
-<h2>Ehrenamtliche Tätigkeiten und Mitgliedschaften</h2>
-
-<table class="uk-table">
-    {% for voluntary in site.data.about.voluntary %}
-    <tr>
-        <td class="uk-width-1-6">{{voluntary.date}}</td>
-        <td><a href="{{voluntary.link}}" target="_blank" rel="noreferrer">{{voluntary.organization}}</a><br>
-            {{voluntary.position}}<br>
-            {{voluntary.details}}
-        </td>
-    </tr>
-    {% endfor %}
-</table>
+{% for section in site.data.about.page %}
+    <h2>{{section.title}}</h2>
+    {% case section.type %}
+        {% when 'timeline' %}
+            <div class="relative mb-10">
+                <div class="absolute h-full left-4 md:left-76 lg:left-100 flex flex-col">
+                    <div class="w-1 bg-gradient-to-b from-transparent to-gray-500 h-6"></div>
+                    <div class="w-1 bg-gray-500 flex-grow"></div>
+                    <div class="w-1 bg-gradient-to-b from-gray-500 to-transparent h-6"></div>
+                </div>
+                <div>
+                    {% for entry in section.entries %}
+                        <div class="flex flex-row flex-wrap md:flex-nowrap items-center pt-3 pb-3 first:pt-6 last:pb-6">
+                            <div class="flex-shrink-0 bg-white rounded-full w-9 h-9 z-10 border-4 border-lightBlue-600 shadow-card"></div>
+                            <div class="md:order-first flex-shrink-0 md:w-72 lg:w-96 md:text-right pl-5 md:pl-0 md:pr-6">{{entry.date}}</div>
+                            <div class="pl-14 md:pl-6 w-full md:w-auto mt-3 md:mt-0">
+                                <div class="card card-rounded p-6 md:p-8">
+                                    <p class="no-paragraph">
+                                        {% if entry.url %}
+                                            <a href="{{entry.url}}" target="_blank" rel="noreferrer" class="text-link">
+                                        {% endif %}
+                                        {{entry.title}}
+                                        {% if entry.url %}
+                                            </a>
+                                        {% endif %}
+                                    </p>
+                                    {% if entry.details %}
+                                        {% for detail in entry.details %}
+                                            <p class="no-paragraph">{{detail}}</p>
+                                        {% endfor %}
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        {% when 'list' %}
+            <ul class="rich-text">
+                {% for entry in section.entries %}
+                    <li>{{entry}}</li>
+                {% endfor %}
+            </ul>
+    {% endcase %}
+{% endfor %}

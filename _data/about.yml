@@ -1,3 +1,95 @@
+page:
+  - title: Ausbildung
+    type: timeline
+    entries:
+      - title: FH Oberösterreich - Campus Hagenberg
+        url: https://www.fh-ooe.at/campus-hagenberg/
+        date: Oktober 2018 - Juli 2020
+        details:
+          - Masterstudium Software Engineering
+          - Master of Science in Engineering (MSc) mit Auszeichnung
+      - title: FH Oberösterreich - Campus Hagenberg
+        url: https://www.fh-ooe.at/campus-hagenberg/
+        date: Oktober 2015 - Juli 2018
+        details:
+          - Bachelorstudium Software Engineering
+          - Bachelor of Science in Engineering (BSc) mit Auszeichnung
+      - title: BG/BRG Brucknerstraße Wels
+        url: https://www.brucknergym.at/
+        date: September 2007 - Juni 2015
+        details:
+          - BRG Schwerpunkt Neue Medien
+          - Matura mit Auszeichnung
+  - title: Berufserfahrung
+    type: timeline
+    entries:
+      - title: FH Oberösterreich - Campus Hagenberg
+        url: https://www.fh-ooe.at/campus-hagenberg/
+        date: März 2020 - April 2020
+        details:
+          - Tutor für die Lehrveranstaltung "Semi-strukturierte Datenmodelle und XML"
+      - title: Catalysts
+        url: https://www.catalysts.cc/
+        date: September 2018 - Dezember 2019
+        details:
+          - Software-Entwickler
+      - title: Catalysts
+        url: https://www.catalysts.cc/
+        date: April 2018 - Juni 2020
+        details:
+          - Software-Entwickler (Berufspraktikum)
+      - title: FH Oberösterreich - Campus Hagenberg
+        url: https://www.fh-ooe.at/campus-hagenberg/
+        date: März 2018 - April 2018
+        details:
+          - Tutor für die Lehrveranstaltung "XML"
+      - title: FH Oberösterreich - Campus Hagenberg
+        url: https://www.fh-ooe.at/campus-hagenberg/
+        date: Oktober 2017 - Jänner 2018
+        details:
+          - Tutor für die Lehrveranstaltungen "Software Projekt Engineering" und "Datenbanksysteme"
+      - title: FH Oberösterreich - Campus Hagenberg
+        url: https://www.fh-ooe.at/campus-hagenberg/
+        date: März 2017 - Juni 2017
+        details:
+          - Tutor für die Lehrveranstaltung "Software Projekt Engineering"
+  - title: Zivildienst
+    type: timeline
+    entries:
+      - title: Hilfswerk Oberösterreich
+        url: https://www.hilfswerk.at/oberoesterreich/
+        date: seit August 2020
+  - title: Ehrenamtliche Tätigkeiten und Mitgliedschaften
+    type: timeline
+    entries:
+      - title: GranitTreff Hagenberg
+        url: https://granittreff.com
+        date: seit Mai 2020
+        details:
+          - Co-Organisator
+      - title: Hochschülerinnen- und Hochschülerschaft der Fachhochschule Oberösterreich
+        url: https://oeh.fh-ooe.at/
+        date: Oktober 2019 - Juli 2020
+        details:
+          - Studiengangsvertretung für Software Engineering
+      - title: BrAVe - Bruckner Absolventen Verein
+        url: https://www.brucknergym.at/seiten/absolventenverein/absolventenverein.php
+        date: seit September 2019
+        details:
+          - 2. Rechnungsprüfer
+      - title: MEMO 2016 - 10th Middle European Mathematical Olympiad
+        url: https://www.math.aau.at/MEMO2016
+        date: August 2016
+        details:
+          - Guide
+  - title: Hobbies
+    type: list
+    entries:
+      - Klavier spielen
+      - Mit Familie und Freunden etwas unternehmen
+      - Lesen
+      - Vorträge, Talks & Meetups besuchen
+
 contact:
   - name: GitHub
     icon: github
@@ -11,69 +103,3 @@ contact:
   - name: Twitter
     icon: twitter
     url: https://twitter.com/stefanschoeberl
-
-education:
-  - school: FH Oberösterreich - Campus Hagenberg
-    branch: Masterstudium Software Engineering
-    link: https://www.fh-ooe.at/campus-hagenberg/
-    date: 2018 - 2020
-    graduation: 'Master of Science in Engineering (MSc) mit Auszeichnung'
-  - school: FH Oberösterreich - Campus Hagenberg
-    branch: Bachelorstudium Software Engineering
-    link: https://www.fh-ooe.at/campus-hagenberg/
-    graduation: 'Bachelor of Science in Engineering (BSc) mit Auszeichnung'
-    date: 2015 - 2018
-  - school: BG/BRG Brucknerstraße Wels
-    branch: BRG Schwerpunkt Neue Medien
-    link: https://www.brucknergym.at/
-    graduation: 'Matura mit Auszeichnung'
-    date: 2007 - 2015
-
-civil:
-  company: Hilfswerk Oberösterreich
-  link: https://www.hilfswerk.at/oberoesterreich/
-  date: seit 2020
-
-work:
-  - company: FH Oberösterreich - Campus Hagenberg
-    position: Tutor
-    link: https://www.fh-ooe.at/campus-hagenberg/
-    date: 2020
-    details: Semi-strukturierte Datenmodelle und XML (1 Semester)
-  - company: Catalysts
-    position: Software-Entwickler
-    link: https://www.catalysts.cc/
-    date: 2018 - 2019
-  - company: Catalysts
-    position: Software-Entwickler (Berufspraktikum)
-    link: https://www.catalysts.cc/
-    date: 2018
-  - company: FH Oberösterreich - Campus Hagenberg
-    position: Tutor
-    link: https://www.fh-ooe.at/campus-hagenberg/
-    date: 2017 - 2018
-    details: Software Projekt Engineering (2 Semester), Datenbanksysteme (1 Semester), XML (1 Semester)
-
-hobbies:
-  - Klavier spielen
-  - Mit Familie und Freunden etwas unternehmen
-  - Lesen
-  - Vorträge, Talks & Meetups besuchen
-
-voluntary:
-  - organization: GranitTreff Hagenberg
-    position: Co-Organisator
-    link: https://granittreff.com
-    date: seit 2020
-  - organization: Hochschülerinnen- und Hochschülerschaft der Fachhochschule Oberösterreich
-    position: Studiengangsvertretung für Software Engineering
-    link: https://www.oehfhooe.at/
-    date: 2019 - 2020
-  - organization: BrAVe - Bruckner Absolventen Verein
-    position: 2. Rechnungsprüfer
-    link: https://www.brucknergym.at/seiten/absolventenverein/absolventenverein.php
-    date: seit 2019
-  - organization: MEMO 2016 - 10th Middle European Mathematical Olympiad
-    position: Guide
-    link: https://www.math.aau.at/MEMO2016
-    date: 2016
