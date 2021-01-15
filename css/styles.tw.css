@@ -77,7 +77,7 @@ div.highlight {
 }
 
 .card-hover {
-  @apply hover:shadow-card-elevated focus:shadow-card-elevated transition-shadow;
+  @apply hover:shadow-card-elevated focus:shadow-card-elevated transform hover:scale-101 focus:scale-101 transition-all;
 }
 
 .card-rounded {
