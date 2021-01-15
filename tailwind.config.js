@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        ...require('tailwindcss/colors')
+        ...require('tailwindcss/colors'),
       },
       letterSpacing: {
         '2xl': '0.2em',
