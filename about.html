@@ -4,7 +4,7 @@ title: Über mich
 richtext: true
 ---
 
-{% for section in site.data.about.page %}
+{% for section in site.data.about %}
     <h2>{{section.title}}</h2>
     {% case section.type %}
         {% when 'timeline' %}

@@ -3,7 +3,7 @@
         <p class="my-4">&copy; Stefan Schöberl 2020</p>
         <p class="flex-grow"></p>
         <p class="mb-4 sm:my-4 flex flex-row sm:mr-7">
-            {% for contact in site.data.about.contact %}
+            {% for contact in site.data.contact %}
                 <a class="mx-3 border-2 rounded-full p-2 border-transparent hover:border-white focus:border-white hover:border-white" uk-icon="ratio: 1.4; icon: {{contact.icon}}" href="{{contact.url}}" title="{{contact.name}}"></a>
             {% endfor %}
         </p>
