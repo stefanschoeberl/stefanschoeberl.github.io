@@ -15,7 +15,7 @@ Ich bin immer offen für neues und lerne gern dazu. Hier eine Übersicht einiger
                 <h2 class="text-xl flex-grow pr-4">{{category.name}}</h2>
                 <span class="rich-text" uk-icon="{{ category.icon }}"></span>
             </div>
-            <ul class="rich-text">
+            <ul class="rich-text no-paragraph">
                 {% for technology in category.technologies %}
                     <li>{{technology}}</li>
                 {% endfor %}
