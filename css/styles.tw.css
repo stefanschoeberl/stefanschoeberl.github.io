@@ -103,3 +103,20 @@ div.highlight {
 .uk-icon [stroke*='#'] {
     stroke: currentColor;
 }
+
+/* Slideshow (from UIkit) */
+.uk-slideshow-items {
+    @apply relative z-0 overflow-hidden;
+    -webkit-touch-callout: none;
+}
+.uk-slideshow-items > * {
+    @apply absolute top-0 left-0 right-0 bottom-0 overflow-hidden;
+    will-change: transform, opacity;
+    touch-action: pan-y;
+}
+.uk-slideshow-items > :focus {
+    @apply outline-none;
+}
+.uk-slideshow-items > :not(.uk-active) {
+    @apply hidden;
+}

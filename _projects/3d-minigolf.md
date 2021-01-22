@@ -7,7 +7,11 @@ links:
     url: https://minigolf.ssch.dev
 technologies: [ES6, three.js, cannon.js, HTML, CSS, Boostrap, Node.js, Express, pug.js, MariaDB]
 thumbnail: 3d-minigolf-thumbnail.png
-images: [3d-minigolf-1.png, 3d-minigolf-2.png]
+slideshow:
+  - image: 3d-minigolf-1.png
+    description: Screenshot Minigolf Homepage
+  - image: 3d-minigolf-2.png
+    description: Screenshot Minigolf Level 1
 ---
 
 Im 3. Semester meines Bachelorstudiums mussten wir ihm Rahmen der Lehrveranstaltung "Web-Design und -Programmierung" ein Semesterprojekt erstellen.

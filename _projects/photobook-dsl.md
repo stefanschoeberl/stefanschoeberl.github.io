@@ -7,7 +7,15 @@ links:
     url: https://github.com/stefanschoeberl/photobook-dsl
 technologies: [Kotlin, Apache PDFBox]
 thumbnail: photobook-dsl-thumbnail.jpg
-images: [photobook-dsl-1.jpg, photobook-dsl-2.jpg, photobook-dsl-3.jpg, photobook-dsl-4.jpg]
+slideshow:
+  - image: photobook-dsl-1.jpg
+    description: Screenshot Fotobuchseite mit einem Foto
+  - image: photobook-dsl-2.jpg
+    description: Screenshot Fotobuchseite mit drei Fotos
+  - image: photobook-dsl-3.jpg
+    description: Screenshot Fotobuchseite mit vier Fotos (abgeschnitten)
+  - image: photobook-dsl-4.jpg
+    description: Screenshot Fotobuchseite mit vier Fotos (volle Größe)
 ---
 
 Die Idee zu diesem Projekt entstand dadurch, dass einige Freunde und ich gemeinsam ein Fotobuch erstellen wollten.
