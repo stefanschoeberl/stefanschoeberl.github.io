@@ -51,14 +51,14 @@ layout: default
 <div class="lg:mr-110">
     <div class="rich-text text-with-links">{{ content }}</div>
     {% if page.slideshow %}
-        <div class="card card-rounded overflow-hidden relative" uk-slideshow="autoplay: true; autoplay-interval: 5000; pause-on-hover: true; ratio: 16:10">
+        <div class="card card-rounded overflow-hidden relative group" uk-slideshow="autoplay: true; autoplay-interval: 5000; pause-on-hover: true; ratio: 16:10">
             <ul class="uk-slideshow-items">
                 {% for entry in page.slideshow %}
                     <li><img src="/images/{{ entry.image }}" alt="{{ entry.description }}"></li>
                 {% endfor %}
             </ul>
-            <a class="absolute text-gray-500 hover:text-black focus:text-black left-0 top-1/2 transform -translate-y-1/2 p-4" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
-            <a class="absolute text-gray-500 hover:text-black focus:text-black right-0 top-1/2 transform -translate-y-1/2 p-4" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+            <a class="absolute transition-opacity duration-300 opacity-0 group-hover:opacity-100 text-gray-500 hover:text-black focus:text-black left-0 top-1/2 transform -translate-y-1/2 p-4" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+            <a class="absolute transition-opacity duration-300 opacity-0 group-hover:opacity-100 text-gray-500 hover:text-black focus:text-black right-0 top-1/2 transform -translate-y-1/2 p-4" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
         </div>
     {% endif %}
 </div>
