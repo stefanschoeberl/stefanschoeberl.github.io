@@ -37,7 +37,7 @@ a.text-link {
 }
 .rich-text ul,
 ul.rich-text {
-    @apply list-disc list-inside mb-5;
+    @apply list-disc list-outside mb-5 pl-5;
 }
 
 .rich-text p,
