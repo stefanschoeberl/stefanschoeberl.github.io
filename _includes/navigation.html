@@ -1,12 +1,19 @@
-<header class="container mx-auto">
-    <nav class="flex flex-row uppercase">
+<header class="container-full mx-auto px-0 sm:px-4">
+    <nav id="navigation" class="uppercase fixed flex flex-col bg-gray-800 w-64 transform -translate-x-64 ease-out h-screen overflow-y-auto z-20 sm:static sm:flex-row sm:bg-transparent sm:w-auto sm:h-auto sm:transform-none">
         {% for item in site.data.navigation %}
             {% if page.url == item.link %}
-                {% assign style="text-black" %}
+                {% assign style="text-white sm:text-black" %}
             {% else %}
-                {% assign style="text-gray-500" %}
+                {% assign style="text-gray-400 sm:text-gray-500" %}
             {% endif %}
-            <a href="{{ item.link }}" class="px-5 pt-6 pb-3 border-transparent hover:border-lightBlue-600 border-b-2 {{style}}">{{item.name}}</a>
+            <a href="{{ item.link }}" class="px-5 last:pb-3 pt-6 sm:pb-3 border-transparent sm:hover:border-lightBlue-600 border-b-2 text-white {{style}}">{{item.name}}</a>
         {% endfor %}
     </nav>
+    <div class="flex flex-row uppercase justify-between">
+        <a href="/" class="pl-4 pt-6 pb-3 text-gray-500 hover:text-black focus:text-black sm:hidden">schoeberl.dev</a>
+        <button onclick="toggleMobileMenu()" type="button" class="px-4 pt-6 pb-3 text-gray-500 hover:text-black focus:text-black sm:hidden focus:outline-none">
+            <span class="" uk-icon="icon: menu; ratio: 1.3"></span>
+        </button>
+    </div>
+    <div id="overlay" onclick="toggleMobileMenu()" class="fixed w-screen h-screen bg-black z-10 top-0 left-0 transition-opacity duration-300 invisible opacity-0 sm:hidden"></div>
 </header>
