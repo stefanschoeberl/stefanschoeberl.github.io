@@ -28,7 +28,7 @@
 </head>
 <body class="flex flex-col h-full">
 {% include navigation.html %}
-<main class="container mx-auto flex-grow py-7 {% if page.richtext %} rich-text text-with-links {% endif %}">
+<main class="container mx-auto flex-grow py-7 {% if page.richtext %} rich-text text-with-links {% endif %}{% if layout.mainClasses %} {{ layout.mainClasses }} {% endif %}">
 {{ content }}
 </main>
 {% include footer.html %}
