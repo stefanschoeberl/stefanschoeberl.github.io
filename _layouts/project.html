@@ -4,8 +4,8 @@ mainClasses: "flex flex-col lg:block"
 ---
 
 <div class="lg:float-right lg:top-0 lg:right-0 lg:w-100 card card-rounded overflow-hidden mb-5 lg:mb-0">
-    <div class="sm:flex lg:block flex-row sm:border-b border-gray-200 lg:border-b-0">
-        <img class="border-b border-gray-200 sm:border-b-0 lg:border-b sm:w-80 md:w-100 lg:w-full" src="/images/{{ page.thumbnail }}" alt="{{ page.title }}">
+    <div class="sm:flex lg:block flex-row items-center sm:border-b border-gray-200 lg:border-b-0"> <!-- items-center to fix Safari flexbox issue -->
+        <img class="h-auto border-b border-gray-200 sm:border-b-0 lg:border-b sm:w-80 md:w-100 lg:w-full" src="/images/{{ page.thumbnail }}" alt="{{ page.title }}">
         <div class="p-8 pb-0 order-first flex-grow">
             {% if page.subtitle %}
                 <p class="heading-3">{{ page.subtitle }}</p>
@@ -48,7 +48,7 @@ mainClasses: "flex flex-col lg:block"
         </div>
     </div>
 </div>
-<h1 class="order-first lg:mr-110"><span class="text-accent">{{ page.title }}</span></h1>
+<h1 class="order-first lg:mr-110 text-accent">{{ page.title }}</h1>
 <div class="lg:mr-110">
     <div class="rich-text text-with-links">{{ content }}</div>
     {% if page.slideshow %}
