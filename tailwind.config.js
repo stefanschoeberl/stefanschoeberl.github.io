@@ -1,7 +1,7 @@
 module.exports = {
   purge: [
-      './jekyll/**/*.html',
-      './jekyll/**/*.js',
+      './site/**/*.html',
+      './site/**/*.js',
   ],
   darkMode: false,
   theme: {
