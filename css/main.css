@@ -10,19 +10,19 @@
     }
 
     h1, .heading-1 {
-        @apply text-4xl md:text-5xl mb-5;
+        @apply text-4xl md:text-5xl pb-5;
     }
 
     h2, .heading-2 {
-        @apply text-2xl md:text-3xl mb-5;
+        @apply text-2xl md:text-3xl pb-5;
     }
 
     h3, .heading-3 {
-        @apply text-xl md:text-2xl mb-4;
+        @apply text-xl md:text-2xl pb-4;
     }
 
     h4, .heading-4 {
-        @apply text-lg md:text-xl mb-2;
+        @apply text-lg md:text-xl pb-2;
     }
 }
 
