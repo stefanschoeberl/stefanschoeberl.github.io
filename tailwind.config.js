@@ -1,7 +1,7 @@
 module.exports = {
   purge: [
-      './**/*.html',
-      './js/**/*.js',
+      './jekyll/**/*.html',
+      './jekyll/**/*.js',
   ],
   darkMode: false,
   theme: {
@@ -29,7 +29,7 @@ module.exports = {
   },
   variants: {},
   plugins: [
-      require('./plugins/border'),
+      require('./tailwindcss-plugins/border'),
   ],
   corePlugins: {
     container: false

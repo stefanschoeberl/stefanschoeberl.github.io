@@ -6,5 +6,5 @@ services:
     ports:
       - 127.0.0.1:4000:4000
     volumes:
-      - .:/srv/jekyll
+      - ./site:/srv/jekyll
     command: jekyll serve --future
