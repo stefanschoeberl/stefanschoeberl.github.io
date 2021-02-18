@@ -1,0 +1,26 @@
+---
+permalink: /technologies
+title: Technologien
+---
+
+<p class="rich-text">
+Ich bin immer offen für neues und lerne gern dazu. Hier eine Übersicht einiger Technologien, Sprachen und Bibliotheken, mit denen ich mich auskenne:
+</p>
+
+<div class="grid-base grid-masonry" uk-grid="masonry: true">
+    {% for category in site.data.technologies %}
+    <div class="grid-item w-full sm:w-1/2 lg:w-1/3">
+        <div class="card card-rounded h-full p-8">
+            <div class="flex">
+                <h2 class="text-xl flex-grow pr-4">{{category.name}}</h2>
+                <span class="rich-text" uk-icon="{{ category.icon }}"></span>
+            </div>
+            <ul class="rich-text no-paragraph">
+                {% for technology in category.technologies %}
+                    <li>{{technology}}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    {% endfor %}
+</div>

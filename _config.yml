@@ -1,0 +1,16 @@
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/

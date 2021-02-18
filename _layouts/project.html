@@ -1,0 +1,65 @@
+---
+layout: default
+mainClasses: "flex flex-col lg:block"
+---
+
+<div class="lg:float-right lg:top-0 lg:right-0 lg:w-100 card card-rounded overflow-hidden mb-5 lg:mb-0">
+    <div class="sm:flex lg:block flex-row sm:border-b border-gray-200 lg:border-b-0">
+        <img class="border-b border-gray-200 sm:border-b-0 lg:border-b sm:w-80 md:w-100 lg:w-full" src="/images/{{ page.thumbnail }}" alt="{{ page.title }}">
+        <div class="p-8 pb-0 order-first flex-grow">
+            {% if page.subtitle %}
+                <p class="heading-3">{{ page.subtitle }}</p>
+            {% endif %}
+            <p class="rich-text">
+                {% assign m = page.date | date: "%-m" %}
+                {% case m %}
+                    {% when '1' %}Januar
+                    {% when '2' %}Februar
+                    {% when '3' %}M&auml;rz
+                    {% when '4' %}April
+                    {% when '5' %}Mai
+                    {% when '6' %}Juni
+                    {% when '7' %}Juli
+                    {% when '8' %}August
+                    {% when '9' %}September
+                    {% when '10' %}Oktober
+                    {% when '11' %}November
+                    {% when '12' %}Dezember
+                {% endcase %}
+                {{ page.date | date: "%Y" }}
+            </p>
+        </div>
+    </div>
+    <div class="p-8 pt-0 sm:p-0 lg:p-8 lg:pt-0 sm:flex lg:block">
+        <div class="sm:w-80 md:w-100 lg:w-auto sm:p-8 lg:p-0">
+            {% for link in page.links %}
+                <a class="block rounded bg-lightBlue-600 text-white text-center py-2 mb-2 hover:bg-lightBlue-800 focus:bg-lightBlue-800" href="{{ link.url }}" target="_blank" rel="noreferrer">{{ link.name }}</a>
+            {% endfor %}
+        </div>
+        <div class="lg:w-auto sm:p-8 lg:p-0 order-first flex-grow">
+            {% if page.technologies %}
+                <p class="heading-4 mt-5 sm:mt-0 lg:mt-5">Technologien</p>
+                <ul class="rich-text no-paragraph">
+                    {% for technology in page.technologies %}
+                        <li>{{ technology }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        </div>
+    </div>
+</div>
+<h1 class="order-first lg:mr-110"><span class="text-accent">{{ page.title }}</span></h1>
+<div class="lg:mr-110">
+    <div class="rich-text text-with-links">{{ content }}</div>
+    {% if page.slideshow %}
+        <div class="card card-rounded overflow-hidden relative group" uk-slideshow="autoplay: true; autoplay-interval: 5000; pause-on-hover: true; ratio: 16:10">
+            <ul class="uk-slideshow-items">
+                {% for entry in page.slideshow %}
+                    <li><img src="/images/{{ entry.image }}" alt="{{ entry.description }}"></li>
+                {% endfor %}
+            </ul>
+            <a class="absolute transition-opacity duration-300 opacity-0 group-hover:opacity-100 text-gray-500 hover:text-black focus:text-black left-0 top-1/2 transform -translate-y-1/2 p-4" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+            <a class="absolute transition-opacity duration-300 opacity-0 group-hover:opacity-100 text-gray-500 hover:text-black focus:text-black right-0 top-1/2 transform -translate-y-1/2 p-4" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+        </div>
+    {% endif %}
+</div>
