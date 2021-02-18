@@ -4,8 +4,8 @@
   "description": "",
   "main": "",
   "scripts": {
-    "build-css": "postcss css/main.css -o site/css/styles.css",
-    "build-css-prod": "NODE_ENV=production postcss css/main.css -o site/css/styles.css"
+    "build": "NODE_ENV=production postcss css/main.css -o site/css/styles.css",
+    "build-dev": "postcss css/main.css -o site/css/styles.css"
   },
   "author": "",
   "license": "MIT",
