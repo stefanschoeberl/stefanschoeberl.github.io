@@ -14,13 +14,17 @@
     - CSS
     - JavaScript
     - TypeScript
+    - name: MiniJava
+      url: /projects/masters-thesis
 - name: Web
   icon: world
   technologies:
     - Angular
     - Vue.js
+    - WebAssembly
     - Jekyll
     - Thymeleaf
+    - Tailwind CSS
 - name: Backend
   icon: social
   technologies:
@@ -59,6 +63,7 @@
     - traefik
     - Let's Encrypt
     - GitLab CI
+    - GitHub Actions
     - Digital Ocean
     - AWS
     - reCAPTCHA
@@ -70,6 +75,7 @@
     - HomeKit
     - Raspberry Pi
     - Arduino
+    - Art-Net
 - name: IDEs und Tools
   icon: git-branch
   technologies:
