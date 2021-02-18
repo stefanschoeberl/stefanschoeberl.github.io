@@ -4,15 +4,18 @@
   "description": "",
   "main": "",
   "scripts": {
-    "build-css": "postcss css/styles.tw.css -o css/styles.css"
+    "build-css": "postcss css/styles.tw.css -o css/styles.css",
+    "build-css-prod": "NODE_ENV=production postcss css/styles.tw.css -o css/styles.css"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
     "autoprefixer": "10.1.0",
+    "cssnano": "4.1.10",
     "lodash": "4.17.20",
     "postcss": "8.2.1",
     "postcss-cli": "8.3.1",
+    "postcss-import": "^14.0.0",
     "tailwindcss": "2.0.2",
     "uikit": "3.6.5"
   }

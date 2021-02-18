@@ -1,3 +1,6 @@
+@import "./jetbrains-mono.css";
+@import "./vscode.css";
+
 @tailwind base;
 @tailwind utilities;
 
