@@ -7,7 +7,7 @@ links:
     url: https://chrome.google.com/webstore/detail/kjjnndnifooahialjiligenpnkdfkije
   - name: GitHub
     url: https://github.com/stefanschoeberl/schnelltester
-technologies: [TypeScript, React, Google Chrome, webpack]
+technologies: [TypeScript, React, Google Chrome, Bootstrap, webpack]
 thumbnail: schnelltester-thumbnail.png
 slideshow:
   - image: schnelltester-1.png 
