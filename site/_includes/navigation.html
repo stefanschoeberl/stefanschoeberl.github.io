@@ -1,7 +1,7 @@
 <header class="container-full mx-auto px-0 sm:px-4">
     <nav id="navigation" class="uppercase fixed flex flex-col pt-6 sm:pt-0 bg-gray-800 w-64 transform -translate-x-64 ease-out h-screen overflow-y-auto z-20 sm:static sm:flex-row sm:bg-transparent sm:w-auto sm:h-auto sm:transform-none">
         {% for item in site.data.navigation %}
-            {% if page.url == item.link %}
+            {% if page.url == item.link or (page.url != '/' and item.link != '/' and page.url contains item.link) %}
                 {% assign style="text-white sm:text-black border-l-lightBlue-600 border-t-lightBlue-600" %}
             {% else %}
                 {% assign style="text-gray-400 sm:text-gray-500 border-l-transparent border-t-transparent" %}
