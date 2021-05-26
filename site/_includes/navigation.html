@@ -11,7 +11,7 @@
     </nav>
     <div class="flex flex-row uppercase justify-between border-t-2 border-transparent sm:hidden">
         <a href="/" class="pl-4 pt-6 pb-3 text-gray-500 hover:text-black focus:text-black">schoeberl.dev</a>
-        <button onclick="toggleMobileMenu()" type="button" class="px-4 pt-6 pb-3 text-gray-500 hover:text-black focus:text-black focus:outline-none">
+        <button aria-label="Toggle Mobile Menu" onclick="toggleMobileMenu()" role="button" type="button" class="px-4 pt-6 pb-3 text-gray-500 hover:text-black focus:text-black focus:outline-none">
             {% include icon.html name="menu" css="w-6.5 h-6.5" %}
         </button>
     </div>
