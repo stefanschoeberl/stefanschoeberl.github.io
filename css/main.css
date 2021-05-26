@@ -103,12 +103,18 @@ div.highlight {
 }
 
 /* Icons */
-.uk-icon,
-.uk-icon [fill*='#'] {
+.icon,
+.icon [fill*='#'] {
     fill: currentColor;
 }
-.uk-icon [stroke*='#'] {
+
+.icon [stroke*='#'] {
     stroke: currentColor;
+}
+
+.icon svg {
+    width: inherit;
+    height: inherit;
 }
 
 /* Slideshow (from UIkit) */

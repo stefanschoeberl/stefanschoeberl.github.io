@@ -4,6 +4,7 @@
   "description": "",
   "main": "",
   "scripts": {
+    "postinstall": "mkdir -p site/_includes/uikit-icons && cp node_modules/uikit/src/images/icons/* node_modules/uikit/src/images/components/* site/_includes/uikit-icons/",
     "build": "NODE_ENV=production postcss css/main.css -o site/css/styles.css",
     "build-dev": "postcss css/main.css -o site/css/styles.css"
   },

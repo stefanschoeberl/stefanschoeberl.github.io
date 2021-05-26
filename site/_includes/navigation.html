@@ -12,7 +12,7 @@
     <div class="flex flex-row uppercase justify-between border-t-2 border-transparent sm:hidden">
         <a href="/" class="pl-4 pt-6 pb-3 text-gray-500 hover:text-black focus:text-black">schoeberl.dev</a>
         <button onclick="toggleMobileMenu()" type="button" class="px-4 pt-6 pb-3 text-gray-500 hover:text-black focus:text-black focus:outline-none">
-            <span class="" uk-icon="icon: menu; ratio: 1.3"></span>
+            {% include icon.html name="menu" css="w-6.5 h-6.5" %}
         </button>
     </div>
     <div id="overlay" onclick="toggleMobileMenu()" class="fixed w-screen h-screen bg-black z-10 top-0 left-0 transition-opacity duration-300 invisible opacity-0 sm:hidden"></div>
