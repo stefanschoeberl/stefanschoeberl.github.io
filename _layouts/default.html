@@ -9,10 +9,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Stefan Schöberl - Software Developer">
-    {% if page.url == '/' %}
-    <meta name="robots" content="index, nofollow">
+    {% if page.noindex %}
+    <meta name="robots" content="noindex, follow">
     {% else %}
-    <meta name="robots" content="noindex, nofollow">
+    <meta name="robots" content="index, follow">
     {% endif %}
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
