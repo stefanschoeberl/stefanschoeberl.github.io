@@ -7,6 +7,8 @@ links:
     url: https://chrome.google.com/webstore/detail/kjjnndnifooahialjiligenpnkdfkije
   - name: GitHub
     url: https://github.com/stefanschoeberl/schnelltester
+  - name: Bericht OÖNachrichten
+    url: https://www.nachrichten.at/panorama/web/browser-erweiterung-fuer-schnellere-anmeldung-zu-corona-tests;art122,3405394
 technologies: [TypeScript, React, Google Chrome, Bootstrap, webpack]
 thumbnail: schnelltester-thumbnail.png
 slideshow:
