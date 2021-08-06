@@ -1,12 +1,12 @@
 - name: GitHub
-  icon: github
+  icon: fab fa-github
   url: https://github.com/stefanschoeberl/
 - name: LinkedIn
-  icon: linkedin
+  icon: fab fa-linkedin-in
   url: https://www.linkedin.com/in/stefan-schoeberl/
 - name: Xing
-  icon: xing
+  icon: fab fa-xing
   url: https://www.xing.com/profile/Stefan_Schoeberl8/
 - name: Twitter
-  icon: twitter
+  icon: fab fa-twitter
   url: https://twitter.com/stefanschoeberl
