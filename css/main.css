@@ -27,7 +27,7 @@
 }
 
 .text-accent {
-    @apply  bg-clip-text text-transparent bg-gradient-to-r from-lightBlue-600 to-blue-700;
+    @apply  bg-clip-text text-transparent bg-gradient-to-r from-sky-600 to-blue-700;
 }
 
 .text-with-links a,
