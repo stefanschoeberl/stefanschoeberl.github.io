@@ -13,7 +13,7 @@ Ich bin immer offen für neues und lerne gern dazu. Hier eine Übersicht einiger
         <div class="card card-rounded h-full p-8">
             <div class="flex">
                 <h2 class="text-xl flex-grow pr-4">{{category.name}}</h2>
-                {% include icon.html name=category.icon css="" %}
+                <i class="{{category.icon}} text-2xl text-coolGray-500"></i>
             </div>
             <ul class="rich-text no-paragraph text-with-links">
                 {% for technology in category.technologies %}

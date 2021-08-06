@@ -6,7 +6,7 @@ links:
     url: https://schoeberl.dev
   - name: GitHub
     url: https://github.com/stefanschoeberl/stefanschoeberl.github.io
-technologies: [GitHub Pages, Jekyll, Tailwind CSS, UIkit]
+technologies: [GitHub Pages, Jekyll, Tailwind CSS, Font Awesome, UIkit]
 thumbnail: personal-website-thumbnail.png
 ---
 Schon lange wollte ich eine persönliche Website für mich erstellen.
@@ -23,7 +23,8 @@ Als Design-Framework wurde [UIkit](https://getuikit.com){:target="_blank" rel="n
 Fürs Hosting bot sich [GitHub Pages](https://pages.github.com){:target="_blank" rel="noreferrer"} an. GitHub Pages unterstützt Jekyll direkt und "kompiliert" die Seite bei jedem Push automatisch.
 Standardmäßig wird die Website auf einer .github.io-Subdomain gehostet, es lässt sich aber sehr einfach eine eigene Domain hinzufügen.
 
-Anfang 2021 erhielt die Website ein neues Aussehen.
+2021 erhielt die Website ein neues Aussehen.
 Das Standard-Design von UIkit wurde durch ein eigenes individuelles Design abgelöst.
 Dieses wurde mit [Tailwind CSS](https://tailwindcss.com){:target="_blank" rel="noreferrer"} umgesetzt.
-Aus UIkit blieben nur einzelne Komponenten erhalten, wie zum Beispiel die Icons, die Slideshow und das Masonry-Grid.
+Alle Icons stammen nun von [Font Awesome](https://fontawesome.com){:target="_blank" rel="noreferrer"}.
+Aus UIkit blieben nur einzelne Komponenten erhalten, wie zum Beispiel die Slideshow und das Masonry-Grid.

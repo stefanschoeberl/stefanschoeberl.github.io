@@ -2,11 +2,11 @@
     <div class="container text-white mx-auto flex flex-col sm:flex-row flex-wrap justify-between items-center">
         <p class="my-4">&copy; Stefan Schöberl 2021</p>
         <p class="flex-grow"></p>
-        <p class="mb-4 sm:my-4 flex flex-row sm:mr-7">
+        <p class="mb-4 sm:my-4 flex flex-row sm:mr-7 items-center">
             {% for contact in site.data.contact %}
-            <a class="mx-3 border-2 rounded-full p-2 border-transparent hover:border-white focus:border-white hover:border-white" href="{{contact.url}}" title="{{contact.name}}">
-                    {% include icon.html name=contact.icon css="w-7 h-7" %}
-                </a>
+            <a class="mx-3 border-2 rounded-full border-transparent hover:border-white focus:border-white hover:border-white flex items-center justify-center w-12 h-12" href="{{contact.url}}" title="{{contact.name}}">
+                    <i class="{{contact.icon}} text-2xl"></i>
+            </a>
             {% endfor %}
         </p>
         <a class="mb-4 sm:my-4 hover:underline focus:underline" href="/imprint">Impressum</a>
