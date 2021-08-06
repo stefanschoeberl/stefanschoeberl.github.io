@@ -11,13 +11,13 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "autoprefixer": "10.2.5",
-    "cssnano": "5.0.2",
+    "autoprefixer": "10.3.1",
+    "cssnano": "5.0.7",
     "lodash": "4.17.21",
-    "postcss": "8.2.15",
+    "postcss": "8.3.6",
     "postcss-cli": "8.3.1",
     "postcss-import": "14.0.2",
-    "tailwindcss": "2.1.2",
-    "uikit": "3.6.21"
+    "tailwindcss": "2.2.7",
+    "uikit": "3.7.2"
   }
 }
