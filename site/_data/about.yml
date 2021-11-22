@@ -57,12 +57,6 @@
       date: März 2017 - Juni 2017
       details:
         - Tutor für die Lehrveranstaltung "Software Projekt Engineering"
-- title: Zivildienst
-  type: timeline
-  entries:
-    - title: Hilfswerk Oberösterreich
-      url: https://www.hilfswerk.at/oberoesterreich/
-      date: August 2020 - April 2021
 - title: Ehrenamtliche Tätigkeiten und Mitgliedschaften
   type: timeline
   entries:
@@ -85,4 +79,66 @@
       url: https://www.math.aau.at/MEMO2016
       date: August 2016
       details:
-        - Guide
+        - Guide für das Team aus der Slowakei
+- title: Wettbewerbe
+  type: timeline
+  entries:
+    - title: 35. Cloudflight Coding Contest (Classic)
+      url: https://register.codingcontest.org/contest/4094/results
+      date: Oktober 2021
+      details:
+        - <i class="fas fa-trophy text-yellow-600 mr-2"></i> 3. Platz weltweit
+        - 1091 Teilnehmer (Einzelpersonen, Zweier- oder Dreierteams)
+        - "Themenfeld: Compilerbau"
+    - title: 34. Cloudflight Coding Contest (Classic)
+      url: https://register.codingcontest.org/contest/3621/results
+      date: Oktober 2020
+      details:
+        - <i class="fas fa-trophy text-yellow-600 mr-2"></i> 101. Platz weltweit
+        - 1419 Teilnehmer (Einzelpersonen, Zweier- oder Dreierteams)
+        - "Themenfeld: Stromkostenoptimierung für Smart Homes"
+    - title: Google Hash Code 2020 (Online Qualifikationsrunde)
+      url: https://codingcompetitions.withgoogle.com/hashcode/archive/2020
+      date: Februar 2020
+      details:
+        - <i class="fas fa-trophy text-yellow-600 mr-2"></i> 4831. Platz weltweit
+        - >
+          Teilnahme als Team gemeinsam mit
+          <a href="https://www.linkedin.com/in/dominik-falkner-251055158/" target="_blank" rel="noreferrer">Dominik Falkner</a>,
+          <a href="https://www.linkedin.com/in/lukas-heiss/" target="_blank" rel="noreferrer">Lukas Heiss</a> und
+          <a href="https://www.linkedin.com/in/tmuehlberger/" target="_blank" rel="noreferrer">Tobias Mühlberger</a>
+        - 10724 teilnehmende Teams (2-4 Personen pro Team)
+        - "Themenfeld: Optimierung eines Prozesses zum Bücherscannen"
+    - title: Google Hash Code 2018 (Online Qualifikationsrunde)
+      url: https://codingcompetitions.withgoogle.com/hashcode/archive/2018
+      date: März 2018
+      details:
+        - <i class="fas fa-trophy text-yellow-600 mr-2"></i> 893. Platz weltweit
+        - >
+          Teilnahme als Team gemeinsam mit
+          <a href="https://www.linkedin.com/in/robert-erdoedy/" target="_blank" rel="noreferrer">Robert Erdödy</a>,
+          <a href="https://www.linkedin.com/in/lukas-heiss/" target="_blank" rel="noreferrer">Lukas Heiss</a> und
+          <a href="https://www.janwiesbauer.at" target="_blank" rel="noreferrer">Jan Wiesbauer</a>
+        - 3012 teilnehmende Teams (2-4 Personen pro Team)
+        - "Themenfeld: Optimierung einer selbstfahrenden Taxiflotte in einer Großstadt"
+    - title: 26. Catalysts Coding Contest (Classic)
+      url: https://register.codingcontest.org
+      date: Oktober 2017
+      details:
+        - <i class="fas fa-trophy text-yellow-600 mr-2"></i> 40. Platz weltweit
+        - über 600 Teilnehmer (Einzelpersonen, Zweier- oder Dreierteams)
+        - "Themenfeld: Digitale Transaktionen als Blockchain"
+    - title: Österreichische Informatik Olympiade
+      url: https://www.ocg.at/de/ioi
+      date: Februar 2014
+      details:
+        - <i class="fas fa-trophy text-yellow-600 mr-2"></i> Qualifikation für das erste Trainingscamp
+        - Teilnahme am ersten Trainingscamp an der TU Wien
+        - Teilnahme an der Qualifikation für den Bundeswettbewerb
+        - "Themenfelder: Lösen von Programmieraufgaben unter Berücksichtigung der Laufzeit und des Speicherbedarfs"
+- title: Zivildienst
+  type: timeline
+  entries:
+    - title: Hilfswerk Oberösterreich
+      url: https://www.hilfswerk.at/oberoesterreich/
+      date: August 2020 - April 2021
