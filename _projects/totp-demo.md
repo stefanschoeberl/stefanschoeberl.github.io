@@ -4,6 +4,7 @@ subtitle: Test-Web-App für One-Time Passwords
 date: 2016-03-08
 links:
   - name: Web-App
+    icon: fas fa-rocket
     url: https://totp.ssch.dev 
 technologies: [TOTP, Node.js, Express, Jade (jetzt pug.js), HTML, CSS, JavaScript]
 thumbnail: totp-demo-thumbnail.png

@@ -4,6 +4,7 @@ subtitle: Bachelorarbeit
 date: 2018-02-28
 links:
   - name: GitHub
+    icon: fab fa-github
     url: https://github.com/stefanschoeberl/Raspberry-Pi-Autonomous-Driving
 technologies: [Raspberry Pi, Python, TensorFlow, matplotlib, iOS, UDP]
 thumbnail: bachelors-thesis-thumbnail.png

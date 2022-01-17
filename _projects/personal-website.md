@@ -3,8 +3,10 @@ title: Persönliche Website
 date: 2019-09-23
 links:
   - name: Website
+    icon: fas fa-rocket
     url: https://schoeberl.dev
   - name: GitHub
+    icon: fab fa-github
     url: https://github.com/stefanschoeberl/stefanschoeberl.github.io
 technologies: [GitHub Pages, Jekyll, Tailwind CSS, Font Awesome, UIkit]
 thumbnail: personal-website-thumbnail.png

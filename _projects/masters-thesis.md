@@ -4,12 +4,16 @@ subtitle: Masterarbeit
 date: 2020-06-30
 links:
   - name: Masterarbeit (PDF)
+    icon: fas fa-file
     url: https://github.com/stefanschoeberl/masters-thesis/releases/download/v1.0/Masterarbeit.pdf
   - name: GitHub (Compiler)
+    icon: fab fa-github
     url: https://github.com/stefanschoeberl/MiniJava-Compiler
   - name: GitHub (Masterarbeit)
+    icon: fab fa-github
     url: https://github.com/stefanschoeberl/masters-thesis
   - name: Fibonacci-Rechner
+    icon: fas fa-rocket
     url: https://fibminijava.ssch.dev
 technologies: [WebAssembly, ANTLR, Kotlin, Gradle, Node.js, WABT, JavaScript]
 thumbnail: masters-thesis-thumbnail.png
