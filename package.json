@@ -6,19 +6,19 @@
   "scripts": {
     "postinstall": "mkdir -p site/webfonts && cp node_modules/@fortawesome/fontawesome-free/webfonts/* site/webfonts/",
     "build": "NODE_ENV=production postcss css/main.css -o site/css/styles.css",
-    "build-dev": "postcss css/main.css -o site/css/styles.css"
+    "dev": "postcss css/main.css --verbose -o site/css/styles.css --watch"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
     "@fortawesome/fontawesome-free": "5.15.4",
-    "autoprefixer": "10.3.1",
+    "autoprefixer": "10.4.2",
     "cssnano": "5.0.7",
     "lodash": "4.17.21",
-    "postcss": "8.3.6",
-    "postcss-cli": "8.3.1",
+    "postcss": "8.4.5",
+    "postcss-cli": "9.1.0",
     "postcss-import": "14.0.2",
-    "tailwindcss": "2.2.7",
+    "tailwindcss": "3.0.15",
     "uikit": "3.7.2"
   }
 }

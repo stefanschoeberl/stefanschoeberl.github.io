@@ -4,9 +4,9 @@ mainClasses: "flex flex-col lg:block"
 ---
 
 <div class="lg:float-right lg:top-0 lg:right-0 lg:w-100 card card-rounded overflow-hidden mb-5 lg:mb-0">
-    <div class="sm:flex lg:block flex-row items-center sm:border-b border-gray-200 lg:border-b-0"> <!-- items-center to fix Safari flexbox issue -->
-        <img class="h-auto border-b border-gray-200 sm:border-b-0 lg:border-b sm:w-80 md:w-100 lg:w-full" src="/images/{{ page.thumbnail }}" alt="{{ page.title }}">
-        <div class="p-8 pb-0 order-first flex-grow">
+    <div class="sm:flex lg:block flex-row items-center sm:border-b border-zinc-200 lg:border-b-0"> <!-- items-center to fix Safari flexbox issue -->
+        <img class="h-auto border-b border-zinc-200 sm:border-b-0 lg:border-b sm:w-80 md:w-100 lg:w-full" src="/images/{{ page.thumbnail }}" alt="{{ page.title }}">
+        <div class="p-8 pb-0 order-first grow">
             {% if page.subtitle %}
                 <p class="heading-3">{{ page.subtitle }}</p>
             {% endif %}
@@ -41,7 +41,7 @@ mainClasses: "flex flex-col lg:block"
                 </a>
             {% endfor %}
         </div>
-        <div class="lg:w-auto sm:p-8 lg:p-0 order-first flex-grow">
+        <div class="lg:w-auto sm:p-8 lg:p-0 order-first grow">
             {% if page.technologies %}
                 <p class="heading-4 mt-5 sm:mt-0 lg:mt-5">Technologien</p>
                 <ul class="rich-text no-paragraph">
@@ -63,10 +63,10 @@ mainClasses: "flex flex-col lg:block"
                     <li><img src="/images/{{ entry.image }}" alt="{{ entry.description }}"></li>
                 {% endfor %}
             </ul>
-            <a class="absolute transition-opacity duration-300 opacity-0 group-hover:opacity-100 text-gray-500 hover:text-black focus:text-black left-0 top-1/2 transform -translate-y-1/2 p-4" href="#" uk-slideshow-item="previous">
+            <a class="absolute transition-opacity duration-300 opacity-0 group-hover:opacity-100 text-zinc-500 hover:text-black focus:text-black left-0 top-1/2 -translate-y-1/2 p-4" href="#" uk-slideshow-item="previous">
                 <i class="fas fa-chevron-left text-2xl"></i>
             </a>
-            <a class="absolute transition-opacity duration-300 opacity-0 group-hover:opacity-100 text-gray-500 hover:text-black focus:text-black right-0 top-1/2 transform -translate-y-1/2 p-4" href="#" uk-slideshow-item="next">
+            <a class="absolute transition-opacity duration-300 opacity-0 group-hover:opacity-100 text-zinc-500 hover:text-black focus:text-black right-0 top-1/2 -translate-y-1/2 p-4" href="#" uk-slideshow-item="next">
                 <i class="fas fa-chevron-right text-2xl"></i>
             </a>
         </div>

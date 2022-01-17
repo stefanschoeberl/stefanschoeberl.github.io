@@ -7,7 +7,7 @@
 
 @layer base {
     h1, h2, h3, h4, .heading-1, .heading-2, .heading-3, .heading-4 {
-        @apply text-coolGray-800;
+        @apply text-gray-800;
     }
 
     h1, .heading-1 {
@@ -37,7 +37,7 @@ a.text-link {
 }
 
 .rich-text {
-    @apply text-coolGray-700;
+    @apply text-gray-700;
 }
 .rich-text ul,
 ul.rich-text {
@@ -96,7 +96,7 @@ div.highlight {
 }
 
 .card-hover {
-  @apply hover:shadow-card-elevated focus:shadow-card-elevated transform hover:scale-101 focus:scale-101 transition-all;
+  @apply hover:shadow-card-elevated focus:shadow-card-elevated hover:scale-101 focus:scale-101 transition-all;
 }
 
 .card-rounded {
