@@ -4,6 +4,7 @@ subtitle: Workshop
 date: 2019-06-11
 links:
   - name: GitHub
+    icon: fab fa-github
     url: https://github.com/stefanschoeberl/docker-beginners-guide
 technologies: [Docker]
 thumbnail: docker-beginners-guide-thumbnail.png

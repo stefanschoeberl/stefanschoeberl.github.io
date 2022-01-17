@@ -4,10 +4,13 @@ subtitle: Österreich Testet Ausfüllhilfe
 date: 2021-03-31
 links:
   - name: Download (Chrome Web Store)
+    icon: fas fa-download
     url: https://chrome.google.com/webstore/detail/kjjnndnifooahialjiligenpnkdfkije
   - name: GitHub
+    icon: fab fa-github
     url: https://github.com/stefanschoeberl/schnelltester
   - name: Bericht OÖNachrichten
+    icon: far fa-newspaper
     url: https://www.nachrichten.at/panorama/web/browser-erweiterung-fuer-schnellere-anmeldung-zu-corona-tests;art122,3405394
 technologies: [TypeScript, React, Google Chrome, Bootstrap, webpack]
 thumbnail: schnelltester-thumbnail.png

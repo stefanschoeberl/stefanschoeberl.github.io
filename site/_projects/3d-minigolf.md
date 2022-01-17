@@ -4,6 +4,7 @@ subtitle: Minigame im Browser
 date: 2017-02-16
 links:
   - name: Minigame
+    icon: fas fa-rocket
     url: https://minigolf.ssch.dev
 technologies: [ES6, three.js, cannon.js, HTML, CSS, Boostrap, Node.js, Express, pug.js, MariaDB]
 thumbnail: 3d-minigolf-thumbnail.png

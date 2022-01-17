@@ -33,7 +33,12 @@ mainClasses: "flex flex-col lg:block"
     <div class="p-8 pt-0 sm:p-0 lg:p-8 lg:pt-0 sm:flex lg:block">
         <div class="sm:w-80 md:w-100 lg:w-auto sm:p-8 lg:p-0">
             {% for link in page.links %}
-                <a class="block rounded bg-sky-600 text-white text-center py-2 mb-2 hover:bg-sky-800 focus:bg-sky-800" href="{{ link.url }}" target="_blank" rel="noreferrer">{{ link.name }}</a>
+                <a class="relative block rounded bg-sky-600 text-white text-center py-2 px-10 mb-2 hover:bg-sky-800 focus:bg-sky-800" href="{{ link.url }}" target="_blank" rel="noreferrer">
+                    {% if link.icon %}
+                    <i class="absolute flex items-center justify-center left-0 top-0 w-10 h-full text-lg {{link.icon}}"></i>
+                    {% endif %}
+                    {{ link.name }}
+                </a>
             {% endfor %}
         </div>
         <div class="lg:w-auto sm:p-8 lg:p-0 order-first flex-grow">
