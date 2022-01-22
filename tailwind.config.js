@@ -23,9 +23,7 @@ module.exports = {
       }
     },
   },
-  plugins: [
-      require('./tailwindcss-plugins/border'),
-  ],
+  plugins: [],
   corePlugins: {
     container: false
   }
