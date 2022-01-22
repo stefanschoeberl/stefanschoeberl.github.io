@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="de" class="h-full bg-slate-50 sm:overflow-auto">
+<head>
+    <title>Stefan Schöberl
+        
+        &vert; Fotobuch DSL
+        
+    </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Stefan Schöberl - Software Developer">
+    
+    <meta name="robots" content="index, follow">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/uikit.min.js" defer></script>
+    <script src="/js/menu.js" defer></script>
+</head>
+<body class="flex flex-col h-full">
+<header class="container-full mx-auto px-0 sm:px-4">
+    <nav id="navigation" class="uppercase fixed flex flex-col pt-6 sm:pt-0 bg-zinc-800 w-64 -translate-x-64 ease-out h-screen overflow-y-auto z-20 sm:static sm:flex-row sm:bg-transparent sm:w-auto sm:h-auto sm:transform-none">
+        
+            
+                
+            
+            <a href="/" class="px-5 py-3 pt-4 sm:pt-6 border-l-4 sm:border-l-0 sm:border-b-2 sm:border-t-2 sm:border-b-transparent sm:hover:border-b-sky-600 text-white text-zinc-400 sm:text-zinc-500 border-l-transparent border-t-transparent">Home</a>
+        
+            
+                
+            
+            <a href="/projects" class="px-5 py-3 pt-4 sm:pt-6 border-l-4 sm:border-l-0 sm:border-b-2 sm:border-t-2 sm:border-b-transparent sm:hover:border-b-sky-600 text-white text-white sm:text-black border-l-sky-600 border-t-sky-600">Projekte</a>
+        
+            
+                
+            
+            <a href="/technologies" class="px-5 py-3 pt-4 sm:pt-6 border-l-4 sm:border-l-0 sm:border-b-2 sm:border-t-2 sm:border-b-transparent sm:hover:border-b-sky-600 text-white text-zinc-400 sm:text-zinc-500 border-l-transparent border-t-transparent">Technologien</a>
+        
+            
+                
+            
+            <a href="/about" class="px-5 py-3 pt-4 sm:pt-6 border-l-4 sm:border-l-0 sm:border-b-2 sm:border-t-2 sm:border-b-transparent sm:hover:border-b-sky-600 text-white text-zinc-400 sm:text-zinc-500 border-l-transparent border-t-transparent">Über mich</a>
+        
+    </nav>
+    <div class="flex flex-row uppercase justify-between border-t-2 border-transparent sm:hidden">
+        <a href="/" class="pl-4 pt-6 pb-3 text-zinc-500 hover:text-black focus:text-black">schoeberl.dev</a>
+        <button aria-label="Toggle Mobile Menu" onclick="toggleMobileMenu()" role="button" type="button" class="px-4 pt-6 pb-3 text-zinc-500 hover:text-black focus:text-black focus:outline-none">
+            <i class="fas fa-bars text-xl h-6.5 block"></i>
+        </button>
+    </div>
+    <div id="overlay" onclick="toggleMobileMenu()" class="fixed w-screen h-screen bg-black z-10 top-0 left-0 transition-opacity duration-300 invisible opacity-0 sm:hidden"></div>
+</header>
+
+<main class="container mx-auto grow shrink-0 py-7  flex flex-col lg:block "> <!-- shrink-0 to fix Safari flexbox issue -->
+
+<div class="lg:float-right lg:top-0 lg:right-0 lg:w-100 card card-rounded overflow-hidden mb-5 lg:mb-0">
+    <div class="sm:flex lg:block flex-row items-center sm:border-b border-zinc-200 lg:border-b-0"> <!-- items-center to fix Safari flexbox issue -->
+        <img class="h-auto border-b border-zinc-200 sm:border-b-0 lg:border-b sm:w-80 md:w-100 lg:w-full" src="/images/photobook-dsl-thumbnail.jpg" alt="Fotobuch DSL">
+        <div class="p-8 pb-0 order-first grow">
+            
+                <p class="heading-3">Kotlin DSL zum Erstellen von Fotobüchern</p>
+            
+            <p class="rich-text">
+                Juli 2019
+            </p>
+        </div>
+    </div>
+    <div class="p-8 pt-0 sm:p-0 lg:p-8 lg:pt-0 sm:flex lg:block">
+        <div class="sm:w-80 md:w-100 lg:w-auto sm:p-8 lg:p-0">
+            
+                <a class="relative block rounded bg-sky-600 text-white text-center py-2 px-10 mb-2 hover:bg-sky-800 focus:bg-sky-800" href="https://github.com/stefanschoeberl/photobook-dsl" target="_blank" rel="noreferrer">
+                    
+                    <i class="absolute flex items-center justify-center left-0 top-0 w-10 h-full text-lg fab fa-github"></i>
+                    
+                    GitHub
+                </a>
+            
+        </div>
+        <div class="lg:w-auto sm:p-8 lg:p-0 order-first grow">
+            
+                <p class="heading-4 mt-5 sm:mt-0 lg:mt-5">Technologien</p>
+                <ul class="rich-text no-paragraph">
+                    
+                        <li>Kotlin</li>
+                    
+                        <li>Apache PDFBox</li>
+                    
+                </ul>
+            
+        </div>
+    </div>
+</div>
+<h1 class="order-first lg:mr-110 text-accent">Fotobuch DSL</h1>
+<div class="lg:mr-110">
+    <div class="rich-text text-with-links"><p>Die Idee zu diesem Projekt entstand dadurch, dass einige Freunde und ich gemeinsam ein Fotobuch erstellen wollten.
+Dabei sollte das Design relativ schlicht und das Layout sehr einfach gehalten werden: Kein Hintergrund und 1 - 4 Fotos pro Seite.
+Ein grafischer Designer fiel dabei relativ schnell unter anderem aus Kostengründen weg, außerdem sollte es möglich sein, eine Seite nach der anderen zügig erstellen zu können, anstatt (langsamer) mit Drag-und-Drop jedes Foto einzeln hineinzuziehen.</p>
+<p>Es bot sich an, eine DSL dafür zu entwicklen, mit der man deklarativ die Struktur des Fotobuchs beschreiben kann und anschließend es als PDF-Datei exportieren konnte. So ist es möglich, den Inhalt (zum Beispiel &quot;Foto A und Foto B links/rechts auf einer Seite&quot;) vom tatsächlichen Layout (Schnittzugabe, Größe der Fotos, Position der Fotos) zu trennen.</p>
+<p>Die DSL wurde in Kotlin umgesetzt. Die PDFs werden mit <a href="https://pdfbox.apache.org" target="_blank" rel="noreferrer">Apache PDFBox</a> erzeugt.</p>
+<p>Mit der DSL lässt sich beispielsweise ein Fotobuch folgendermaßen definieren:</p>
+<pre class="language-kotlin"><code class="language-kotlin"><span class="token keyword">val</span> book <span class="token operator">=</span> book <span class="token punctuation">{</span><br><br>    <span class="token function">page</span><span class="token punctuation">(</span>PageType<span class="token punctuation">.</span>ONE_ASPECT_FILL<span class="token punctuation">)</span> <span class="token punctuation">{</span><br>        <span class="token function">image</span><span class="token punctuation">(</span><span class="token string-literal singleline"><span class="token string">"path/to/image.jpg"</span></span><span class="token punctuation">)</span><br>    <span class="token punctuation">}</span><br><br>    <span class="token function">page</span><span class="token punctuation">(</span>PageType<span class="token punctuation">.</span>TWO_SIDE_BY_SIDE_FIT<span class="token punctuation">)</span> <span class="token punctuation">{</span><br>        <span class="token function">image</span><span class="token punctuation">(</span><span class="token string-literal singleline"><span class="token string">"path/to/image.jpg"</span></span><span class="token punctuation">)</span><br>        <span class="token function">image</span><span class="token punctuation">(</span><span class="token string-literal singleline"><span class="token string">"path/to/image.jpg"</span></span><span class="token punctuation">)</span><br>    <span class="token punctuation">}</span><br><br>    <span class="token comment">// more pages ...</span><br><span class="token punctuation">}</span></code></pre>
+<p><a href="https://github.com/stefanschoeberl/photobook-dsl/raw/master/example-pdfs/book.pdf" target="_blank" rel="noreferrer">Hier</a> steht ein fertiges Beispiel-PDF (mit frei verfügbaren Fotos von <a href="https://www.pexels.com" target="_blank" rel="noreferrer">Pexels</a>) zum Download zur Verfügung.</p>
+</div>
+    
+        <div class="card card-rounded overflow-hidden relative group" uk-slideshow="autoplay: true; autoplay-interval: 5000; pause-on-hover: true; ratio: 16:10">
+            <ul class="uk-slideshow-items">
+                
+                    <li><img src="/images/photobook-dsl-1.jpg" alt="Screenshot Fotobuchseite mit einem Foto"></li>
+                
+                    <li><img src="/images/photobook-dsl-2.jpg" alt="Screenshot Fotobuchseite mit drei Fotos"></li>
+                
+                    <li><img src="/images/photobook-dsl-3.jpg" alt="Screenshot Fotobuchseite mit vier Fotos (abgeschnitten)"></li>
+                
+                    <li><img src="/images/photobook-dsl-4.jpg" alt="Screenshot Fotobuchseite mit vier Fotos (volle Größe)"></li>
+                
+            </ul>
+            <a class="absolute transition-opacity duration-300 opacity-0 group-hover:opacity-100 text-zinc-500 hover:text-black focus:text-black left-0 top-1/2 -translate-y-1/2 p-4" href="#" uk-slideshow-item="previous">
+                <i class="fas fa-chevron-left text-2xl"></i>
+            </a>
+            <a class="absolute transition-opacity duration-300 opacity-0 group-hover:opacity-100 text-zinc-500 hover:text-black focus:text-black right-0 top-1/2 -translate-y-1/2 p-4" href="#" uk-slideshow-item="next">
+                <i class="fas fa-chevron-right text-2xl"></i>
+            </a>
+        </div>
+    
+</div>
+
+</main>
+<footer class="bg-gradient-to-r from-sky-700 to-blue-900">
+    <div class="container text-white mx-auto flex flex-col sm:flex-row flex-wrap justify-between items-center">
+        <p class="my-4">&copy; Stefan Schöberl 2022</p>
+        <p class="grow"></p>
+        <p class="mb-4 sm:my-4 flex flex-row sm:mr-7 items-center">
+            
+            <a class="mx-3 border-2 rounded-full border-transparent hover:border-white focus:border-white hover:border-white flex items-center justify-center w-12 h-12" href="https://github.com/stefanschoeberl/" title="GitHub" target="_blank" rel="noreferrer">
+                    <i class="fab fa-github text-2xl"></i>
+            </a>
+            
+            <a class="mx-3 border-2 rounded-full border-transparent hover:border-white focus:border-white hover:border-white flex items-center justify-center w-12 h-12" href="https://www.linkedin.com/in/stefan-schoeberl/" title="LinkedIn" target="_blank" rel="noreferrer">
+                    <i class="fab fa-linkedin-in text-2xl"></i>
+            </a>
+            
+            <a class="mx-3 border-2 rounded-full border-transparent hover:border-white focus:border-white hover:border-white flex items-center justify-center w-12 h-12" href="https://www.xing.com/profile/Stefan_Schoeberl8/" title="Xing" target="_blank" rel="noreferrer">
+                    <i class="fab fa-xing text-2xl"></i>
+            </a>
+            
+            <a class="mx-3 border-2 rounded-full border-transparent hover:border-white focus:border-white hover:border-white flex items-center justify-center w-12 h-12" href="https://twitter.com/stefanschoeberl" title="Twitter" target="_blank" rel="noreferrer">
+                    <i class="fab fa-twitter text-2xl"></i>
+            </a>
+            
+        </p>
+        <a class="mb-4 sm:my-4 hover:underline focus:underline" href="/imprint">Impressum</a>
+    </div>
+</footer>
+
+</body>
+</html>

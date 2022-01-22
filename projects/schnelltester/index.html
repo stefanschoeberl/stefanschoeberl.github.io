@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="de" class="h-full bg-slate-50 sm:overflow-auto">
+<head>
+    <title>Stefan Schöberl
+        
+        &vert; Schnelltester
+        
+    </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Stefan Schöberl - Software Developer">
+    
+    <meta name="robots" content="index, follow">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/uikit.min.js" defer></script>
+    <script src="/js/menu.js" defer></script>
+</head>
+<body class="flex flex-col h-full">
+<header class="container-full mx-auto px-0 sm:px-4">
+    <nav id="navigation" class="uppercase fixed flex flex-col pt-6 sm:pt-0 bg-zinc-800 w-64 -translate-x-64 ease-out h-screen overflow-y-auto z-20 sm:static sm:flex-row sm:bg-transparent sm:w-auto sm:h-auto sm:transform-none">
+        
+            
+                
+            
+            <a href="/" class="px-5 py-3 pt-4 sm:pt-6 border-l-4 sm:border-l-0 sm:border-b-2 sm:border-t-2 sm:border-b-transparent sm:hover:border-b-sky-600 text-white text-zinc-400 sm:text-zinc-500 border-l-transparent border-t-transparent">Home</a>
+        
+            
+                
+            
+            <a href="/projects" class="px-5 py-3 pt-4 sm:pt-6 border-l-4 sm:border-l-0 sm:border-b-2 sm:border-t-2 sm:border-b-transparent sm:hover:border-b-sky-600 text-white text-white sm:text-black border-l-sky-600 border-t-sky-600">Projekte</a>
+        
+            
+                
+            
+            <a href="/technologies" class="px-5 py-3 pt-4 sm:pt-6 border-l-4 sm:border-l-0 sm:border-b-2 sm:border-t-2 sm:border-b-transparent sm:hover:border-b-sky-600 text-white text-zinc-400 sm:text-zinc-500 border-l-transparent border-t-transparent">Technologien</a>
+        
+            
+                
+            
+            <a href="/about" class="px-5 py-3 pt-4 sm:pt-6 border-l-4 sm:border-l-0 sm:border-b-2 sm:border-t-2 sm:border-b-transparent sm:hover:border-b-sky-600 text-white text-zinc-400 sm:text-zinc-500 border-l-transparent border-t-transparent">Über mich</a>
+        
+    </nav>
+    <div class="flex flex-row uppercase justify-between border-t-2 border-transparent sm:hidden">
+        <a href="/" class="pl-4 pt-6 pb-3 text-zinc-500 hover:text-black focus:text-black">schoeberl.dev</a>
+        <button aria-label="Toggle Mobile Menu" onclick="toggleMobileMenu()" role="button" type="button" class="px-4 pt-6 pb-3 text-zinc-500 hover:text-black focus:text-black focus:outline-none">
+            <i class="fas fa-bars text-xl h-6.5 block"></i>
+        </button>
+    </div>
+    <div id="overlay" onclick="toggleMobileMenu()" class="fixed w-screen h-screen bg-black z-10 top-0 left-0 transition-opacity duration-300 invisible opacity-0 sm:hidden"></div>
+</header>
+
+<main class="container mx-auto grow shrink-0 py-7  flex flex-col lg:block "> <!-- shrink-0 to fix Safari flexbox issue -->
+
+<div class="lg:float-right lg:top-0 lg:right-0 lg:w-100 card card-rounded overflow-hidden mb-5 lg:mb-0">
+    <div class="sm:flex lg:block flex-row items-center sm:border-b border-zinc-200 lg:border-b-0"> <!-- items-center to fix Safari flexbox issue -->
+        <img class="h-auto border-b border-zinc-200 sm:border-b-0 lg:border-b sm:w-80 md:w-100 lg:w-full" src="/images/schnelltester-thumbnail.png" alt="Schnelltester">
+        <div class="p-8 pb-0 order-first grow">
+            
+                <p class="heading-3">Österreich Testet Ausfüllhilfe</p>
+            
+            <p class="rich-text">
+                März 2021
+            </p>
+        </div>
+    </div>
+    <div class="p-8 pt-0 sm:p-0 lg:p-8 lg:pt-0 sm:flex lg:block">
+        <div class="sm:w-80 md:w-100 lg:w-auto sm:p-8 lg:p-0">
+            
+                <a class="relative block rounded bg-sky-600 text-white text-center py-2 px-10 mb-2 hover:bg-sky-800 focus:bg-sky-800" href="https://chrome.google.com/webstore/detail/kjjnndnifooahialjiligenpnkdfkije" target="_blank" rel="noreferrer">
+                    
+                    <i class="absolute flex items-center justify-center left-0 top-0 w-10 h-full text-lg fas fa-download"></i>
+                    
+                    Download (Chrome Web Store)
+                </a>
+            
+                <a class="relative block rounded bg-sky-600 text-white text-center py-2 px-10 mb-2 hover:bg-sky-800 focus:bg-sky-800" href="https://github.com/stefanschoeberl/schnelltester" target="_blank" rel="noreferrer">
+                    
+                    <i class="absolute flex items-center justify-center left-0 top-0 w-10 h-full text-lg fab fa-github"></i>
+                    
+                    GitHub
+                </a>
+            
+                <a class="relative block rounded bg-sky-600 text-white text-center py-2 px-10 mb-2 hover:bg-sky-800 focus:bg-sky-800" href="https://www.nachrichten.at/panorama/web/browser-erweiterung-fuer-schnellere-anmeldung-zu-corona-tests;art122,3405394" target="_blank" rel="noreferrer">
+                    
+                    <i class="absolute flex items-center justify-center left-0 top-0 w-10 h-full text-lg far fa-newspaper"></i>
+                    
+                    Bericht OÖNachrichten
+                </a>
+            
+        </div>
+        <div class="lg:w-auto sm:p-8 lg:p-0 order-first grow">
+            
+                <p class="heading-4 mt-5 sm:mt-0 lg:mt-5">Technologien</p>
+                <ul class="rich-text no-paragraph">
+                    
+                        <li>TypeScript</li>
+                    
+                        <li>React</li>
+                    
+                        <li>Google Chrome</li>
+                    
+                        <li>Bootstrap</li>
+                    
+                        <li>webpack</li>
+                    
+                </ul>
+            
+        </div>
+    </div>
+</div>
+<h1 class="order-first lg:mr-110 text-accent">Schnelltester</h1>
+<div class="lg:mr-110">
+    <div class="rich-text text-with-links"><p>2021 ist das regelmäßige COVID-19-Testen ein wichtiges Mittel zur Pandemiebekämpfung. In Österreich ist es seit Anfang 2021 glücklicherweise möglich, sich kostenlos testen zu lassen. Jedoch müssen bei jeder Testanmeldung alle persönlichen Daten erneut eingegeben werden. Dies ist nicht nur mühsam, sondern auch anfällig für potenzielle Tippfehler. Leider ist es nicht möglich, die Daten beispielsweise über einen Login für zukünftige Anmeldungen zu speichern.</p>
+<p>Um das Testen noch einfacher und zugänglicher zu machen, entstand so die Idee zum „Schnelltester“. Dieser ist eine Chrome-Extension und ist in der Lage, die persönlichen Daten bei der ersten Anmeldung zu speichern, um sie bei zukünftigen Tests wiederzuverwenden - ähnlich wie ein Passwortmanager. Somit ist das Anmelden innerhalb weniger Sekunden erledigt. Die Daten werden ausschließlich lokal im Browser abgespeichert und bleiben auch dort. Sie werden nicht synchronisiert oder in die Cloud hochgeladen.</p>
+<p>Der Schnelltester wurde auf Basis von React und TypeScript entwickelt. Als Buildtool wird webpack eingesetzt.</p>
+<p>Hinweis: Der Schnelltester ist ein privat entwickeltes und quelloffenes Projekt ohne Profitabsicht und steht in keiner Verbindung zu irgendeiner staatlichen, politischen oder gesundheitlichen Institution oder Organisation.</p>
+</div>
+    
+        <div class="card card-rounded overflow-hidden relative group" uk-slideshow="autoplay: true; autoplay-interval: 5000; pause-on-hover: true; ratio: 16:10">
+            <ul class="uk-slideshow-items">
+                
+                    <li><img src="/images/schnelltester-1.png" alt="Screenshot Schnelltester"></li>
+                
+                    <li><img src="/images/schnelltester-2.png" alt="Screenshot Schnelltester mit gespeicherten Daten"></li>
+                
+            </ul>
+            <a class="absolute transition-opacity duration-300 opacity-0 group-hover:opacity-100 text-zinc-500 hover:text-black focus:text-black left-0 top-1/2 -translate-y-1/2 p-4" href="#" uk-slideshow-item="previous">
+                <i class="fas fa-chevron-left text-2xl"></i>
+            </a>
+            <a class="absolute transition-opacity duration-300 opacity-0 group-hover:opacity-100 text-zinc-500 hover:text-black focus:text-black right-0 top-1/2 -translate-y-1/2 p-4" href="#" uk-slideshow-item="next">
+                <i class="fas fa-chevron-right text-2xl"></i>
+            </a>
+        </div>
+    
+</div>
+
+</main>
+<footer class="bg-gradient-to-r from-sky-700 to-blue-900">
+    <div class="container text-white mx-auto flex flex-col sm:flex-row flex-wrap justify-between items-center">
+        <p class="my-4">&copy; Stefan Schöberl 2022</p>
+        <p class="grow"></p>
+        <p class="mb-4 sm:my-4 flex flex-row sm:mr-7 items-center">
+            
+            <a class="mx-3 border-2 rounded-full border-transparent hover:border-white focus:border-white hover:border-white flex items-center justify-center w-12 h-12" href="https://github.com/stefanschoeberl/" title="GitHub" target="_blank" rel="noreferrer">
+                    <i class="fab fa-github text-2xl"></i>
+            </a>
+            
+            <a class="mx-3 border-2 rounded-full border-transparent hover:border-white focus:border-white hover:border-white flex items-center justify-center w-12 h-12" href="https://www.linkedin.com/in/stefan-schoeberl/" title="LinkedIn" target="_blank" rel="noreferrer">
+                    <i class="fab fa-linkedin-in text-2xl"></i>
+            </a>
+            
+            <a class="mx-3 border-2 rounded-full border-transparent hover:border-white focus:border-white hover:border-white flex items-center justify-center w-12 h-12" href="https://www.xing.com/profile/Stefan_Schoeberl8/" title="Xing" target="_blank" rel="noreferrer">
+                    <i class="fab fa-xing text-2xl"></i>
+            </a>
+            
+            <a class="mx-3 border-2 rounded-full border-transparent hover:border-white focus:border-white hover:border-white flex items-center justify-center w-12 h-12" href="https://twitter.com/stefanschoeberl" title="Twitter" target="_blank" rel="noreferrer">
+                    <i class="fab fa-twitter text-2xl"></i>
+            </a>
+            
+        </p>
+        <a class="mb-4 sm:my-4 hover:underline focus:underline" href="/imprint">Impressum</a>
+    </div>
+</footer>
+
+</body>
+</html>
