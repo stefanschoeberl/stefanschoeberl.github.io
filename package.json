@@ -5,16 +5,26 @@
   "main": "",
   "scripts": {
     "postinstall": "mkdir -p site/webfonts && cp node_modules/@fortawesome/fontawesome-free/webfonts/* site/webfonts/",
-    "build": "NODE_ENV=production postcss css/main.css -o site/css/styles.css",
-    "dev": "postcss css/main.css --verbose -o site/css/styles.css --watch"
+    "build": "run-s build:site build:css",
+    "build:site": "eleventy",
+    "build:css": "NODE_ENV=production postcss src/css/main.css -o dist/css/styles.css",
+    "dev": "run-p dev:*",
+    "dev:site": "eleventy --serve",
+    "dev:css": "postcss src/css/main.css --verbose -o dist/css/styles.css --watch"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "@11ty/eleventy": "1.0.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "3.2.2",
     "@fortawesome/fontawesome-free": "5.15.4",
     "autoprefixer": "10.4.2",
     "cssnano": "5.0.7",
+    "js-yaml": "4.1.0",
     "lodash": "4.17.21",
+    "markdown-it": "12.3.2",
+    "markdown-it-attrs": "4.1.3",
+    "npm-run-all": "4.1.5",
     "postcss": "8.4.5",
     "postcss-cli": "9.1.0",
     "postcss-import": "14.0.2",

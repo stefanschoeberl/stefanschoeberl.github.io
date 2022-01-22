@@ -1,0 +1,19 @@
+<header class="container-full mx-auto px-0 sm:px-4">
+    <nav id="navigation" class="uppercase fixed flex flex-col pt-6 sm:pt-0 bg-zinc-800 w-64 -translate-x-64 ease-out h-screen overflow-y-auto z-20 sm:static sm:flex-row sm:bg-transparent sm:w-auto sm:h-auto sm:transform-none">
+        {% for item in global.navigation %}
+            {% if page.url == item.link or (page.url != '/' and item.link != '/' and item.link in page.url) %}
+                {% set style = "text-white sm:text-black border-l-sky-600 border-t-sky-600" %}
+            {% else %}
+                {% set style = "text-zinc-400 sm:text-zinc-500 border-l-transparent border-t-transparent" %}
+            {% endif %}
+            <a href="{{ item.link }}" class="px-5 py-3 pt-4 sm:pt-6 border-l-4 sm:border-l-0 sm:border-b-2 sm:border-t-2 sm:border-b-transparent sm:hover:border-b-sky-600 text-white {{style}}">{{ item.name }}</a>
+        {% endfor %}
+    </nav>
+    <div class="flex flex-row uppercase justify-between border-t-2 border-transparent sm:hidden">
+        <a href="/" class="pl-4 pt-6 pb-3 text-zinc-500 hover:text-black focus:text-black">schoeberl.dev</a>
+        <button aria-label="Toggle Mobile Menu" onclick="toggleMobileMenu()" role="button" type="button" class="px-4 pt-6 pb-3 text-zinc-500 hover:text-black focus:text-black focus:outline-none">
+            <i class="fas fa-bars text-xl h-6.5 block"></i>
+        </button>
+    </div>
+    <div id="overlay" onclick="toggleMobileMenu()" class="fixed w-screen h-screen bg-black z-10 top-0 left-0 transition-opacity duration-300 invisible opacity-0 sm:hidden"></div>
+</header>

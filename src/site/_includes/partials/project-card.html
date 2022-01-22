@@ -1,0 +1,11 @@
+<a class="block card card-hover card-rounded h-full overflow-hidden" href="{{ project.url }}">
+    <img src="/images/{{ project.data.thumbnail }}" alt="{{ project.data.title }}">
+    <hr>
+    <div class="p-8">
+        <p class="text-xl md:text-2xl">{{ project.data.title }}</p>
+        {% if project.data.subtitle %}
+        <p class="mt-5">{{ project.data.subtitle }}</p>
+        {% endif %}
+    </div>
+</a>
+{{ project.title }}

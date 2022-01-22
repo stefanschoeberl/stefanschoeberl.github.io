@@ -1,7 +1,3 @@
 .idea/
-site/_site/
-site/css/styles.css
-site/_includes/uikit-icons/
-site/webfonts/
-site/.jekyll-cache/
+dist/
 node_modules/

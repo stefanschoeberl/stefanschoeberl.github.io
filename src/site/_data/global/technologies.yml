@@ -1,0 +1,92 @@
+- name: Sprachen
+  icon: fas fa-code
+  technologies:
+    - Kotlin
+    - Java
+    - C#
+    - SQL
+    - Swift
+    - Scala
+    - C/C++
+    - Python
+    - PHP
+    - HTML
+    - CSS
+    - JavaScript
+    - TypeScript
+    - name: MiniJava
+      url: /projects/masters-thesis
+- name: Web
+  icon: fas fa-globe
+  technologies:
+    - Angular
+    - Vue.js
+    - React
+    - WebAssembly
+    - Jekyll
+    - Eleventy
+    - Thymeleaf
+    - Tailwind CSS
+- name: Backend
+  icon: fas fa-server
+  technologies:
+    - Spring Boot
+    - RabbitMQ
+    - GraphQL
+    - Swagger
+    - REST
+    - Java EE
+    - Node.js
+    - Serverless Framework
+- name: Native Frontends
+  icon: fas fa-desktop
+  technologies:
+    - JavaFX
+    - WPF
+    - iOS
+- name: Datenbanken
+  icon: fas fa-database
+  technologies:
+    - MariaDB
+    - JDBC
+    - JPA / Hibernate
+    - Spring Data JPA
+    - MongoDB
+    - Redis
+- name: Infrastruktur
+  icon: fas fa-network-wired
+  technologies:
+    - Docker
+    - Docker Compose
+    - Linux
+    - RabbitMQ
+    - OAuth 2.0
+    - OpenID Connect
+    - traefik
+    - Let's Encrypt
+    - GitLab CI
+    - GitHub Actions
+    - Digital Ocean
+    - AWS
+    - reCAPTCHA
+- name: Home Automation & Embedded Systems
+  icon: fas fa-home
+  technologies:
+    - Philips Hue
+    - Amazon Alexa
+    - HomeKit
+    - Raspberry Pi
+    - Arduino
+    - Art-Net
+- name: IDEs und Tools
+  icon: fas fa-tools
+  technologies:
+    - IntelliJ IDEA
+    - Visual Studio
+    - Visual Studio Code
+    - Gradle
+    - Maven
+    - Git
+    - Bash
+    - ANTLR
+    - LaTeX

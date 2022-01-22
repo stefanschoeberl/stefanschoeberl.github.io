@@ -1,6 +1,6 @@
 module.exports = {
   content: [
-      './site/**/*.{html,md,js,yml}',
+      './dist/**/*.{html,js}',
   ],
   theme: {
     extend: {
