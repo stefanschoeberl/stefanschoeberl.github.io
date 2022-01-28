@@ -58,8 +58,8 @@ ul.no-paragraph {
 
 /* Syntax Highlighting */
 
-[data-highlight] {
-   @apply p-2 mb-5 rounded-md overflow-x-scroll;
+pre[class*="language-"] {
+    @apply p-2 mb-5 rounded-md overflow-x-scroll;
 }
 
 pre[class*="language-"], pre[class*="language-"] * { font-family: 'JetBrains Mono', monospace; }
