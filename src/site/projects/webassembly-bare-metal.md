@@ -6,6 +6,9 @@ links:
   - name: GitHub
     icon: fab fa-github
     url: https://github.com/stefanschoeberl/webassembly-bare-metal
+  - name: Folien
+    icon: fas fa-file
+    url: https://github.com/stefanschoeberl/webassembly-bare-metal/raw/master/Slides.pdf
 technologies: [WebAssembly, JavaScript]
 thumbnail: webassembly-bare-metal-thumbnail.png
 ---
