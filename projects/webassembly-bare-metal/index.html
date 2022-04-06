@@ -3,6 +3,8 @@
 <head>
     <title>Stefan Schöberl
         
+        &vert; WebAssembly: Bare Metal
+        
     </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,12 +27,12 @@
             
                 
             
-            <a href="/" class="px-5 py-3 pt-4 sm:pt-6 border-l-4 sm:border-l-0 sm:border-b-2 sm:border-t-2 sm:border-b-transparent sm:hover:border-b-sky-600 text-white text-white sm:text-black border-l-sky-600 border-t-sky-600">Home</a>
+            <a href="/" class="px-5 py-3 pt-4 sm:pt-6 border-l-4 sm:border-l-0 sm:border-b-2 sm:border-t-2 sm:border-b-transparent sm:hover:border-b-sky-600 text-white text-zinc-400 sm:text-zinc-500 border-l-transparent border-t-transparent">Home</a>
         
             
                 
             
-            <a href="/projects" class="px-5 py-3 pt-4 sm:pt-6 border-l-4 sm:border-l-0 sm:border-b-2 sm:border-t-2 sm:border-b-transparent sm:hover:border-b-sky-600 text-white text-zinc-400 sm:text-zinc-500 border-l-transparent border-t-transparent">Projekte</a>
+            <a href="/projects" class="px-5 py-3 pt-4 sm:pt-6 border-l-4 sm:border-l-0 sm:border-b-2 sm:border-t-2 sm:border-b-transparent sm:hover:border-b-sky-600 text-white text-white sm:text-black border-l-sky-600 border-t-sky-600">Projekte</a>
         
             
                 
@@ -52,80 +54,58 @@
     <div id="overlay" onclick="toggleMobileMenu()" class="fixed w-screen h-screen bg-black z-10 top-0 left-0 transition-opacity duration-300 invisible opacity-0 sm:hidden"></div>
 </header>
 
-<main class="container mx-auto grow shrink-0 py-7 "> <!-- shrink-0 to fix Safari flexbox issue -->
+<main class="container mx-auto grow shrink-0 py-7  flex flex-col lg:block "> <!-- shrink-0 to fix Safari flexbox issue -->
 
-
-<div class="text-center mb-9">
-    <img class="mx-auto mb-4 rounded-full" width="220px" height="220px" src="/images/me.jpg" alt="Profilfoto Stefan Schöberl">
-    <h1 class="mb-0 text-5xl"><span class="text-accent">Stefan Schöberl</span></h1>
-    <p class="text-2xl tracking-2xl text-zinc-500">Software Engineer</p>
-</div>
-
-<h2>Aktuelle Projekte</h2>
-
-<div class="grid-base items-stretch">
-    
-    
-        
-        <div class="grid-item w-full sm:w-1/2 lg:w-1/3">
-            <a class="block card card-hover card-rounded h-full overflow-hidden" href="/projects/webassembly-bare-metal/">
-    <img src="/images/webassembly-bare-metal-thumbnail.png" alt="WebAssembly: Bare Metal">
-    <hr>
-    <div class="p-8">
-        <p class="text-xl md:text-2xl">WebAssembly: Bare Metal</p>
-        
-        <p class="mt-5">Talk</p>
-        
-    </div>
-</a>
-
-
+<div class="lg:float-right lg:top-0 lg:right-0 lg:w-100 card card-rounded overflow-hidden mb-5 lg:mb-0">
+    <div class="sm:flex lg:block flex-row items-center sm:border-b border-zinc-200 lg:border-b-0"> <!-- items-center to fix Safari flexbox issue -->
+        <img class="h-auto border-b border-zinc-200 sm:border-b-0 lg:border-b sm:w-80 md:w-100 lg:w-full" src="/images/webassembly-bare-metal-thumbnail.png" alt="WebAssembly: Bare Metal">
+        <div class="p-8 pb-0 order-first grow">
+            
+                <p class="heading-3">Talk</p>
+            
+            <p class="rich-text">
+                April 2022
+            </p>
         </div>
-        
-    
-        
-        <div class="grid-item w-full sm:w-1/2 lg:w-1/3">
-            <a class="block card card-hover card-rounded h-full overflow-hidden" href="/projects/schnelltester/">
-    <img src="/images/schnelltester-thumbnail.png" alt="Schnelltester">
-    <hr>
-    <div class="p-8">
-        <p class="text-xl md:text-2xl">Schnelltester</p>
-        
-        <p class="mt-5">Österreich Testet Ausfüllhilfe</p>
-        
     </div>
-</a>
-
-
+    <div class="p-8 pt-0 sm:p-0 lg:p-8 lg:pt-0 sm:flex lg:block">
+        <div class="sm:w-80 md:w-100 lg:w-auto sm:p-8 lg:p-0">
+            
+                <a class="relative block rounded bg-sky-600 text-white text-center py-2 px-10 mb-2 hover:bg-sky-800 focus:bg-sky-800" href="https://github.com/stefanschoeberl/webassembly-bare-metal" target="_blank" rel="noreferrer">
+                    
+                    <i class="absolute flex items-center justify-center left-0 top-0 w-10 h-full text-lg fab fa-github"></i>
+                    
+                    GitHub
+                </a>
+            
         </div>
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-
-    <div class="grid-item w-full lg:w-1/3">
-        <a class="text-link text-xl p-8 h-full text-center flex flex-col justify-around border-dashed border-2 border-zinc-300 rounded-lg" href="/projects">mehr Projekte ...</a>
+        <div class="lg:w-auto sm:p-8 lg:p-0 order-first grow">
+            
+                <p class="heading-4 mt-5 sm:mt-0 lg:mt-5">Technologien</p>
+                <ul class="rich-text no-paragraph">
+                    
+                        <li>WebAssembly</li>
+                    
+                        <li>JavaScript</li>
+                    
+                </ul>
+            
+        </div>
     </div>
 </div>
-
+<h1 class="order-first lg:mr-110 text-accent">WebAssembly: Bare Metal</h1>
+<div class="lg:mr-110">
+    <div class="rich-text text-with-links"><p>WebAssembly ist ein neuer Webstandard, der neue Sprachen im Web und bessere Performance ermöglichen soll.
+Einige (bekannte) Technologien bauen bereits auf WebAssembly auf oder sind zu WebAssembly kompatibel, zum Beispiel Blazor, C/C++ oder Rust.
+Beim Nutzen dieser Technologien hält sich WebAssembly allerdings zum Großteil im Hintergrund.</p>
+<p>Aber wie funktioniert WebAssembly auf fundamentalster Ebene?</p>
+<p>Wie ist das Laufzeitsystem aufgebaut, wie sieht der Bytecode von WebAssembly aus und wie läuft das Zusammenspiel mit der klassischen Browserwelt?
+All diesen Fragen werden wir uns im Laufe des Talks widmen und so eine neue Perspektive auf WebAssembly sehen.</p>
+<p>Außerdem im Talk: Live-Coding von bekannten Algorithmen direkt in der „Programmiersprache“ WebAssembly.</p>
+<p>Der Talk wurde erstmals im April 2022 an der FH Hagenberg im Rahmen von <em>{SE, IEM, HCC} Inside</em> gehalten.</p>
+</div>
+    
+</div>
 
 </main>
 <footer class="bg-gradient-to-r from-sky-700 to-blue-900">
