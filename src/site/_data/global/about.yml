@@ -27,7 +27,8 @@
       date: seit März 2022
       details:
         - Nebenberuflich Lehrender
-        - Multimodale Systeme (Amazon Alexa, Microsoft Kinect, Arduino)
+        - + Multimodale Systeme (Amazon Alexa, Microsoft Kinect, Arduino)
+        - + Testautomatisierung & Continuous Delivery (Testen, Mocking, Test-Driven-Development, CI/CD)
     - title: Software Competence Center Hagenberg
       url: https://www.scch.at
       date: seit Juni 2021
