@@ -4,7 +4,7 @@ subtitle: Telegram Bot
 date: 2018-04-15
 links:
   - name: Telegram Bot
-    icon: fab fa-telegram-plane
+    icon: fab fa-telegram
     url: https://t.me/HungryHagenbergBot
 technologies: [Spring Boot, MariaDB, Telegram, mittag.at]
 thumbnail: hungry-hagenberg-bot-thumbnail.png
