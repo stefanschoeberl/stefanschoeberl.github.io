@@ -62,7 +62,9 @@ pre[class*="language-"] {
     @apply p-2 mb-5 rounded-md overflow-x-scroll;
 }
 
-pre[class*="language-"], pre[class*="language-"] * { font-family: 'JetBrains Mono', monospace; }
+pre[class*="language-"], pre[class*="language-"] * {
+    @apply font-code;
+}
 pre[class*="language-"] { border: none; }
 
 /* Site Container */
@@ -73,6 +75,30 @@ pre[class*="language-"] { border: none; }
 
 .container-full {
     @apply w-full max-w-screen-xl;
+}
+
+/* Navigation Curly Brackets */
+
+.nav-curly {
+    @apply font-code;
+    @apply hidden sm:inline-block;
+    @apply text-2xl opacity-0;
+    @apply transition-all duration-100;
+    @apply group-hover:opacity-100;
+}
+
+.nav-curly.nav-curly-active {
+    @apply opacity-100;
+}
+
+.nav-curly.nav-curly-l {
+    @apply pr-2;
+    @apply group-hover:translate-x-1/4;
+}
+
+.nav-curly.nav-curly-r {
+    @apply pl-2;
+    @apply group-hover:-translate-x-1/4;
 }
 
 /* Grids */

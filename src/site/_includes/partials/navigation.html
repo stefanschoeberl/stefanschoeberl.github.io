@@ -2,11 +2,20 @@
     <nav id="navigation" class="uppercase fixed flex flex-col pt-6 sm:pt-0 bg-zinc-800 w-64 -translate-x-64 ease-out h-screen overflow-y-auto z-20 sm:static sm:flex-row sm:bg-transparent sm:w-auto sm:h-auto sm:transform-none">
         {% for item in global.navigation %}
             {% if page.url == item.link or (page.url != '/' and item.link != '/' and item.link in page.url) %}
-                {% set style = "text-white sm:text-black border-l-sky-600 border-t-sky-600" %}
+                {% set linkstyle = "text-white sm:text-black border-l-sky-600 border-t-sky-600" %}
+                {% set curlystyle = "nav-curly-active" %}
             {% else %}
-                {% set style = "text-zinc-400 sm:text-zinc-500 border-l-transparent border-t-transparent" %}
+                {% set linkstyle = "text-zinc-400 sm:text-zinc-500 border-l-transparent border-t-transparent" %}
+                {% set curlystyle = "" %}
             {% endif %}
-            <a href="{{ item.link }}" class="px-5 py-3 pt-4 sm:pt-6 border-l-4 sm:border-l-0 sm:border-b-2 sm:border-t-2 sm:border-b-transparent sm:hover:border-b-sky-600 text-white {{style}}">{{ item.name }}</a>
+            <a href="{{ item.link }}" class="group text-white
+                                             px-5 sm:px-2 py-3 pt-4 sm:pt-6
+                                             border-l-4 sm:border-l-0
+                                             sm:flex flex-row items-center {{linkstyle}}">
+                <span class="nav-curly nav-curly-l {{curlystyle}}">{</span>
+                {{ item.name }}
+                <span class="nav-curly nav-curly-r {{curlystyle}}">}</span>
+            </a>
         {% endfor %}
     </nav>
     <div class="flex flex-row uppercase justify-between border-t-2 border-transparent sm:hidden">

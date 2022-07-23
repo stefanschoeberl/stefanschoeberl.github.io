@@ -20,6 +20,9 @@ module.exports = {
         '76': '19rem',
         '100': '25rem',
         '110': '27.5rem',
+      },
+      fontFamily: {
+        'code': ['JetBrains Mono', 'monospace'],
       }
     },
   },
