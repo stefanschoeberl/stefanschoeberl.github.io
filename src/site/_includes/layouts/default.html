@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de" class="h-full bg-slate-50 sm:overflow-auto">
+<html lang="de" class="h-full bg-gradient-to-r from-sky-700 to-blue-900 from-sky-700 sm:overflow-auto ">
 <head>
     <title>Stefan Schöberl
         {% if title %}
@@ -7,6 +7,7 @@
         {% endif %}
     </title>
     <meta charset="utf-8">
+    <meta name="theme-color" content="#195096">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Stefan Schöberl - Software Developer">
     {% if noindex %}
@@ -23,10 +24,13 @@
     <script src="/js/menu.js" defer></script>
 </head>
 <body class="flex flex-col h-full">
-{% include "partials/navigation.html" %}
-<main class="container mx-auto grow shrink-0 py-7 {% if richtext %} rich-text text-with-links {% endif %}{% if mainClasses %} {{ mainClasses }} {% endif %}"> <!-- shrink-0 to fix Safari flexbox issue -->
-{{ content | safe }}
-</main>
+
+<div class="grow shrink-0 bg-slate-50">
+    {% include "partials/navigation.html" %}
+    <main class="container mx-auto py-7 {% if richtext %} rich-text text-with-links {% endif %}{% if mainClasses %} {{ mainClasses }} {% endif %}"> <!-- shrink-0 to fix Safari flexbox issue -->
+    {{ content | safe }}
+    </main>
+</div>
 {% include "partials/footer.html" %}
 </body>
 </html>
