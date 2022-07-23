@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de" class="h-full bg-slate-50 sm:overflow-auto">
+<html lang="de" class="h-full bg-gradient-to-r from-sky-700 to-blue-900 from-sky-700 sm:overflow-auto ">
 <head>
     <title>Stefan Schöberl
         
@@ -7,6 +7,7 @@
         
     </title>
     <meta charset="utf-8">
+    <meta name="theme-color" content="#195096">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Stefan Schöberl - Software Developer">
     
@@ -21,28 +22,62 @@
     <script src="/js/menu.js" defer></script>
 </head>
 <body class="flex flex-col h-full">
-<header class="container-full mx-auto px-0 sm:px-4">
+
+<div class="grow shrink-0 bg-slate-50">
+    <header class="container-full mx-auto px-0 sm:px-4">
     <nav id="navigation" class="uppercase fixed flex flex-col pt-6 sm:pt-0 bg-zinc-800 w-64 -translate-x-64 ease-out h-screen overflow-y-auto z-20 sm:static sm:flex-row sm:bg-transparent sm:w-auto sm:h-auto sm:transform-none">
         
             
                 
+                
             
-            <a href="/" class="px-5 py-3 pt-4 sm:pt-6 border-l-4 sm:border-l-0 sm:border-b-2 sm:border-t-2 sm:border-b-transparent sm:hover:border-b-sky-600 text-white text-zinc-400 sm:text-zinc-500 border-l-transparent border-t-transparent">Home</a>
+            <a href="/" class="group text-white
+                                             px-5 sm:px-2 py-3 pt-4 sm:pt-6
+                                             border-l-4 sm:border-l-0
+                                             sm:flex flex-row items-center text-zinc-400 sm:text-zinc-500 border-l-transparent border-t-transparent">
+                <span class="nav-curly nav-curly-l ">{</span>
+                Home
+                <span class="nav-curly nav-curly-r ">}</span>
+            </a>
         
             
                 
+                
             
-            <a href="/projects" class="px-5 py-3 pt-4 sm:pt-6 border-l-4 sm:border-l-0 sm:border-b-2 sm:border-t-2 sm:border-b-transparent sm:hover:border-b-sky-600 text-white text-white sm:text-black border-l-sky-600 border-t-sky-600">Projekte</a>
+            <a href="/projects" class="group text-white
+                                             px-5 sm:px-2 py-3 pt-4 sm:pt-6
+                                             border-l-4 sm:border-l-0
+                                             sm:flex flex-row items-center text-white sm:text-black border-l-sky-600 border-t-sky-600">
+                <span class="nav-curly nav-curly-l nav-curly-active">{</span>
+                Projekte
+                <span class="nav-curly nav-curly-r nav-curly-active">}</span>
+            </a>
         
             
                 
+                
             
-            <a href="/technologies" class="px-5 py-3 pt-4 sm:pt-6 border-l-4 sm:border-l-0 sm:border-b-2 sm:border-t-2 sm:border-b-transparent sm:hover:border-b-sky-600 text-white text-zinc-400 sm:text-zinc-500 border-l-transparent border-t-transparent">Technologien</a>
+            <a href="/technologies" class="group text-white
+                                             px-5 sm:px-2 py-3 pt-4 sm:pt-6
+                                             border-l-4 sm:border-l-0
+                                             sm:flex flex-row items-center text-zinc-400 sm:text-zinc-500 border-l-transparent border-t-transparent">
+                <span class="nav-curly nav-curly-l ">{</span>
+                Technologien
+                <span class="nav-curly nav-curly-r ">}</span>
+            </a>
         
             
                 
+                
             
-            <a href="/about" class="px-5 py-3 pt-4 sm:pt-6 border-l-4 sm:border-l-0 sm:border-b-2 sm:border-t-2 sm:border-b-transparent sm:hover:border-b-sky-600 text-white text-zinc-400 sm:text-zinc-500 border-l-transparent border-t-transparent">Über mich</a>
+            <a href="/about" class="group text-white
+                                             px-5 sm:px-2 py-3 pt-4 sm:pt-6
+                                             border-l-4 sm:border-l-0
+                                             sm:flex flex-row items-center text-zinc-400 sm:text-zinc-500 border-l-transparent border-t-transparent">
+                <span class="nav-curly nav-curly-l ">{</span>
+                Über mich
+                <span class="nav-curly nav-curly-r ">}</span>
+            </a>
         
     </nav>
     <div class="flex flex-row uppercase justify-between border-t-2 border-transparent sm:hidden">
@@ -54,8 +89,8 @@
     <div id="overlay" onclick="toggleMobileMenu()" class="fixed w-screen h-screen bg-black z-10 top-0 left-0 transition-opacity duration-300 invisible opacity-0 sm:hidden"></div>
 </header>
 
-<main class="container mx-auto grow shrink-0 py-7  flex flex-col lg:block "> <!-- shrink-0 to fix Safari flexbox issue -->
-
+    <main class="container mx-auto py-7  flex flex-col lg:block "> <!-- shrink-0 to fix Safari flexbox issue -->
+    
 <div class="lg:float-right lg:top-0 lg:right-0 lg:w-100 card card-rounded overflow-hidden mb-5 lg:mb-0">
     <div class="sm:flex lg:block flex-row items-center sm:border-b border-zinc-200 lg:border-b-0"> <!-- items-center to fix Safari flexbox issue -->
         <img class="h-auto border-b border-zinc-200 sm:border-b-0 lg:border-b sm:w-80 md:w-100 lg:w-full" src="/images/super-polygon-collider-5000-thumbnail.png" alt="Super Polygon Collider 5000">
@@ -103,7 +138,8 @@ Also portierte ich die notwendigen Algorithmen von Mathematica nach Objective-C.
     
 </div>
 
-</main>
+    </main>
+</div>
 <footer class="bg-gradient-to-r from-sky-700 to-blue-900">
     <div class="container text-white mx-auto flex flex-col sm:flex-row flex-wrap justify-between items-center">
         <p class="my-4">&copy; Stefan Schöberl 2022</p>
