@@ -84,7 +84,7 @@ pre[class*="language-"] { border: none; }
     @apply hidden sm:inline-block;
     @apply text-2xl opacity-0;
     @apply transition-all duration-100;
-    @apply group-hover:opacity-100;
+    @apply group-hover:opacity-100 group-focus:opacity-100;
 }
 
 .nav-curly.nav-curly-active {
@@ -93,12 +93,12 @@ pre[class*="language-"] { border: none; }
 
 .nav-curly.nav-curly-l {
     @apply pr-2;
-    @apply group-hover:translate-x-1/4;
+    @apply group-hover:translate-x-1/4 group-focus:translate-x-1/4;
 }
 
 .nav-curly.nav-curly-r {
     @apply pl-2;
-    @apply group-hover:-translate-x-1/4;
+    @apply group-hover:-translate-x-1/4 group-focus:-translate-x-1/4;
 }
 
 /* Grids */
