@@ -1,7 +1,7 @@
 ---
 title: "WebAssembly: Bare Metal"
 subtitle: Talk
-date: 2022-04-06
+date: 2022-08-24
 links:
   - name: GitHub
     icon: fab fa-github
@@ -24,4 +24,6 @@ All diesen Fragen werden wir uns im Laufe des Talks widmen und so eine neue Pers
 
 Außerdem im Talk: Live-Coding von bekannten Algorithmen direkt in der „Programmiersprache“ WebAssembly.
 
-Der Talk wurde erstmals im April 2022 an der FH Hagenberg im Rahmen von *{SE, IEM, HCC} Inside* gehalten.
+## Events
+* April 2022: {SE, IEM, HCC} Inside @ FH Hagenberg
+* August 2022: [Technologieplauscherl LXXVI](http://technologieplauscherl.at/76/){target="_blank" rel="noreferrer"} @ Tractive
