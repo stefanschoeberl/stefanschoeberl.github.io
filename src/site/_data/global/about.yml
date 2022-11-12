@@ -91,19 +91,27 @@
 - title: Wettbewerbe
   type: timeline
   entries:
+    - title: 36. Cloudflight Coding Contest (Classic)
+      url: https://register.codingcontest.org/contest/4638/results
+      date: November 2022
+      details:
+        - <i class="fas fa-trophy text-yellow-600 mr-2"></i> 62. Platz weltweit / 5. Platz in Linz
+        - "Teilnehmer: 912 weltweit / 67 in Linz"
+        - (Einzelpersonen, Zweier- oder Dreierteams)
+        - "Themenfeld: Pacman"
     - title: 35. Cloudflight Coding Contest (Classic)
       url: https://register.codingcontest.org/contest/4094/results
       date: November 2021
       details:
         - <i class="fas fa-trophy text-yellow-600 mr-2"></i> 3. Platz weltweit
-        - 1091 Teilnehmer (Einzelpersonen, Zweier- oder Dreierteams)
+        - 747 Teilnehmer weltweit (Einzelpersonen, Zweier- oder Dreierteams)
         - "Themenfeld: Compilerbau"
     - title: 34. Cloudflight Coding Contest (Classic)
       url: https://register.codingcontest.org/contest/3621/results
       date: Oktober 2020
       details:
         - <i class="fas fa-trophy text-yellow-600 mr-2"></i> 101. Platz weltweit
-        - 1419 Teilnehmer (Einzelpersonen, Zweier- oder Dreierteams)
+        - 928 Teilnehmer weltweit (Einzelpersonen, Zweier- oder Dreierteams)
         - "Themenfeld: Stromkostenoptimierung für Smart Homes"
     - title: Google Hash Code 2020 (Online Qualifikationsrunde)
       url: https://codingcompetitions.withgoogle.com/hashcode/archive/2020
