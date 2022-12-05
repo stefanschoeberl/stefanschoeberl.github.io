@@ -9,6 +9,7 @@ links:
   - name: GitHub
     icon: fab fa-github
     url: https://github.com/stefanschoeberl/schnelltester
+media:
   - name: Bericht OÖNachrichten
     icon: far fa-newspaper
     url: https://www.nachrichten.at/panorama/web/browser-erweiterung-fuer-schnellere-anmeldung-zu-corona-tests;art122,3405394

@@ -15,10 +15,22 @@ links:
   - name: Fibonacci-Rechner
     icon: fas fa-rocket
     url: https://fibminijava.ssch.dev
+media:
+  - name: OCG Blogpost
+    icon: far fa-newspaper
+    url: https://blog.ocg.at/2022/11/ocg-forderpreis-fh-2022/
+  - name: OCG Presseaussendung
+    icon: far fa-newspaper
+    url: https://www.ots.at/presseaussendung/OTS_20221205_OTS0078/informatik-studierende-der-fachhochschulen-kufstein-und-hagenberg-ausgezeichnet
+  - name: FH Newseintrag
+    icon: far fa-newspaper
+    url: https://www.fh-ooe.at/campus-hagenberg/studiengaenge/master/software-engineering/news-events/news/news/ocg-foerderpreis-fh-fuer-software-engineering-student/
 technologies: [WebAssembly, ANTLR, Kotlin, Gradle, Node.js, WABT, JavaScript]
 thumbnail: masters-thesis-thumbnail.png
 ---
 Im Rahmen meines Masterstudiums Software Engineering befasste ich mich in meiner Masterarbeit mit dem Thema Compilerbau und WebAssembly.
+
+Die Masterarbeit wurde mit dem [Förderpreis-FH](https://www.ocg.at/de/fp-fh){target="_blank" rel="noreferrer"} 2022 der Österreichischen Computer Gesellschaft (OCG) ausgezeichnet.
 
 ## MiniJava-Compiler für WebAssembly auf Basis von ANTLR und Kotlin
 

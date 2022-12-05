@@ -7,12 +7,14 @@
       details:
         - Masterstudium Software Engineering
         - Master of Science in Engineering (MSc) mit Auszeichnung
+        - "Masterarbeit: <a href=\"/projects/masters-thesis\">MiniJava-Compiler für WebAssembly auf Basis von ANTLR und Kotlin</a>"
     - title: FH Oberösterreich - Campus Hagenberg
       url: https://www.fh-ooe.at/campus-hagenberg/
       date: Oktober 2015 - Juli 2018
       details:
         - Bachelorstudium Software Engineering
         - Bachelor of Science in Engineering (BSc) mit Auszeichnung
+        - "Bachelorarbeit: <a href=\"/projects/bachelors-thesis\">Autonomes Fahren auf Basis eines Raspberry Pi</a>"
     - title: BG/BRG Brucknerstraße Wels
       url: https://www.brucknergym.at/
       date: September 2007 - Juni 2015

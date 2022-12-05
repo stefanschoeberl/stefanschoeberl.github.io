@@ -25,6 +25,17 @@ mainClasses: "flex flex-col lg:block"
                     {{ link.name }}
                 </a>
             {% endfor %}
+            {% if media %}
+            <p class="heading-4 mt-5">In den Medien</p>
+            {% endif %}
+            {% for entry in media %}
+            <a class="relative block rounded bg-sky-600 text-white text-center py-2 px-10 mb-2 hover:bg-sky-800 focus:bg-sky-800" href="{{ entry.url }}" target="_blank" rel="noreferrer">
+                {% if entry.icon %}
+                <i class="absolute flex items-center justify-center left-0 top-0 w-10 h-full text-lg {{entry.icon}}"></i>
+                {% endif %}
+                {{ entry.name }}
+            </a>
+            {% endfor %}
         </div>
         <div class="lg:w-auto sm:p-8 lg:p-0 order-first grow">
             {% if technologies %}
