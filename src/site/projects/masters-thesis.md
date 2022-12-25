@@ -16,15 +16,27 @@ links:
     icon: fas fa-rocket
     url: https://fibminijava.ssch.dev
 media:
-  - name: OCG Blogpost
+  - name: Blogpost OCG
     icon: far fa-newspaper
     url: https://blog.ocg.at/2022/11/ocg-forderpreis-fh-2022/
-  - name: OCG Presseaussendung
+  - name: Presseaussendung OCG
     icon: far fa-newspaper
     url: https://www.ots.at/presseaussendung/OTS_20221205_OTS0078/informatik-studierende-der-fachhochschulen-kufstein-und-hagenberg-ausgezeichnet
-  - name: FH Newseintrag
+  - name: Bericht FH OÖ / SE News
     icon: far fa-newspaper
     url: https://www.fh-ooe.at/campus-hagenberg/studiengaenge/master/software-engineering/news-events/news/news/ocg-foerderpreis-fh-fuer-software-engineering-student/
+  - name: Bericht MeinBezirk.at
+    icon: far fa-newspaper
+    url: https://www.meinbezirk.at/freistadt/c-lokales/preis-fuer-beste-masterarbeit-geht-nach-hagenberg_a5784259
+  - name: Bericht Tips
+    icon: far fa-newspaper
+    url: https://www.tips.at/nachrichten/freistadt/wirtschaft-politik/589520-hagenberg-absolvent-holt-preis-fuer-beste-masterarbeit
+  - name: Bericht FH OÖ News
+    icon: far fa-newspaper
+    url: https://www.fh-ooe.at/ueber-uns/news/news/ocg-preis-fuer-beste-masterarbeit-geht-nach-hagenberg/
+  - name: Bericht OÖNachrichten
+    icon: far fa-newspaper
+    url: https://www.nachrichten.at/oberoesterreich/fhooe/campushagenberg/die-sprache-des-internets;art219249,3763581
 technologies: [WebAssembly, ANTLR, Kotlin, Gradle, Node.js, WABT, JavaScript]
 thumbnail: masters-thesis-thumbnail.png
 ---
