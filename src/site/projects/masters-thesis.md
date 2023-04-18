@@ -22,6 +22,9 @@ media:
   - name: Presseaussendung OCG
     icon: far fa-newspaper
     url: https://www.ots.at/presseaussendung/OTS_20221205_OTS0078/informatik-studierende-der-fachhochschulen-kufstein-und-hagenberg-ausgezeichnet
+  - name: OCG Journal 01 / 2023
+    icon: far fa-newspaper
+    url: https://www.ocg.at/sites/ocg.at/files/medien/pdfs/OJ2023-01.pdf
   - name: Bericht FH OÖ / SE News
     icon: far fa-newspaper
     url: https://www.fh-ooe.at/campus-hagenberg/studiengaenge/master/software-engineering/news-events/news/news/ocg-foerderpreis-fh-fuer-software-engineering-student/
