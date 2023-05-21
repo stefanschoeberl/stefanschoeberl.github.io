@@ -94,6 +94,14 @@
 - title: Wettbewerbe
   type: timeline
   entries:
+    - title: 37. Cloudflight Coding Contest (Classic)
+      url: https://register.codingcontest.org/contest/4879/results
+      date: März 2023
+      details:
+        - <i class="fas fa-trophy text-yellow-600 mr-2"></i> 207. Platz weltweit / 22. Platz in Linz
+        - "Teilnehmer: 953 weltweit / 76 in Linz"
+        - (Einzelpersonen, Zweier- oder Dreierteams)
+        - "Themenfeld: Schere, Stein, Papier(, Echse, Spock)"
     - title: 36. Cloudflight Coding Contest (Classic)
       url: https://register.codingcontest.org/contest/4638/results
       date: November 2022
