@@ -14,19 +14,19 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@11ty/eleventy": "1.0.1",
-    "@11ty/eleventy-plugin-syntaxhighlight": "4.0.0",
-    "@fortawesome/fontawesome-free": "6.1.1",
-    "autoprefixer": "10.4.7",
-    "cssnano": "5.1.9",
+    "@11ty/eleventy": "2.0.1",
+    "@11ty/eleventy-plugin-syntaxhighlight": "5.0.0",
+    "@fortawesome/fontawesome-free": "6.4.0",
+    "autoprefixer": "10.4.14",
+    "cssnano": "6.0.1",
     "js-yaml": "4.1.0",
     "markdown-it": "13.0.1",
-    "markdown-it-attrs": "4.1.4",
+    "markdown-it-attrs": "4.1.6",
     "npm-run-all": "4.1.5",
-    "postcss": "8.4.14",
-    "postcss-cli": "9.1.0",
-    "postcss-import": "14.1.0",
-    "tailwindcss": "3.0.24",
-    "uikit": "3.14.3"
+    "postcss": "8.4.23",
+    "postcss-cli": "10.1.0",
+    "postcss-import": "15.1.0",
+    "tailwindcss": "3.3.2",
+    "uikit": "3.16.17"
   }
 }
