@@ -7,6 +7,12 @@
 - name: Xing
   icon: fab fa-xing
   url: https://www.xing.com/profile/Stefan_Schoeberl8/
+- name: ORCID
+  icon: fab fa-orcid
+  url: https://orcid.org/0009-0006-0245-3558
+- name: ResearchGate
+  icon: fab fa-researchgate
+  url: https://www.researchgate.net/profile/Stefan-Schoeberl
 - name: Twitter
   icon: fab fa-twitter
   url: https://twitter.com/stefanschoeberl
