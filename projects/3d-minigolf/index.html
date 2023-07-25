@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de" class="h-full bg-gradient-to-r from-sky-700 to-blue-900 from-sky-700 sm:overflow-auto ">
+<html lang="en" class="h-full bg-gradient-to-r from-sky-700 to-blue-900 from-sky-700 sm:overflow-auto ">
 <head>
     <title>Stefan Schöberl
         
@@ -9,7 +9,7 @@
     <meta charset="utf-8">
     <meta name="theme-color" content="#195096">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Stefan Schöberl - Software Developer">
+    <meta name="description" content="Stefan Schöberl - Software Engineer">
     
     <meta name="robots" content="index, follow">
     
@@ -49,7 +49,7 @@
                                              border-l-4 sm:border-l-0
                                              sm:flex flex-row items-center text-white sm:text-black border-l-sky-600 border-t-sky-600">
                 <span class="nav-curly nav-curly-l nav-curly-active">{</span>
-                Projekte
+                Projects
                 <span class="nav-curly nav-curly-r nav-curly-active">}</span>
             </a>
         
@@ -62,7 +62,7 @@
                                              border-l-4 sm:border-l-0
                                              sm:flex flex-row items-center text-zinc-400 sm:text-zinc-500 border-l-transparent border-t-transparent">
                 <span class="nav-curly nav-curly-l ">{</span>
-                Technologien
+                Technologies
                 <span class="nav-curly nav-curly-r ">}</span>
             </a>
         
@@ -75,7 +75,7 @@
                                              border-l-4 sm:border-l-0
                                              sm:flex flex-row items-center text-zinc-400 sm:text-zinc-500 border-l-transparent border-t-transparent">
                 <span class="nav-curly nav-curly-l ">{</span>
-                Über mich
+                About me
                 <span class="nav-curly nav-curly-r ">}</span>
             </a>
         
@@ -96,10 +96,10 @@
         <img class="h-auto border-b border-zinc-200 sm:border-b-0 lg:border-b sm:w-80 md:w-100 lg:w-full" src="/images/3d-minigolf-thumbnail.png" alt="3D Minigolf">
         <div class="p-8 pb-0 order-first grow">
             
-                <p class="heading-3">Minigame im Browser</p>
+                <p class="heading-3">Browser Minigame</p>
             
             <p class="rich-text">
-                Februar 2017
+                February 2017
             </p>
         </div>
     </div>
@@ -118,7 +118,7 @@
         </div>
         <div class="lg:w-auto sm:p-8 lg:p-0 order-first grow">
             
-                <p class="heading-4 mt-5 sm:mt-0 lg:mt-5">Technologien</p>
+                <p class="heading-4 mt-5 sm:mt-0 lg:mt-5">Technologies</p>
                 <ul class="rich-text no-paragraph">
                     
                         <li>ES6</li>
@@ -148,20 +148,20 @@
 </div>
 <h1 class="order-first lg:mr-110 text-accent">3D Minigolf</h1>
 <div class="lg:mr-110">
-    <div class="rich-text text-with-links"><p>Im 3. Semester meines Bachelorstudiums mussten wir ihm Rahmen der Lehrveranstaltung &quot;Web-Design und -Programmierung&quot; ein Semesterprojekt erstellen.
-Genaue Vorgaben gab es nicht, es war jedem freigestellt, eine eigene Idee umzusetzen.</p>
-<p>Etwa zur der selben Zeit entdeckte ich die Bibliothek <a href="https://threejs.org" target="_blank" rel="noreferrer">three.js</a>.
-Da ich ohnehin schon länger einmal 3D-Grafik im Browser ausprobieren wollte, war es die ideale Gelegenheit, das im Rahmen des FH-Projekts zu tun.
-three.js machte dabei einen sehr guten Eindruck.</p>
-<p>Die Idee zum Minigolf-Spiel kam von <a href="http://opengameart.org/content/3d-minigolf-pack" target="_blank" rel="noreferrer">OpenGameArt-Assets</a>.</p>
-<p>Aber 3D-Grafik reicht bei einem Minigame nicht...</p>
-<p><a href="https://schteppe.github.io/cannon.js/" target="_blank" rel="noreferrer">cannon.js</a> diente dabei als Physicsengine und ermöglicht, mehrere physikalische Körper und deren Interaktionen untereinder innerhalb einer eigenen &quot;Welt&quot; zu simulieren.
-Anschließend musste cannon.js noch mit three.js verknüpft werden, damit die Objekte (Boden, Wände, Golfball, Windrad) auch genau dort angezeigt werden, wo sie sich in der simulierten Welte befinden.</p>
-<p>Implementiert wurde das gesamte Spiel nicht in klassischem JavaScript, sondern ECMAScript 6 (ES6).
-ES6 unterstützt under anderem Klassen und ermöglichte eine saubere Strukturierung des Codes.
-Mit <a href="http://browserify.org" target="_blank" rel="noreferrer">browserify</a> wurden dann alle Quellcode-Dateien und npm-Libraries in eine einzige JavaScript-Datei zusammengefasst, die beim Starten des Spiels vom Browser heruntergeladen wird.
-Außerdem transformiert <a href="https://babeljs.io" target="_blank" rel="noreferrer">Babel</a> den ES6-Code in klassichen JavaScript-Code.</p>
-<p>Serverseitig läuft Node.js zur Verwaltung der Highscore-Liste. Die Daten der Highscore-Liste werden in einer MariaDB-Datenbank gespeichert.</p>
+    <div class="rich-text text-with-links"><p>During the third semester of my bachelor's degree programme we had to build a semester project within the course &quot;Web-Design and -Programming&quot;.
+Everyone was encouraged to implement their own ideas, no specific requirements were given.</p>
+<p>Around the same time I discovered the library <a href="https://threejs.org" target="_blank" rel="noreferrer">three.js</a>.
+I always wanted to try 3D graphics in web apps and the university project was the perfect opportunity for this.
+three.js looked quite promising.</p>
+<p>The idea for the minigolf game was inspired by <a href="http://opengameart.org/content/3d-minigolf-pack" target="_blank" rel="noreferrer">OpenGameArt assets</a>.</p>
+<p>But just 3D graphics is not enough for a minigame...</p>
+<p><a href="https://schteppe.github.io/cannon.js/" target="_blank" rel="noreferrer">cannon.js</a> was used as physics engine and enables the simulation of multiple bodies and their interactions with each other.
+Finally, cannon.js had to be connected to three.js, so that all objects (the floor, walls, golfball and the windmill) are also rendered at the same location, where they &quot;exist&quot; in the simulated world.</p>
+<p>The whole game was not implemented in standard JavaScript, but in ECMAScript 6 (ES6).
+ES6 supports classes, among other features, and facilitates cleaner code.
+<a href="http://browserify.org" target="_blank" rel="noreferrer">browserify</a> bundles all source code files and libraries into a single JavaScript file, which is downloaded by the browser when loading the game.
+Furthermore, <a href="https://babeljs.io" target="_blank" rel="noreferrer">Babel</a> transforms ES6 into traditional JavaScript code.</p>
+<p>On the server side, Node.js is used to manage the highscore board. MariaDB is used as storage for the scores.</p>
 </div>
     
         <div class="card card-rounded overflow-hidden relative group" uk-slideshow="autoplay: true; autoplay-interval: 5000; pause-on-hover: true; ratio: 16:10">

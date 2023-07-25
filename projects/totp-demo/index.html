@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de" class="h-full bg-gradient-to-r from-sky-700 to-blue-900 from-sky-700 sm:overflow-auto ">
+<html lang="en" class="h-full bg-gradient-to-r from-sky-700 to-blue-900 from-sky-700 sm:overflow-auto ">
 <head>
     <title>Stefan Schöberl
         
@@ -9,7 +9,7 @@
     <meta charset="utf-8">
     <meta name="theme-color" content="#195096">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Stefan Schöberl - Software Developer">
+    <meta name="description" content="Stefan Schöberl - Software Engineer">
     
     <meta name="robots" content="index, follow">
     
@@ -49,7 +49,7 @@
                                              border-l-4 sm:border-l-0
                                              sm:flex flex-row items-center text-white sm:text-black border-l-sky-600 border-t-sky-600">
                 <span class="nav-curly nav-curly-l nav-curly-active">{</span>
-                Projekte
+                Projects
                 <span class="nav-curly nav-curly-r nav-curly-active">}</span>
             </a>
         
@@ -62,7 +62,7 @@
                                              border-l-4 sm:border-l-0
                                              sm:flex flex-row items-center text-zinc-400 sm:text-zinc-500 border-l-transparent border-t-transparent">
                 <span class="nav-curly nav-curly-l ">{</span>
-                Technologien
+                Technologies
                 <span class="nav-curly nav-curly-r ">}</span>
             </a>
         
@@ -75,7 +75,7 @@
                                              border-l-4 sm:border-l-0
                                              sm:flex flex-row items-center text-zinc-400 sm:text-zinc-500 border-l-transparent border-t-transparent">
                 <span class="nav-curly nav-curly-l ">{</span>
-                Über mich
+                About me
                 <span class="nav-curly nav-curly-r ">}</span>
             </a>
         
@@ -96,10 +96,10 @@
         <img class="h-auto border-b border-zinc-200 sm:border-b-0 lg:border-b sm:w-80 md:w-100 lg:w-full" src="/images/totp-demo-thumbnail.png" alt="TOTP Demo">
         <div class="p-8 pb-0 order-first grow">
             
-                <p class="heading-3">Test-Web-App für One-Time Passwords</p>
+                <p class="heading-3">Test Web App for One-Time Passwords</p>
             
             <p class="rich-text">
-                März 2016
+                March 2016
             </p>
         </div>
     </div>
@@ -118,7 +118,7 @@
         </div>
         <div class="lg:w-auto sm:p-8 lg:p-0 order-first grow">
             
-                <p class="heading-4 mt-5 sm:mt-0 lg:mt-5">Technologien</p>
+                <p class="heading-4 mt-5 sm:mt-0 lg:mt-5">Technologies</p>
                 <ul class="rich-text no-paragraph">
                     
                         <li>TOTP</li>
@@ -127,7 +127,7 @@
                     
                         <li>Express</li>
                     
-                        <li>Jade (jetzt pug.js)</li>
+                        <li>Jade (now pug.js)</li>
                     
                         <li>HTML</li>
                     
@@ -142,12 +142,13 @@
 </div>
 <h1 class="order-first lg:mr-110 text-accent">TOTP Demo</h1>
 <div class="lg:mr-110">
-    <div class="rich-text text-with-links"><p>Bei einem <a href="https://fhlug.at/2016/02/onetime-passwords/" target="_blank" rel="noreferrer">Vortrag der fhLUG</a> an der FH Hagenberg wurde ich erstmals auf One-Time Passwords aufmerksam.
-Besonders die zeitbasierte Variante davon (das erste T in TOTP steht für Time) fand ich besonders interessant.</p>
-<p>Typischerweise wird bei One-Time Passwords einmal ein &quot;Secret&quot; zwischen dem Server und dem Benutzer ausgetauscht. Dies kann beispielsweise im Registrierungsprozess über einen QR-Code erfolgen, den der Benutzer dann mit einer kompatiblen App scannen muss.</p>
-<p>Bei späteren Logins kann dann über dieses &quot;Secret&quot; und die aktuelle Zeit ein Code erzeugt werden, der für eine bestimmte Zeitspanne gültig ist.
-Da der Server und die App das Secret kennen, können sie so unabhängig von einander denselben Code generieren - vorausgesetzt, die Uhren beider Systeme laufen einigermaßen synchron.</p>
-<p>So entstand eine kleine Webanwendung, mit der sich dieser Workflow ausprobieren lässt. Benötigt wird nur eine App, die otpauth://-URIs unterstützt (zum Beispiel Google Authenticator).</p>
+    <div class="rich-text text-with-links"><p>During a <a href="https://fhlug.at/2016/02/onetime-passwords/" target="_blank" rel="noreferrer">fhLUG talk</a> at FH Hagenberg, I first learned of One-Time Passwords (OTPs).
+I found the time-based variant (the first &quot;T&quot; in TOTP stands for Time) particularly interesting.</p>
+<p>Typically, for One-Time Passwords, a secret is exchanged between the server and the user once.
+This can be done, for example, during the registration process using a QR code that the user scans with a compatible app.</p>
+<p>During subsequent logins, a code can be generated based on this secret and the current time, which is valid for a specific period.
+Since the server and the app both know the secret, they can independently generate the same code — provided that both systems' clocks are reasonably synchronized.</p>
+<p>This led to the creation of a small web application that allows users to try out this workflow. The only requirement is an app that supports otpauth:// URIs (such as Google Authenticator).</p>
 </div>
     
 </div>

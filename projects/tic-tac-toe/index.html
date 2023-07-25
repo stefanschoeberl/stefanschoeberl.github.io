@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de" class="h-full bg-gradient-to-r from-sky-700 to-blue-900 from-sky-700 sm:overflow-auto ">
+<html lang="en" class="h-full bg-gradient-to-r from-sky-700 to-blue-900 from-sky-700 sm:overflow-auto ">
 <head>
     <title>Stefan Schöberl
         
@@ -9,7 +9,7 @@
     <meta charset="utf-8">
     <meta name="theme-color" content="#195096">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Stefan Schöberl - Software Developer">
+    <meta name="description" content="Stefan Schöberl - Software Engineer">
     
     <meta name="robots" content="index, follow">
     
@@ -49,7 +49,7 @@
                                              border-l-4 sm:border-l-0
                                              sm:flex flex-row items-center text-white sm:text-black border-l-sky-600 border-t-sky-600">
                 <span class="nav-curly nav-curly-l nav-curly-active">{</span>
-                Projekte
+                Projects
                 <span class="nav-curly nav-curly-r nav-curly-active">}</span>
             </a>
         
@@ -62,7 +62,7 @@
                                              border-l-4 sm:border-l-0
                                              sm:flex flex-row items-center text-zinc-400 sm:text-zinc-500 border-l-transparent border-t-transparent">
                 <span class="nav-curly nav-curly-l ">{</span>
-                Technologien
+                Technologies
                 <span class="nav-curly nav-curly-r ">}</span>
             </a>
         
@@ -75,7 +75,7 @@
                                              border-l-4 sm:border-l-0
                                              sm:flex flex-row items-center text-zinc-400 sm:text-zinc-500 border-l-transparent border-t-transparent">
                 <span class="nav-curly nav-curly-l ">{</span>
-                Über mich
+                About me
                 <span class="nav-curly nav-curly-r ">}</span>
             </a>
         
@@ -96,10 +96,10 @@
         <img class="h-auto border-b border-zinc-200 sm:border-b-0 lg:border-b sm:w-80 md:w-100 lg:w-full" src="/images/tic-tac-toe-thumbnail.png" alt="Tic Tac Toe">
         <div class="p-8 pb-0 order-first grow">
             
-                <p class="heading-3">Multiplayer-Minigame im Browser</p>
+                <p class="heading-3">Multiplayer Browser Minigame</p>
             
             <p class="rich-text">
-                Juli 2016
+                July 2016
             </p>
         </div>
     </div>
@@ -118,7 +118,7 @@
         </div>
         <div class="lg:w-auto sm:p-8 lg:p-0 order-first grow">
             
-                <p class="heading-4 mt-5 sm:mt-0 lg:mt-5">Technologien</p>
+                <p class="heading-4 mt-5 sm:mt-0 lg:mt-5">Technologies</p>
                 <ul class="rich-text no-paragraph">
                     
                         <li>Angular 2</li>
@@ -146,15 +146,16 @@
 </div>
 <h1 class="order-first lg:mr-110 text-accent">Tic Tac Toe</h1>
 <div class="lg:mr-110">
-    <div class="rich-text text-with-links"><p>Im Juli 2016 interessierte ich mich erstmals fürs Entwickeln von Single-Page-Applications und stoß bei der Recherche auf AngularJS, mit dem ich gleich zu experimentieren begann.
-Beim Experimentieren entdeckte ich <a href="https://angular.io" target="_blank" rel="noreferrer">Angular 2</a>, den Nachfolger von AngularJS.
-Zum damaligen Zeitpunkt war Angular 2 noch in der RC-Phase und ich beschloss daher, mir die Library vor dem offiziellen Release mal genauer anzusehen.</p>
-<p>Sofort fiel auf, dass Angular 2 sich fundamental von AngularJS unterscheidet. Damals war selbst das Projektaufsetzen ein nicht triviales Unterfangen...
-Nach einigen Tutorials und viel experimentieren war ich von Angular 2 überzeugt und beschloss ein kleines Multiplayer-Spiel damit umzusetzen.</p>
-<p>Tic-Tac-Toe soll auf mehreren Browsern gleichzeitig und in Echtzeit gespielt werden können.
-Damit dies funktioniert, muss ein Server die Browser benachrichtigen können, sobald ein Spieler ein Symbol (X oder O) setzt.
-Dafür bot sich <a href="https://socket.io" target="_blank" rel="noreferrer">socket.io</a> als eine einfach zu integrierende Library an, die die darunterliegende Kommunikation über Websockets abstrahiert.</p>
-<p>Serverseitig läuft Node.js zum Verwalten der einzelnen Spielrunden, sowie zum Benachrichtigen der Browser.</p>
+    <div class="rich-text text-with-links"><p>In July 2016, I became interested in developing Single-Page Applications and came across AngularJS during my research, which I immediately started experimenting with.
+While experimenting, I discovered <a href="https://angular.io" target="_blank" rel="noreferrer">Angular 2</a>, the successor to AngularJS.
+At that time, Angular 2 was still in the RC (Release Candidate) phase, and I decided to take a closer look at the library before its official release.</p>
+<p>I noticed right away that Angular 2 was fundamentally different from AngularJS.
+Back then, even setting up a project was not a trivial task...
+After going through some tutorials and a lot of experimentation, I became convinced about Angular 2 and decided to implement a small multiplayer game using it.</p>
+<p>I wanted to create a Tic-Tac-Toe game that could be played simultaneously and in real-time on multiple browsers.
+For this to work, a server needed to be able to notify the browsers whenever a player placed a symbol (X or O).
+<a href="https://socket.io" target="_blank" rel="noreferrer">socket.io</a> presented itself as an easy-to-integrate library that abstracted the underlying communication using WebSockets.</p>
+<p>On the server-side, Node.js was used to manage individual game rounds and to notify the browsers.</p>
 </div>
     
 </div>
