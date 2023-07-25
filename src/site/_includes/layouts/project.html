@@ -11,7 +11,7 @@ mainClasses: "flex flex-col lg:block"
                 <p class="heading-3">{{ subtitle }}</p>
             {% endif %}
             <p class="rich-text">
-                {{ date | date_month_de }} {{ date | date_year }}
+                {{ date | date_month_en }} {{ date | date_year }}
             </p>
         </div>
     </div>
@@ -26,7 +26,7 @@ mainClasses: "flex flex-col lg:block"
                 </a>
             {% endfor %}
             {% if media %}
-            <p class="heading-4 mt-5">In den Medien</p>
+            <p class="heading-4 mt-5">In the media</p>
             {% endif %}
             {% for entry in media %}
             <a class="relative block rounded bg-sky-600 text-white text-center py-2 px-10 mb-2 hover:bg-sky-800 focus:bg-sky-800" href="{{ entry.url }}" target="_blank" rel="noreferrer">
@@ -39,7 +39,7 @@ mainClasses: "flex flex-col lg:block"
         </div>
         <div class="lg:w-auto sm:p-8 lg:p-0 order-first grow">
             {% if technologies %}
-                <p class="heading-4 mt-5 sm:mt-0 lg:mt-5">Technologien</p>
+                <p class="heading-4 mt-5 sm:mt-0 lg:mt-5">Technologies</p>
                 <ul class="rich-text no-paragraph">
                     {% for technology in technologies %}
                         <li>{{ technology }}</li>

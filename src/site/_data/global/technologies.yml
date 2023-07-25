@@ -1,4 +1,4 @@
-- name: Sprachen
+- name: Languages
   icon: fas fa-code
   technologies:
     - Kotlin
@@ -44,7 +44,7 @@
     - JavaFX
     - WPF
     - iOS
-- name: Datenbanken
+- name: Databases
   icon: fas fa-database
   technologies:
     - MariaDB
@@ -53,7 +53,7 @@
     - Spring Data JPA
     - MongoDB
     - Redis
-- name: Infrastruktur
+- name: Infrastructure
   icon: fas fa-network-wired
   technologies:
     - Docker
@@ -78,7 +78,7 @@
     - Raspberry Pi
     - Arduino
     - Art-Net
-- name: IDEs und Tools
+- name: IDEs and Tools
   icon: fas fa-tools
   technologies:
     - IntelliJ IDEA

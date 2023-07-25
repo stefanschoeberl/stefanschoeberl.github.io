@@ -1,6 +1,6 @@
 ---
-title: Fotobuch DSL
-subtitle: Kotlin DSL zum Erstellen von Fotobüchern
+title: Photo Book DSL
+subtitle: Kotlin DSL for the creation of photo books
 date: 2019-07-15
 links:
   - name: GitHub
@@ -10,24 +10,25 @@ technologies: [Kotlin, Apache PDFBox]
 thumbnail: photobook-dsl-thumbnail.jpg
 slideshow:
   - image: photobook-dsl-1.jpg
-    description: Screenshot Fotobuchseite mit einem Foto
+    description: Screenshot page with one photo
   - image: photobook-dsl-2.jpg
-    description: Screenshot Fotobuchseite mit drei Fotos
+    description: Screenshot page with three photos
   - image: photobook-dsl-3.jpg
-    description: Screenshot Fotobuchseite mit vier Fotos (abgeschnitten)
+    description: Screenshot page with four photos (cropped)
   - image: photobook-dsl-4.jpg
-    description: Screenshot Fotobuchseite mit vier Fotos (volle Größe)
+    description: Screenshot page with four photos (full size)
 ---
 
-Die Idee zu diesem Projekt entstand dadurch, dass einige Freunde und ich gemeinsam ein Fotobuch erstellen wollten.
-Dabei sollte das Design relativ schlicht und das Layout sehr einfach gehalten werden: Kein Hintergrund und 1 - 4 Fotos pro Seite.
-Ein grafischer Designer fiel dabei relativ schnell unter anderem aus Kostengründen weg, außerdem sollte es möglich sein, eine Seite nach der anderen zügig erstellen zu können, anstatt (langsamer) mit Drag-und-Drop jedes Foto einzeln hineinzuziehen.
+The idea for this project arose when some friends and I wanted to create a photo book together.
+We aimed for a relatively simple design with a straightforward layout: no background and one to four photos per page.
+We quickly ruled out using graphic design software, partly due to cost considerations, and we wanted the ability to create pages quickly, rather than individually dragging and dropping each photo (which would be slower).
 
-Es bot sich an, eine DSL dafür zu entwicklen, mit der man deklarativ die Struktur des Fotobuchs beschreiben kann und anschließend es als PDF-Datei exportieren konnte. So ist es möglich, den Inhalt (zum Beispiel "Foto A und Foto B links/rechts auf einer Seite") vom tatsächlichen Layout (Schnittzugabe, Größe der Fotos, Position der Fotos) zu trennen.
+It seemed appropriate to develop a Domain-Specific Language (DSL) that allows us to declaratively describe the structure of the photo book and then export it as a PDF file.
+This approach allows us to separate the content (e.g., "Photo A and Photo B on the left/right side of a page") from the actual layout (trimming, photo sizes, photo positions).
 
-Die DSL wurde in Kotlin umgesetzt. Die PDFs werden mit [Apache PDFBox](https://pdfbox.apache.org){target="_blank" rel="noreferrer"} erzeugt. 
+The DSL was implemented in Kotlin, and the PDFs are generated using [Apache PDFBox](https://pdfbox.apache.org){target="_blank" rel="noreferrer"}.
 
-Mit der DSL lässt sich beispielsweise ein Fotobuch folgendermaßen definieren:
+With this DSL, a photo book can be defined, for example, as follows:
 
 ```kotlin
 val book = book {
@@ -45,4 +46,4 @@ val book = book {
 }
 ```
 
-[Hier](https://github.com/stefanschoeberl/photobook-dsl/raw/master/example-pdfs/book.pdf){target="_blank" rel="noreferrer"} steht ein fertiges Beispiel-PDF (mit frei verfügbaren Fotos von [Pexels](https://www.pexels.com){target="_blank" rel="noreferrer"}) zum Download zur Verfügung.
+[Here](https://github.com/stefanschoeberl/photobook-dsl/raw/master/example-pdfs/book.pdf){target="_blank" rel="noreferrer"} is a completed example PDF (with freely available photos from [Pexels](https://www.pexels.com){target="_blank" rel="noreferrer"}) available for download.

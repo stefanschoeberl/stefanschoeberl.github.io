@@ -1,6 +1,6 @@
 ---
 title: 3D Minigolf
-subtitle: Minigame im Browser
+subtitle: Browser Minigame
 date: 2017-02-16
 links:
   - name: Minigame
@@ -15,23 +15,23 @@ slideshow:
     description: Screenshot Minigolf Level 1
 ---
 
-Im 3. Semester meines Bachelorstudiums mussten wir ihm Rahmen der Lehrveranstaltung "Web-Design und -Programmierung" ein Semesterprojekt erstellen.
-Genaue Vorgaben gab es nicht, es war jedem freigestellt, eine eigene Idee umzusetzen.
+During the third semester of my bachelor's degree programme we had to build a semester project within the course "Web-Design and -Programming".
+Everyone was encouraged to implement their own ideas, no specific requirements were given.
 
-Etwa zur der selben Zeit entdeckte ich die Bibliothek [three.js](https://threejs.org){target="_blank" rel="noreferrer"}.
-Da ich ohnehin schon länger einmal 3D-Grafik im Browser ausprobieren wollte, war es die ideale Gelegenheit, das im Rahmen des FH-Projekts zu tun.
-three.js machte dabei einen sehr guten Eindruck.
+Around the same time I discovered the library [three.js](https://threejs.org){target="_blank" rel="noreferrer"}.
+I always wanted to try 3D graphics in web apps and the university project was the perfect opportunity for this.
+three.js looked quite promising.
 
-Die Idee zum Minigolf-Spiel kam von [OpenGameArt-Assets](http://opengameart.org/content/3d-minigolf-pack){target="_blank" rel="noreferrer"}.
+The idea for the minigolf game was inspired by [OpenGameArt assets](http://opengameart.org/content/3d-minigolf-pack){target="_blank" rel="noreferrer"}. 
 
-Aber 3D-Grafik reicht bei einem Minigame nicht...
+But just 3D graphics is not enough for a minigame...
 
-[cannon.js](https://schteppe.github.io/cannon.js/){target="_blank" rel="noreferrer"} diente dabei als Physicsengine und ermöglicht, mehrere physikalische Körper und deren Interaktionen untereinder innerhalb einer eigenen "Welt" zu simulieren. 
-Anschließend musste cannon.js noch mit three.js verknüpft werden, damit die Objekte (Boden, Wände, Golfball, Windrad) auch genau dort angezeigt werden, wo sie sich in der simulierten Welte befinden.
+[cannon.js](https://schteppe.github.io/cannon.js/){target="_blank" rel="noreferrer"} was used as physics engine and enables the simulation of multiple bodies and their interactions with each other.
+Finally, cannon.js had to be connected to three.js, so that all objects (the floor, walls, golfball and the windmill) are also rendered at the same location, where they "exist" in the simulated world.
 
-Implementiert wurde das gesamte Spiel nicht in klassischem JavaScript, sondern ECMAScript 6 (ES6).
-ES6 unterstützt under anderem Klassen und ermöglichte eine saubere Strukturierung des Codes.
-Mit [browserify](http://browserify.org){target="_blank" rel="noreferrer"} wurden dann alle Quellcode-Dateien und npm-Libraries in eine einzige JavaScript-Datei zusammengefasst, die beim Starten des Spiels vom Browser heruntergeladen wird.
-Außerdem transformiert [Babel](https://babeljs.io){target="_blank" rel="noreferrer"} den ES6-Code in klassichen JavaScript-Code.
+The whole game was not implemented in standard JavaScript, but in ECMAScript 6 (ES6).
+ES6 supports classes, among other features, and facilitates cleaner code.
+[browserify](http://browserify.org){target="_blank" rel="noreferrer"} bundles all source code files and libraries into a single JavaScript file, which is downloaded by the browser when loading the game.
+Furthermore, [Babel](https://babeljs.io){target="_blank" rel="noreferrer"} transforms ES6 into traditional JavaScript code.
 
-Serverseitig läuft Node.js zur Verwaltung der Highscore-Liste. Die Daten der Highscore-Liste werden in einer MariaDB-Datenbank gespeichert.
+On the server side, Node.js is used to manage the highscore board. MariaDB is used as storage for the scores.

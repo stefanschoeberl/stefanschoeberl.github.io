@@ -33,6 +33,24 @@ function registerFilters(eleventyConfig) {
         return months[new Date(value).getMonth()];
     });
 
+    eleventyConfig.addFilter("date_month_en", (value) => {
+        const months = [
+            "January",
+            "February",
+            "March",
+            "April",
+            "May",
+            "June",
+            "July",
+            "August",
+            "September",
+            "October",
+            "November",
+            "December",
+        ]
+        return months[new Date(value).getMonth()];
+    });
+
     eleventyConfig.addFilter("date_year", (value) => {
         return new Date(value).getFullYear();
     });

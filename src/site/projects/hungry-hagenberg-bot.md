@@ -10,21 +10,21 @@ technologies: [Spring Boot, MariaDB, Telegram, mittag.at]
 thumbnail: hungry-hagenberg-bot-thumbnail.png
 ---
 
-Während meinem Bachelorstudium standen meine Studienkollegen und ich jeden Tag vor derselben Frage: "Wo gehen wir heute essen?"
-Auch wenn sich die Auswahl sehr in Grenzen hält, gibt es in Hagenberg dennoch ein vielfältiges Angebot an Essensmöglichkeiten.
+During my bachelor's studies, my fellow students and I faced the same question every day: "Where are we going to eat today?"
+Even though the options were limited, Hagenberg still offered a diverse range of lunch possibilities.
 
-Etwa zur selben Zeit entdeckten wir die Plattform [mittag.at](https://www.mittag.at){target="_blank" rel="noreferrer"}, die abhängig vom Standort Mittagsmenüs in der Nähe anzeigt.
+Around the same time, we discovered the platform [mittag.at](https://www.mittag.at){target="_blank" rel="noreferrer"}, which displays lunch menus nearby based on the user's location.
 
-Typischerweise koordinierten wir uns kurz vor der Mittagspause via Chat, wohin wir denn schlussendlich essen gehen wollen.
-Oft wurden dabei die Menüs aus mittag.at in den Chat kopiert.
+Typically, we would coordinate just before lunchtime via chat to decide where we wanted to eat.
+Often, we would copy and paste the menus from mittag.at into the chat.
 
-Da Software-Entwickler sehr gerne wiederholende Tätigkeiten [automatisieren](https://xkcd.com/1319/){target="_blank" rel="noreferrer"}, begannen zwei Studienkollegen und ich im 4. Semester unseres Studiums, mittag.at gleich direkt in den Chat einzubauen - so müsste man zumindest nicht mehr hin- und herkopieren und der Abruf der Website entfällt dann praktischerweise gleich auch noch.
-Jeden Tag erhielt man dann pünktlich zu einer fix einprogrammierten Uhrzeit eine Benachrichtigung.
-So entstand die erste Version vom Bot mit Node.js und MongoDB.
+As software developers love to [automate](https://xkcd.com/1319/){target="_blank" rel="noreferrer"} repetitive tasks, two of my fellow students and I started integrating mittag.at directly into the chat during the 4th semester of our studies.
+This way, we no longer had to copy and paste, and we could conveniently avoid accessing the website as well.
+Each day, we would receive a notification at a pre-programmed time.
+This is how the first version of the bot was created using Node.js and MongoDB.
 
-Etwa ein Jahr später wurde die API von mittag.at erweitert.
-Man kann jetzt die Menüergebnisse noch präziser abfragen als vorher.
-Es bot sich also an, unseren Bot an die neue API zu adaptieren.
-Da wir ziemlich zeitgleich gerade das Spring-Framework in einer Lehrveranstaltung kennenlernten (von dem ich sehr begeistert war und es immer noch bin), bot sich eine Neuimplementierung an.
-Außerdem konnte ich bei dieser Gelegenheit gleich einige neue Features umsetzen (zum Beispiel das Anzeigen des Menüs für den Folgetag oder das Ein- und Ausschalten der täglichen 10:00-Benachrichtigung).
-So entstand Version 2 des Hungry Hagenberg Bot.
+About a year later, the mittag.at API was expanded, allowing for more precise menu queries than before.
+It seemed like a good idea to adapt our bot to the new API.
+Since we were simultaneously getting acquainted with the Spring Framework in one of our courses (which I was very excited about and still am), a reimplementation was fitting.
+This also provided an opportunity to implement several new features (such as displaying the menu for the following day or toggling the daily 10:00 notification).
+Thus, Version 2 of the Hungry Hagenberg Bot came into existence.

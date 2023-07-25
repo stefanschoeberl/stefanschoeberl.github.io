@@ -1,5 +1,5 @@
 ---
-title: Persönliche Website
+title: Personal Website
 date: 2019-09-23
 links:
   - name: Website
@@ -11,27 +11,27 @@ links:
 technologies: [GitHub Pages, Eleventy, Tailwind CSS, Font Awesome, UIkit]
 thumbnail: personal-website-thumbnail.png
 ---
-Schon lange wollte ich eine persönliche Website für mich erstellen.
-Als Google im Jahr 2019 begann, .dev-Domains anzubieten, war das der perfekte Anlass, dieses längst überfällige Projekt zu realisieren.
+I have wanted to create a personal website for myself for a long time.
+When Google started offering .dev domains in 2019, it was the perfect opportunity to realize this long-overdue project.
 
-Eines der Hauptziele war das langfristige Warten der Website möglichst einfach zu gestalten.
-[Jekyll](https://jekyllrb.com){target="_blank" rel="noreferrer"} war dafür genau das richtige Tool.
-Damit lässt sich die Struktur der Website mit Templates definieren, die dann dynamisch mit Daten befüllt werden können.
-Der Inhalt der Website wird in Form von YML (zum Beispiel Technologie-Übersicht) oder Markdown (zum Beispiel Projekt-Texte) eingepflegt.
-Außerdem lässt sich dadurch die gesamte Website in Git verwalten, da sie zu 100% aus Code besteht.
+One of the main goals was to make the long-term maintenance of the website as simple as possible.
+[Jekyll](https://jekyllrb.com){target="_blank" rel="noreferrer"} was the right tool for this task.
+It allows defining the website's structure using templates, which can then be dynamically filled with data.
+The content of the website is added in the form of YML (for example, technology overview) or Markdown (for example, project texts).
+Additionally, this allows the entire website to be managed in Git, as it consists entirely of code.
 
-Als Design-Framework wurde [UIkit](https://getuikit.com){target="_blank" rel="noreferrer"} eingesetzt.
+[UIkit](https://getuikit.com){target="_blank" rel="noreferrer"} was used as the design framework.
 
-Fürs Hosting bot sich [GitHub Pages](https://pages.github.com){target="_blank" rel="noreferrer"} an. GitHub Pages unterstützt Jekyll direkt und "kompiliert" die Seite bei jedem Push automatisch.
-Standardmäßig wird die Website auf einer .github.io-Subdomain gehostet, es lässt sich aber sehr einfach eine eigene Domain hinzufügen.
+For hosting, [GitHub Pages](https://pages.github.com){target="_blank" rel="noreferrer"} was a suitable choice.
+GitHub Pages directly supports Jekyll and automatically "compiles" the site with each push.
+By default, the website is hosted on a .github.io subdomain, but it is straightforward to add a custom domain.
 
-2021 erhielt die Website ein neues Aussehen.
-Das Standard-Design von UIkit wurde durch ein eigenes individuelles Design abgelöst.
-Dieses wurde mit [Tailwind CSS](https://tailwindcss.com){target="_blank" rel="noreferrer"} umgesetzt.
-Alle Icons stammen nun von [Font Awesome](https://fontawesome.com){target="_blank" rel="noreferrer"}.
-Aus UIkit blieben nur einzelne Komponenten erhalten, wie zum Beispiel die Slideshow und das Masonry-Grid.
-Da für Tailwind CSS nun zusätzliche Schritte beim Kompilieren notwendig sind, wurde eine GitHub Action dafür konfiguriert.
+In 2021, the website received a new look.
+The default UIkit design was replaced with a custom and individual design implemented using [Tailwind CSS](https://tailwindcss.com){target="_blank" rel="noreferrer"}.
+All icons are now sourced from [Font Awesome](https://fontawesome.com){target="_blank" rel="noreferrer"}.
+Only specific components from UIkit were retained, such as the Slideshow and the Masonry Grid.
+As Tailwind CSS requires additional steps during compilation, a GitHub Action was configured for this purpose.
 
-2022 wurde die Website von Jekyll auf [Eleventy](https://www.11ty.dev){target="_blank" rel="noreferrer"} umgestellt.
-Dadurch fällt Ruby als Abhängigkeit weg und der gesamte Build-Prozess läuft nun über npm und Node.js.
-Bei einem Update der Website erfolgt das Kompilieren der Seite und des CSS nun gemeinsam in einer GitHub Action.
+In 2022, the website was migrated from Jekyll to [Eleventy](https://www.11ty.dev){target="_blank" rel="noreferrer"}.
+This eliminated Ruby as a dependency, and the entire build process now runs on npm and Node.js.
+When updating the website, the page and CSS are now compiled together in a single GitHub Action.

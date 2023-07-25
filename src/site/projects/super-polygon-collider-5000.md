@@ -6,16 +6,17 @@ technologies: [iOS, Objective-C, SpriteKit]
 thumbnail: super-polygon-collider-5000-thumbnail.png
 ---
 
-Da ich schon immer sehr mathematikbegeistert war (und es immer noch bin), nahm ich an der "Projektwoche Angewandte Mathematik" der JKU während meiner Gymnasialzeit teil.
-Im Jahr 2014 wurde ein Workshop zum Thema [Polygone](http://www.projektwoche.jku.at/2014/projekt2014_proj06.shtml){target="_blank" rel="noreferrer"} angeboten.
+As I have always been very passionate about mathematics (and still am), I participated in the "Applied Mathematics Week" ("Projektwoche Angewandte Mathematik") organized by JKU during my high school years.
+In 2014, there was a workshop on the topic of [Polygons](http://www.projektwoche.jku.at/2014/projekt2014_proj06.shtml){target="_blank" rel="noreferrer"}.
 
-Dort lernten wir die Grundlagen zu Polygonen und überlegten uns Algorithmen zu verschiedenen Problemstellungen: Liegt ein Punkt in einem Polygon? Schneiden sich zwei Polygone? Wie berechnet man die Fläche eines Polygones?
+During the workshop, we learned the fundamentals of polygons and developed algorithms for various problem statements: Does a point lie within a polygon? Do two polygons intersect? How do you calculate the area of a polygon?
 
-Die Algorithmen testeten wir an einem praktischen Beispiel in Mathematica. Dort musste ein Raumschiff (vereinfacht dargestellt als Dreieck) mit Hilfe eines Sliders durch einen Tunnel navigiert werden.
-Das Spiel soll dabei eine Kollision zwischen dem Raumschiff und dem Tunnel erkennen - beide Elemente wurden jeweils als Polygon modelliert.
+We tested these algorithms with a practical example using Mathematica.
+The task was to navigate a spacecraft (represented as a simplified triangle) through a tunnel using a slider.
+The game was designed to detect collisions between the spacecraft and the tunnel, both of which were modeled as polygons.
 
-Da ich in dieser Zeit gerade die Grundlagen der iOS-Entwicklung lernte, war ich motiviert, aus diesem kleinen Spiel eine App zu entwickelt.
-So entstand daraus der "Super Polygon Collider 5000".
-Also portierte ich die notwendigen Algorithmen von Mathematica nach Objective-C. Die Grafik wurde mit SpriteKit umgesetzt.
+Around that time, I was also learning the basics of iOS development, which motivated me to turn this small game into an app.
+Thus, the "Super Polygon Collider 5000" was born.
+I ported the necessary algorithms from Mathematica to Objective-C, and the graphics were implemented using SpriteKit.
 
-Die App stand eine Zeit lang im offiziellen App Store zum Download zur Verfügung, mittlerweile leider nicht mehr.
+The app was available for download on the official App Store for a while, but unfortunately, it is no longer available there.

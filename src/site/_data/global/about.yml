@@ -1,169 +1,169 @@
-- title: Ausbildung
+- title: Education
   type: timeline
   entries:
-    - title: FH Oberösterreich - Campus Hagenberg
+    - title: University of Applied Sciences Upper Austria - Hagenberg Campus
       url: https://www.fh-ooe.at/campus-hagenberg/
-      date: Oktober 2018 - Juli 2020
+      date: October 2018 - July 2020
       details:
-        - Masterstudium Software Engineering
-        - Master of Science in Engineering (MSc) mit Auszeichnung
-        - "Masterarbeit: <a href=\"/projects/masters-thesis\">MiniJava-Compiler für WebAssembly auf Basis von ANTLR und Kotlin</a>"
-    - title: FH Oberösterreich - Campus Hagenberg
+        - "Master’s degree programme: Software Engineering"
+        - Master of Science in Engineering (MSc) with distinction
+        - "Master's thesis: <a href=\"/projects/masters-thesis\">MiniJava-Compiler for WebAssembly based on ANTLR and Kotlin</a>"
+    - title: University of Applied Sciences Upper Austria - Hagenberg Campus
       url: https://www.fh-ooe.at/campus-hagenberg/
-      date: Oktober 2015 - Juli 2018
+      date: October 2015 - July 2018
       details:
-        - Bachelorstudium Software Engineering
-        - Bachelor of Science in Engineering (BSc) mit Auszeichnung
-        - "Bachelorarbeit: <a href=\"/projects/bachelors-thesis\">Autonomes Fahren auf Basis eines Raspberry Pi</a>"
+        - "Bachelor’s degree programme: Software Engineering"
+        - Bachelor of Science in Engineering (BSc) with distinction
+        - "Bachelor's thesis: <a href=\"/projects/bachelors-thesis\">Autonomous driving based on a Raspberry Pi</a>"
     - title: BG/BRG Brucknerstraße Wels
       url: https://www.brucknergym.at/
-      date: September 2007 - Juni 2015
+      date: September 2007 - June 2015
       details:
-        - BRG Schwerpunkt Neue Medien
-        - Matura mit Auszeichnung
-- title: Berufserfahrung
+        - BRG with focus on new media
+        - Matura with distinction
+- title: Experience
   type: timeline
   entries:
-    - title: FH Oberösterreich - Campus Hagenberg
+    - title: University of Applied Sciences Upper Austria - Hagenberg Campus
       url: https://www.fh-ooe.at/campus-hagenberg/
-      date: seit März 2022
+      date: since March 2022
       details:
-        - Nebenberuflich Lehrender
-        - + Multimodale Systeme / Mobile und ubiquitäre Systeme (Amazon Alexa, Microsoft Kinect, Arduino)
-        - + Testautomatisierung & Continuous Delivery (Testen, Mocking, Test-Driven-Development, CI/CD)
-        - + Einführung in die Programmierung / Elementare Algorithmen und Datenstrukturen
-        - + Objektorientierte Programmierung / Fortgeschrittene Algorithmen und Datenstrukturen
+        - Lecturer
+        - + Multimodal Systems / Mobile and ubiquitous Systems (Amazon Alexa, Microsoft Kinect, Arduino)
+        - + Testautomation & Continuous Delivery (Testing, Mocking, Test-Driven-Development, CI/CD)
+        - + Introduction to Programming / Basic Algorithms and Data Structures
+        - + Object-oriented Programming / Advanced Algorithms and Data Structures
     - title: Software Competence Center Hagenberg
       url: https://www.scch.at
-      date: seit Juni 2021
+      date: since June 2021
       details:
         - Researcher & Senior Software Engineer
-    - title: FH Oberösterreich - Campus Hagenberg
+    - title: University of Applied Sciences Upper Austria - Hagenberg Campus
       url: https://www.fh-ooe.at/campus-hagenberg/
-      date: März 2020 - April 2020
+      date: March 2020 - April 2020
       details:
-        - Tutor für die Lehrveranstaltung "Semi-strukturierte Datenmodelle und XML"
+        - Tutor for the course "Semi-structured Data Models and XML"
     - title: Catalysts
       url: https://www.catalysts.cc/
-      date: September 2018 - Dezember 2019
+      date: September 2018 - December 2019
       details:
-        - Software-Entwickler
+        - Software Developer
     - title: Catalysts
       url: https://www.catalysts.cc/
-      date: April 2018 - Juni 2020
+      date: April 2018 - June 2020
       details:
-        - Software-Entwickler (Berufspraktikum)
-    - title: FH Oberösterreich - Campus Hagenberg
+        - Software Developer (Internship)
+    - title: University of Applied Sciences Upper Austria - Hagenberg Campus
       url: https://www.fh-ooe.at/campus-hagenberg/
-      date: März 2018 - April 2018
+      date: March 2018 - April 2018
       details:
-        - Tutor für die Lehrveranstaltung "XML"
-    - title: FH Oberösterreich - Campus Hagenberg
+        - Tutor for the course "XML"
+    - title: University of Applied Sciences Upper Austria - Hagenberg Campus
       url: https://www.fh-ooe.at/campus-hagenberg/
-      date: Oktober 2017 - Jänner 2018
+      date: October 2017 - January 2018
       details:
-        - Tutor für die Lehrveranstaltungen "Software Projekt Engineering" und "Datenbanksysteme"
-    - title: FH Oberösterreich - Campus Hagenberg
+        - Tutor for the courses "Software Project Engineering" and "Database Systems"
+    - title: University of Applied Sciences Upper Austria - Hagenberg Campus
       url: https://www.fh-ooe.at/campus-hagenberg/
-      date: März 2017 - Juni 2017
+      date: March 2017 - June 2017
       details:
-        - Tutor für die Lehrveranstaltung "Software Projekt Engineering"
-- title: Ehrenamtliche Tätigkeiten und Mitgliedschaften
+        - Tutor for the course "Software Project Engineering"
+- title: Voluntary activities and memberships
   type: timeline
   entries:
     - title: GranitTreff Hagenberg
       url: https://granittreff.com
-      date: seit Mai 2020
+      date: since May 2020
       details:
-        - Co-Organisator
+        - Co-Organizer
     - title: Hochschülerinnen- und Hochschülerschaft der Fachhochschule Oberösterreich
       url: https://oeh.fh-ooe.at/
-      date: Oktober 2019 - Juli 2020
+      date: October 2019 - July 2020
       details:
-        - Studiengangsvertretung für Software Engineering
+        - Student representative for Software Engineering and Information Engineering & Management
     - title: BrAVe - Bruckner Absolventen Verein
       url: https://www.brucknergym.at/seiten/absolventenverein/absolventenverein.php
-      date: seit September 2019
+      date: since September 2019
       details:
-        - 2. Rechnungsprüfer
+        - Auditor (Rechnungsprüfer)
     - title: MEMO 2016 - 10th Middle European Mathematical Olympiad
       url: https://www.math.aau.at/MEMO2016
       date: August 2016
       details:
-        - Guide für das Team aus der Slowakei
-- title: Wettbewerbe
+        - Guide for the Slovakian Team
+- title: Contests
   type: timeline
   entries:
     - title: 37. Cloudflight Coding Contest (Classic)
       url: https://register.codingcontest.org/contest/4879/results
-      date: März 2023
+      date: March 2023
       details:
-        - <i class="fas fa-trophy text-yellow-600 mr-2"></i> 207. Platz weltweit / 22. Platz in Linz
-        - "Teilnehmer: 953 weltweit / 76 in Linz"
-        - (Einzelpersonen, Zweier- oder Dreierteams)
-        - "Themenfeld: Schere, Stein, Papier(, Echse, Spock)"
+        - <i class="fas fa-trophy text-yellow-600 mr-2"></i> 207. place worldwide / 22. place in Linz
+        - "Participants: 953 worldwide / 76 in Linz"
+        - (Individuals, teams of two or three)
+        - "Topic: Rock, Paper, Scissors(, Lizard, Spock)"
     - title: 36. Cloudflight Coding Contest (Classic)
       url: https://register.codingcontest.org/contest/4638/results
       date: November 2022
       details:
-        - <i class="fas fa-trophy text-yellow-600 mr-2"></i> 62. Platz weltweit / 5. Platz in Linz
-        - "Teilnehmer: 912 weltweit / 67 in Linz"
-        - (Einzelpersonen, Zweier- oder Dreierteams)
-        - "Themenfeld: Pacman"
+        - <i class="fas fa-trophy text-yellow-600 mr-2"></i> 62. place worldwide / 5. place in Linz
+        - "Participants: 912 worldwide / 67 in Linz"
+        - (Individuals, teams of two or three)
+        - "Topic: Pacman"
     - title: 35. Cloudflight Coding Contest (Classic)
       url: https://register.codingcontest.org/contest/4094/results
       date: November 2021
       details:
-        - <i class="fas fa-trophy text-yellow-600 mr-2"></i> 3. Platz weltweit
-        - 747 Teilnehmer weltweit (Einzelpersonen, Zweier- oder Dreierteams)
-        - "Themenfeld: Compilerbau"
+        - <i class="fas fa-trophy text-yellow-600 mr-2"></i> 3. place worldwide
+        - 747 Participants worldwide (Individuals, teams of two or three)
+        - "Topic: Compilers"
     - title: 34. Cloudflight Coding Contest (Classic)
       url: https://register.codingcontest.org/contest/3621/results
       date: Oktober 2020
       details:
-        - <i class="fas fa-trophy text-yellow-600 mr-2"></i> 101. Platz weltweit
-        - 928 Teilnehmer weltweit (Einzelpersonen, Zweier- oder Dreierteams)
-        - "Themenfeld: Stromkostenoptimierung für Smart Homes"
-    - title: Google Hash Code 2020 (Online Qualifikationsrunde)
+        - <i class="fas fa-trophy text-yellow-600 mr-2"></i> 101. place worldwide
+        - 928 Participants worldwide (Individuals, teams of two or three)
+        - "Topic: Energy optimization for smart homes"
+    - title: Google Hash Code 2020 (Online Qualification Round)
       url: https://codingcompetitions.withgoogle.com/hashcode/archive/2020
-      date: Februar 2020
+      date: February 2020
       details:
-        - <i class="fas fa-trophy text-yellow-600 mr-2"></i> 4831. Platz weltweit
+        - <i class="fas fa-trophy text-yellow-600 mr-2"></i> 4831. place worldwide
         - >
-          Teilnahme als Team gemeinsam mit
+          Participation as team together with
           <a href="https://www.linkedin.com/in/dominik-falkner-251055158/" target="_blank" rel="noreferrer">Dominik Falkner</a>,
-          <a href="https://www.linkedin.com/in/lukas-heiss/" target="_blank" rel="noreferrer">Lukas Heiss</a> und
+          <a href="https://www.linkedin.com/in/lukas-heiss/" target="_blank" rel="noreferrer">Lukas Heiss</a> and
           <a href="https://www.linkedin.com/in/tmuehlberger/" target="_blank" rel="noreferrer">Tobias Mühlberger</a>
-        - 10724 teilnehmende Teams (2-4 Personen pro Team)
-        - "Themenfeld: Optimierung eines Prozesses zum Bücherscannen"
-    - title: Google Hash Code 2018 (Online Qualifikationsrunde)
+        - 10724 participating Teams (2-4 members per team)
+        - "Topic: Optimizing a book scanning process"
+    - title: Google Hash Code 2018 (Online Qualification Round)
       url: https://codingcompetitions.withgoogle.com/hashcode/archive/2018
-      date: März 2018
+      date: March 2018
       details:
-        - <i class="fas fa-trophy text-yellow-600 mr-2"></i> 893. Platz weltweit
+        - <i class="fas fa-trophy text-yellow-600 mr-2"></i> 893. place worldwide
         - >
-          Teilnahme als Team gemeinsam mit
+          Participation as team together with
           <a href="https://www.linkedin.com/in/robert-erdoedy/" target="_blank" rel="noreferrer">Robert Erdödy</a>,
-          <a href="https://www.linkedin.com/in/lukas-heiss/" target="_blank" rel="noreferrer">Lukas Heiss</a> und
+          <a href="https://www.linkedin.com/in/lukas-heiss/" target="_blank" rel="noreferrer">Lukas Heiss</a> and
           <a href="https://www.janwiesbauer.at" target="_blank" rel="noreferrer">Jan Wiesbauer</a>
-        - 3012 teilnehmende Teams (2-4 Personen pro Team)
-        - "Themenfeld: Optimierung einer selbstfahrenden Taxiflotte in einer Großstadt"
+        - 3012 participating Teams (2-4 members per team)
+        - "Topic: Optimization of a self-driving taxi fleet in a city"
     - title: 26. Catalysts Coding Contest (Classic)
       url: https://register.codingcontest.org
-      date: Oktober 2017
+      date: October 2017
       details:
-        - <i class="fas fa-trophy text-yellow-600 mr-2"></i> 40. Platz weltweit
-        - über 600 Teilnehmer (Einzelpersonen, Zweier- oder Dreierteams)
-        - "Themenfeld: Digitale Transaktionen als Blockchain"
-    - title: Österreichische Informatik Olympiade
+        - <i class="fas fa-trophy text-yellow-600 mr-2"></i> 40. place worldwide
+        - over 600 Participants (Individuals, teams of two or three)
+        - "Topic: Digital Transactions as Blockchain"
+    - title: Austrian Olympiad in Informatics
       url: https://www.ocg.at/de/ioi
-      date: Februar 2014
+      date: February 2014
       details:
-        - <i class="fas fa-trophy text-yellow-600 mr-2"></i> Qualifikation für das erste Trainingscamp
-        - Teilnahme am ersten Trainingscamp an der TU Wien
-        - Teilnahme an der Qualifikation für den Bundeswettbewerb
-        - "Themenfelder: Lösen von Programmieraufgaben unter Berücksichtigung der Laufzeit und des Speicherbedarfs"
-- title: Zivildienst
+        - <i class="fas fa-trophy text-yellow-600 mr-2"></i> Qualification for the first training bootcamp
+        - Participation at the first training bootcamp at TU Wien
+        - Participation at the Qualification for the national competition
+        - "Topic: Solving of programming challenges in consideration of runtime and memory consumption"
+- title: Civil Service
   type: timeline
   entries:
     - title: Hilfswerk Oberösterreich

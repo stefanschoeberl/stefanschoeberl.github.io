@@ -1,29 +1,30 @@
 ---
-title: "WebAssembly: Bare Metal"
+title: "WebAssembly: Disassembled"
 subtitle: Talk
-date: 2022-08-24
+date: 2023-07-27
 links:
   - name: GitHub
     icon: fab fa-github
     url: https://github.com/stefanschoeberl/webassembly-bare-metal
-  - name: Folien
+  - name: Slides
     icon: fas fa-file
     url: https://github.com/stefanschoeberl/webassembly-bare-metal/raw/master/Slides.pdf
 technologies: [WebAssembly, JavaScript]
 thumbnail: webassembly-bare-metal-thumbnail.png
 ---
 
-WebAssembly ist ein neuer Webstandard, der neue Sprachen im Web und bessere Performance ermöglichen soll.
-Einige (bekannte) Technologien bauen bereits auf WebAssembly auf oder sind zu WebAssembly kompatibel, zum Beispiel Blazor, C/C++ oder Rust.
-Beim Nutzen dieser Technologien hält sich WebAssembly allerdings zum Großteil im Hintergrund.
+WebAssembly is a fairly new web standard, which promises to bring new languages to the web and enables better performance in web applications.
+Many programming languages and frameworks have added support for WebAssembly in the last years.
+Typically, one does not see or need to interact with WebAssembly directly.
 
-Aber wie funktioniert WebAssembly auf fundamentalster Ebene?
+But how does WebAssembly work on a fundamental level?
 
-Wie ist das Laufzeitsystem aufgebaut, wie sieht der Bytecode von WebAssembly aus und wie läuft das Zusammenspiel mit der klassischen Browserwelt?
-All diesen Fragen werden wir uns im Laufe des Talks widmen und so eine neue Perspektive auf WebAssembly sehen.
+What does the Bytecode of WebAssembly look like and how does the interaction with the browser ecosystem work? 
 
-Außerdem im Talk: Live-Coding von bekannten Algorithmen direkt in der „Programmiersprache“ WebAssembly.
+In this talk we will take a closer look at the architecture of the WebAssembly runtime and its Bytecode.
+To show all of this in action, well-known algorithms will be live-coded in WebAssembly Bytecode during this session.
 
 ## Events
 * April 2022: {SE, IEM, HCC} Inside @ FH Hagenberg
 * August 2022: [Technologieplauscherl LXXVI](http://technologieplauscherl.at/76/){target="_blank" rel="noreferrer"} @ Tractive
+* July 2023: [WeAreDevelopers World Congresss](https://www.wearedevelopers.com/world-congress){target="_blank" rel="noreferrer"} in Berlin

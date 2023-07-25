@@ -1,6 +1,6 @@
 ---
 title: Tic Tac Toe
-subtitle: Multiplayer-Minigame im Browser
+subtitle: Multiplayer Browser Minigame
 date: 2016-07-01
 links:
   - name: Minigame
@@ -10,15 +10,16 @@ technologies: [Angular 2, HTML, CSS, JavaScript, TypeScript, Boostrap, Node.js, 
 thumbnail: tic-tac-toe-thumbnail.png
 ---
 
-Im Juli 2016 interessierte ich mich erstmals fürs Entwickeln von Single-Page-Applications und stoß bei der Recherche auf AngularJS, mit dem ich gleich zu experimentieren begann.
-Beim Experimentieren entdeckte ich [Angular 2](https://angular.io){target="_blank" rel="noreferrer"}, den Nachfolger von AngularJS.
-Zum damaligen Zeitpunkt war Angular 2 noch in der RC-Phase und ich beschloss daher, mir die Library vor dem offiziellen Release mal genauer anzusehen.
+In July 2016, I became interested in developing Single-Page Applications and came across AngularJS during my research, which I immediately started experimenting with.
+While experimenting, I discovered [Angular 2](https://angular.io){target="_blank" rel="noreferrer"}, the successor to AngularJS.
+At that time, Angular 2 was still in the RC (Release Candidate) phase, and I decided to take a closer look at the library before its official release.
 
-Sofort fiel auf, dass Angular 2 sich fundamental von AngularJS unterscheidet. Damals war selbst das Projektaufsetzen ein nicht triviales Unterfangen...
-Nach einigen Tutorials und viel experimentieren war ich von Angular 2 überzeugt und beschloss ein kleines Multiplayer-Spiel damit umzusetzen.
+I noticed right away that Angular 2 was fundamentally different from AngularJS.
+Back then, even setting up a project was not a trivial task...
+After going through some tutorials and a lot of experimentation, I became convinced about Angular 2 and decided to implement a small multiplayer game using it.
 
-Tic-Tac-Toe soll auf mehreren Browsern gleichzeitig und in Echtzeit gespielt werden können.
-Damit dies funktioniert, muss ein Server die Browser benachrichtigen können, sobald ein Spieler ein Symbol (X oder O) setzt.
-Dafür bot sich [socket.io](https://socket.io){target="_blank" rel="noreferrer"} als eine einfach zu integrierende Library an, die die darunterliegende Kommunikation über Websockets abstrahiert.
+I wanted to create a Tic-Tac-Toe game that could be played simultaneously and in real-time on multiple browsers.
+For this to work, a server needed to be able to notify the browsers whenever a player placed a symbol (X or O).
+[socket.io](https://socket.io){target="_blank" rel="noreferrer"} presented itself as an easy-to-integrate library that abstracted the underlying communication using WebSockets.
 
-Serverseitig läuft Node.js zum Verwalten der einzelnen Spielrunden, sowie zum Benachrichtigen der Browser.
+On the server-side, Node.js was used to manage individual game rounds and to notify the browsers.
