@@ -5,10 +5,10 @@ date: 2023-07-27
 links:
   - name: GitHub
     icon: fab fa-github
-    url: https://github.com/stefanschoeberl/webassembly-bare-metal
+    url: https://github.com/stefanschoeberl/webassembly-disassembled
   - name: Slides
     icon: fas fa-file
-    url: https://github.com/stefanschoeberl/webassembly-bare-metal/raw/master/Slides.pdf
+    url: https://github.com/stefanschoeberl/webassembly-disassembled/raw/master/Slides.pdf
 technologies: [WebAssembly, JavaScript]
 thumbnail: webassembly-bare-metal-thumbnail.png
 ---
