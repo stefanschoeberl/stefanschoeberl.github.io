@@ -27,4 +27,4 @@ To show all of this in action, well-known algorithms will be live-coded in WebAs
 ## Events
 * April 2022: {SE, IEM, HCC} Inside @ FH Hagenberg
 * August 2022: [Technologieplauscherl LXXVI](http://technologieplauscherl.at/76/){target="_blank" rel="noreferrer"} @ Tractive
-* July 2023: [WeAreDevelopers World Congresss](https://www.wearedevelopers.com/world-congress){target="_blank" rel="noreferrer"} in Berlin
+* July 2023: [WeAreDevelopers World Congress](https://www.wearedevelopers.com/world-congress){target="_blank" rel="noreferrer"} in Berlin
