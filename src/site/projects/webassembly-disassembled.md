@@ -9,8 +9,11 @@ links:
   - name: Slides
     icon: fas fa-file
     url: https://github.com/stefanschoeberl/webassembly-disassembled/raw/master/Slides.pdf
+  - name: WeAreDevelopers 2023
+    icon: fab fa-youtube
+    url: https://www.youtube.com/watch?v=e8u6QkmYWIg
 technologies: [WebAssembly, JavaScript]
-thumbnail: webassembly-bare-metal-thumbnail.png
+thumbnail: webassembly-disassembled-thumbnail.png
 ---
 
 WebAssembly is a fairly new web standard, which promises to bring new languages to the web and enables better performance in web applications.
