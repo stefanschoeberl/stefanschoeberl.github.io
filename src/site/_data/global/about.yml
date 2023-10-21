@@ -94,6 +94,14 @@
 - title: Contests
   type: timeline
   entries:
+    - title: 38. Cloudflight Coding Contest (Classic)
+      url: https://register.codingcontest.org/contest/5271/results
+      date: October 2023
+      details:
+        - <i class="fas fa-trophy text-yellow-600 mr-2"></i> 39. place worldwide / 3. place in Linz
+        - "Participants: 1194 worldwide / 84 in Linz"
+        - (Individuals, teams of two or three)
+        - "Topic: Islands and sea routes"
     - title: 37. Cloudflight Coding Contest (Classic)
       url: https://register.codingcontest.org/contest/4879/results
       date: March 2023
