@@ -1,6 +1,11 @@
 - title: Education
   type: timeline
   entries:
+    - title: University of Klagenfurt
+      url: https://www.aau.at
+      date: since February 2024
+      details:
+        - Doctorate in Technical Sciences (Informatics)
     - title: University of Applied Sciences Upper Austria - Hagenberg Campus
       url: https://www.fh-ooe.at/campus-hagenberg/
       date: October 2018 - July 2020
