@@ -3,7 +3,7 @@
 <head>
     <title>Stefan Schöberl
         
-        &vert; Projects
+        &vert; Algorithmic Photo Books
         
     </title>
     <meta charset="utf-8">
@@ -89,208 +89,68 @@
     <div id="overlay" onclick="toggleMobileMenu()" class="fixed w-screen h-screen bg-black z-10 top-0 left-0 transition-opacity duration-300 invisible opacity-0 sm:hidden"></div>
 </header>
 
-    <main class="container mx-auto py-7 "> <!-- shrink-0 to fix Safari flexbox issue -->
+    <main class="container mx-auto py-7  flex flex-col lg:block "> <!-- shrink-0 to fix Safari flexbox issue -->
     
-
-<h1><span class="text-accent">Projects</span></h1>
-
-
-<div class="grid-base grid-masonry" uk-grid="masonry: true">
-    
-    
-    <div class="grid-item w-full sm:w-1/2 lg:w-1/3">
-        <a class="block card card-hover card-rounded h-full overflow-hidden" href="/projects/algorithmic-photobooks/">
-    <img src="/images/algorithmic-photobooks-thumbnail.png" alt="Algorithmic Photo Books">
-    <hr>
-    <div class="p-8">
-        <p class="text-xl md:text-2xl">Algorithmic Photo Books</p>
-        
-        <p class="mt-5">Talk</p>
-        
+<div class="lg:float-right lg:top-0 lg:right-0 lg:w-100 card card-rounded overflow-hidden mb-5 lg:mb-0">
+    <div class="sm:flex lg:block flex-row items-center sm:border-b border-zinc-200 lg:border-b-0"> <!-- items-center to fix Safari flexbox issue -->
+        <img class="h-auto border-b border-zinc-200 sm:border-b-0 lg:border-b sm:w-80 md:w-100 lg:w-full" src="/images/algorithmic-photobooks-thumbnail.png" alt="Algorithmic Photo Books">
+        <div class="p-8 pb-0 order-first grow">
+            
+                <p class="heading-3">Talk</p>
+            
+            <p class="rich-text">
+                May 2024
+            </p>
+        </div>
     </div>
-</a>
-
-
+    <div class="p-8 pt-0 sm:p-0 lg:p-8 lg:pt-0 sm:flex lg:block">
+        <div class="sm:w-80 md:w-100 lg:w-auto sm:p-8 lg:p-0">
+            
+                <a class="relative block rounded bg-sky-600 text-white text-center py-2 px-10 mb-2 hover:bg-sky-800 focus:bg-sky-800" href="https://github.com/stefanschoeberl/algorithmic-photobooks" target="_blank" rel="noreferrer">
+                    
+                    <i class="absolute flex items-center justify-center left-0 top-0 w-10 h-full text-lg fab fa-github"></i>
+                    
+                    GitHub
+                </a>
+            
+                <a class="relative block rounded bg-sky-600 text-white text-center py-2 px-10 mb-2 hover:bg-sky-800 focus:bg-sky-800" href="https://github.com/stefanschoeberl/algorithmic-photobooks/raw/master/Slides.pdf" target="_blank" rel="noreferrer">
+                    
+                    <i class="absolute flex items-center justify-center left-0 top-0 w-10 h-full text-lg fas fa-file"></i>
+                    
+                    Slides
+                </a>
+            
+            
+            
+        </div>
+        <div class="lg:w-auto sm:p-8 lg:p-0 order-first grow">
+            
+                <p class="heading-4 mt-5 sm:mt-0 lg:mt-5">Technologies</p>
+                <ul class="rich-text no-paragraph">
+                    
+                        <li>Kotlin</li>
+                    
+                        <li>Apache PDFBox</li>
+                    
+                </ul>
+            
+        </div>
     </div>
-    
-    <div class="grid-item w-full sm:w-1/2 lg:w-1/3">
-        <a class="block card card-hover card-rounded h-full overflow-hidden" href="/projects/webassembly-disassembled/">
-    <img src="/images/webassembly-disassembled-thumbnail.png" alt="WebAssembly: Disassembled">
-    <hr>
-    <div class="p-8">
-        <p class="text-xl md:text-2xl">WebAssembly: Disassembled</p>
-        
-        <p class="mt-5">Talk</p>
-        
-    </div>
-</a>
-
-
-    </div>
-    
-    <div class="grid-item w-full sm:w-1/2 lg:w-1/3">
-        <a class="block card card-hover card-rounded h-full overflow-hidden" href="/projects/docker-beginners-guide/">
-    <img src="/images/docker-beginners-guide-thumbnail.png" alt="Docker Workshop">
-    <hr>
-    <div class="p-8">
-        <p class="text-xl md:text-2xl">Docker Workshop</p>
-        
-    </div>
-</a>
-
-
-    </div>
-    
-    <div class="grid-item w-full sm:w-1/2 lg:w-1/3">
-        <a class="block card card-hover card-rounded h-full overflow-hidden" href="/projects/schnelltester/">
-    <img src="/images/schnelltester-thumbnail.png" alt="Schnelltester">
-    <hr>
-    <div class="p-8">
-        <p class="text-xl md:text-2xl">Schnelltester</p>
-        
-        <p class="mt-5">Form-filling for Österreich Testet</p>
-        
-    </div>
-</a>
-
-
-    </div>
-    
-    <div class="grid-item w-full sm:w-1/2 lg:w-1/3">
-        <a class="block card card-hover card-rounded h-full overflow-hidden" href="/projects/masters-thesis/">
-    <img src="/images/masters-thesis-thumbnail.png" alt="MiniJava Compiler for WebAssembly">
-    <hr>
-    <div class="p-8">
-        <p class="text-xl md:text-2xl">MiniJava Compiler for WebAssembly</p>
-        
-        <p class="mt-5">Master&#39;s Thesis</p>
-        
-    </div>
-</a>
-
-
-    </div>
-    
-    <div class="grid-item w-full sm:w-1/2 lg:w-1/3">
-        <a class="block card card-hover card-rounded h-full overflow-hidden" href="/projects/personal-website/">
-    <img src="/images/personal-website-thumbnail.png" alt="Personal Website">
-    <hr>
-    <div class="p-8">
-        <p class="text-xl md:text-2xl">Personal Website</p>
-        
-    </div>
-</a>
-
-
-    </div>
-    
-    <div class="grid-item w-full sm:w-1/2 lg:w-1/3">
-        <a class="block card card-hover card-rounded h-full overflow-hidden" href="/projects/photobook-dsl/">
-    <img src="/images/photobook-dsl-thumbnail.jpg" alt="Photo Book DSL">
-    <hr>
-    <div class="p-8">
-        <p class="text-xl md:text-2xl">Photo Book DSL</p>
-        
-        <p class="mt-5">Kotlin DSL for the creation of photo books</p>
-        
-    </div>
-</a>
-
-
-    </div>
-    
-    <div class="grid-item w-full sm:w-1/2 lg:w-1/3">
-        <a class="block card card-hover card-rounded h-full overflow-hidden" href="/projects/hungry-hagenberg-bot/">
-    <img src="/images/hungry-hagenberg-bot-thumbnail.png" alt="Hungry Hagenberg Bot">
-    <hr>
-    <div class="p-8">
-        <p class="text-xl md:text-2xl">Hungry Hagenberg Bot</p>
-        
-        <p class="mt-5">Telegram Bot</p>
-        
-    </div>
-</a>
-
-
-    </div>
-    
-    <div class="grid-item w-full sm:w-1/2 lg:w-1/3">
-        <a class="block card card-hover card-rounded h-full overflow-hidden" href="/projects/bachelors-thesis/">
-    <img src="/images/bachelors-thesis-thumbnail.png" alt="Autonomous Driving">
-    <hr>
-    <div class="p-8">
-        <p class="text-xl md:text-2xl">Autonomous Driving</p>
-        
-        <p class="mt-5">Bachelor&#39;s Thesis</p>
-        
-    </div>
-</a>
-
-
-    </div>
-    
-    <div class="grid-item w-full sm:w-1/2 lg:w-1/3">
-        <a class="block card card-hover card-rounded h-full overflow-hidden" href="/projects/3d-minigolf/">
-    <img src="/images/3d-minigolf-thumbnail.png" alt="3D Minigolf">
-    <hr>
-    <div class="p-8">
-        <p class="text-xl md:text-2xl">3D Minigolf</p>
-        
-        <p class="mt-5">Browser Minigame</p>
-        
-    </div>
-</a>
-
-
-    </div>
-    
-    <div class="grid-item w-full sm:w-1/2 lg:w-1/3">
-        <a class="block card card-hover card-rounded h-full overflow-hidden" href="/projects/tic-tac-toe/">
-    <img src="/images/tic-tac-toe-thumbnail.png" alt="Tic Tac Toe">
-    <hr>
-    <div class="p-8">
-        <p class="text-xl md:text-2xl">Tic Tac Toe</p>
-        
-        <p class="mt-5">Multiplayer Browser Minigame</p>
-        
-    </div>
-</a>
-
-
-    </div>
-    
-    <div class="grid-item w-full sm:w-1/2 lg:w-1/3">
-        <a class="block card card-hover card-rounded h-full overflow-hidden" href="/projects/totp-demo/">
-    <img src="/images/totp-demo-thumbnail.png" alt="TOTP Demo">
-    <hr>
-    <div class="p-8">
-        <p class="text-xl md:text-2xl">TOTP Demo</p>
-        
-        <p class="mt-5">Test Web App for One-Time Passwords</p>
-        
-    </div>
-</a>
-
-
-    </div>
-    
-    <div class="grid-item w-full sm:w-1/2 lg:w-1/3">
-        <a class="block card card-hover card-rounded h-full overflow-hidden" href="/projects/super-polygon-collider-5000/">
-    <img src="/images/super-polygon-collider-5000-thumbnail.png" alt="Super Polygon Collider 5000">
-    <hr>
-    <div class="p-8">
-        <p class="text-xl md:text-2xl">Super Polygon Collider 5000</p>
-        
-        <p class="mt-5">iOS Game</p>
-        
-    </div>
-</a>
-
-
-    </div>
+</div>
+<h1 class="order-first lg:mr-110 text-accent">Algorithmic Photo Books</h1>
+<div class="lg:mr-110">
+    <div class="rich-text text-with-links"><h2>Kotlin DSLs demystified</h2>
+<p>Kotlin DSLs (Domain Specific Languages) have found versatile uses across various domains. They find application in Gradle as an alternative to Groovy or in libraries like Ktor for endpoint declaration, Compose for describing UIs, and kotlinx.html as template engine for HTML rendering. One key advantage of such DSLs is their facilitation of type-safe builders, offering a more concise and less verbose API.
+In this talk we will deep dive into the mysteries of Kotlin DSLs and reveal which tricks used to create them.</p>
+<p>To show all of this in action, a DSL will be live-coded during this talk.</p>
+<p>...and, how are photo books involved in all of this?</p>
+<h2>Events</h2>
+<ul>
+<li>May 2024: <a href="http://technologieplauscherl.at/85/" target="_blank" rel="noreferrer">Technologieplauscherl LXXXV</a> @ Tractive</li>
+</ul>
+</div>
     
 </div>
-
 
     </main>
 </div>
