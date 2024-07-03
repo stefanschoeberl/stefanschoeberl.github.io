@@ -13,6 +13,9 @@
 - name: ResearchGate
   icon: fab fa-researchgate
   url: https://www.researchgate.net/profile/Stefan-Schoeberl
+- name: Google Scholar
+  icon: fab fa-google-scholar
+  url: https://scholar.google.com/citations?user=3sblfZQAAAAJ
 - name: Twitter
   icon: fab fa-twitter
   url: https://twitter.com/stefanschoeberl
