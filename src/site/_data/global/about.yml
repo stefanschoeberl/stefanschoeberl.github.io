@@ -99,6 +99,14 @@
 - title: Contests
   type: timeline
   entries:
+    - title: 40. Cloudflight Coding Contest (Classic)
+      url: https://register.codingcontest.org/contest/5678/results
+      date: October 2024
+      details:
+        - <i class="fas fa-trophy text-yellow-600 mr-2"></i> 358. place worldwide / 32. place in Linz
+        - "Participants: 1444 worldwide / 115 in Linz"
+        - (Individuals, teams of two or three)
+        - "Topic: Arrangement of desks in an office (2D bin packing)"
     - title: 39. Cloudflight Coding Contest (Classic)
       url: https://register.codingcontest.org/contest/5301/results
       date: April 2024
