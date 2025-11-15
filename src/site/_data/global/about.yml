@@ -99,6 +99,14 @@
 - title: Contests
   type: timeline
   entries:
+    - title: 41. Cloudflight Coding Contest (Classic)
+      url: https://register.codingcontest.org/contest/5772/results
+      date: November 2025
+      details:
+        - <i class="fas fa-trophy text-yellow-600 mr-2"></i> 63. place worldwide / 4. place in Linz
+        - "Participants: 1050 worldwide / 93 in Linz"
+        - (Individuals, teams of two or three)
+        - "Topic: Steering a spaceship around astroids"
     - title: 40. Cloudflight Coding Contest (Classic)
       url: https://register.codingcontest.org/contest/5678/results
       date: October 2024
