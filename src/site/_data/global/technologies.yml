@@ -36,8 +36,10 @@
     - Swagger
     - REST
     - Java EE
-    - Node.js
+    - Node.js / Bun
+    - Quarkus
     - Serverless Framework
+    - Nest
 - name: Native Frontends
   icon: fas fa-desktop
   technologies:
@@ -90,3 +92,11 @@
     - Bash
     - ANTLR
     - LaTeX
+- name: LLMs
+  icon: fas fa-hexagon-nodes
+  technologies:
+    - omp
+    - MCP
+    - Spring AI
+    - Claude Code
+

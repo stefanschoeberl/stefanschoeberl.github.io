@@ -34,10 +34,10 @@
       date: since March 2022
       details:
         - Lecturer
-        - + Multimodal Systems / Mobile and ubiquitous Systems (Amazon Alexa, Microsoft Kinect, Arduino)
+        - + Multimodal Systems (Microsoft Kinect, Arduino, Speech Processing)
         - + Testautomation & Continuous Delivery (Testing, Mocking, Test-Driven-Development, CI/CD)
         - + Introduction to Programming / Basic Algorithms and Data Structures
-        - + Object-oriented Programming / Advanced Algorithms and Data Structures
+        - + Object-oriented Programming
     - title: Software Competence Center Hagenberg
       url: https://www.scch.at
       date: since June 2021
